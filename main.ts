@@ -10,7 +10,9 @@ const PODCAST_FEED_URL =
   "https://radiostudent.si/kultura/pritiskavec-gold/podcast";
 
 const handler = (request: Request): Response => {
-  if (request.method !== "GET" || !request.url.endsWith("podcast/feed.xml")) {
+  const url = new URL(request.url);
+
+  if (request.method !== "GET" || url.pathname !== "/podcast/feed.xml") {
     return new Response(null, { status: Status.NotFound });
   }
 
