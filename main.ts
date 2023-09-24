@@ -1,6 +1,8 @@
 import { Status } from "https://deno.land/std/http/http_status.ts";
+import { load } from "https://deno.land/std/dotenv/mod.ts";
 
-const port = 8080;
+const env = await load();
+const port = Number(env["PORT"]) ?? 80;
 
 const NEWS_FEED_URL =
   "https://radiostudent.si/taxonomy/term/55167/%2A/feed?page=6"; // ?page=0
@@ -19,5 +21,4 @@ const handler = (request: Request): Response => {
   return new Response(body, { status: Status.OK });
 };
 
-console.log(`HTTP server running. Access it at: http://localhost:8080/`);
 Deno.serve({ port }, handler);

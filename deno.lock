@@ -1,0 +1,11 @@
+{
+  "version": "2",
+  "redirects": {
+    "https://deno.land/std/dotenv/mod.ts": "https://deno.land/std@0.202.0/dotenv/mod.ts",
+    "https://deno.land/std/http/http_status.ts": "https://deno.land/std@0.202.0/http/http_status.ts"
+  },
+  "remote": {
+    "https://deno.land/std@0.202.0/dotenv/mod.ts": "1da8c6d0e7f7d8a5c2b19400b763bc11739df24acec235dda7ea2cfd3d300057",
+    "https://deno.land/std@0.202.0/http/http_status.ts": "8a7bcfe3ac025199ad804075385e57f63d055b2aed539d943ccc277616d6f932"
+  }
+}
