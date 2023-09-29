@@ -15,7 +15,7 @@ export function generateFeed(entries: ParsedEntry[]) {
     copyright: "Radio Študent, 2023",
     updated: new Date(2013, 6, 14),
     generator: "mzgajner/digestor",
-    author: entries[0].authors
+    author: { name: "Ekipa Pritiskavca" }
   });
 
   entries.forEach(entry => {
@@ -24,8 +24,7 @@ export function generateFeed(entries: ParsedEntry[]) {
       id: entry.url,
       link: entry.url,
       description: entry.description,
-      content: entry.content,
-      author: entry.authors,
+      author: entry.authors.map(name => ({ name })),
       date: entry.date,
       image: RS_LOGO_URL
     });
