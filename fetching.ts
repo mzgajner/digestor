@@ -1,8 +1,7 @@
 import { getEntriesFromFeed, parseEntries } from "./parsing.ts";
 import { testXml } from "./test-xml.ts";
 
-const NEWS_FEED_URL =
-  "https://radiostudent.si/taxonomy/term/55167/%2A/feed"; // ?page=0
+const NEWS_FEED_URL = "https://radiostudent.si/taxonomy/term/55167/%2A/feed";
 const PODCAST_FEED_URL =
   "https://radiostudent.si/kultura/pritiskavec-gold/podcast";
 
@@ -22,6 +21,6 @@ export async function fetchFeed() {
   //   currentPage++
   // } while (entriesInLastRequest > 0)
 
-  const allEntries = await getEntriesFromFeed(testXml)
-  return allEntries
+  const allEntries = await getEntriesFromFeed(testXml);
+  return allEntries;
 }

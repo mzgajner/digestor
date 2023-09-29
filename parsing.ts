@@ -34,15 +34,14 @@ export function parseValuesFromPost(postHtml: string) {
   const document = new DOMParser().parseFromString(decodedHtml, "text/html");
 
   // Image URL
-  const imageUrl =
-    document
-      ?.querySelector(".field-name-field-image a")
-      ?.getAttribute("href") ?? "";
+  const imageUrl = document
+    ?.querySelector(".field-name-field-image a")
+    ?.getAttribute("href") ?? "";
 
   // List of all author names
   const mainAuthorElement = document?.querySelector(".field-name-author a");
   const additionalAuthorElements = document?.querySelectorAll(
-    ".field-name-field-dodatni-avtorji .field-item"
+    ".field-name-field-dodatni-avtorji .field-item",
   )!;
   const allAuthorElements = [mainAuthorElement, ...additionalAuthorElements];
   const authors = allAuthorElements
@@ -66,7 +65,7 @@ export function parseValuesFromPost(postHtml: string) {
 
   // Description text from the actual post body
   const description = document?.querySelector(
-    ".field-name-body .field-item"
+    ".field-name-body .field-item",
   )?.innerHTML;
 
   return { imageUrl, authors, date, recordingUrl, description };

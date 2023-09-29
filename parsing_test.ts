@@ -8,7 +8,7 @@ Deno.test(function parseValuesFromPostTest() {
 
   assertEquals(
     imageUrl,
-    "https://radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg"
+    "https://radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg",
   );
 
   assertEquals(authors, [
@@ -22,15 +22,15 @@ Deno.test(function parseValuesFromPostTest() {
 
   assertEquals(
     recordingUrl,
-    "https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-09-19-pritiskavec-gold-odvisno-kako-pogledas.mp3"
+    "https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-09-19-pritiskavec-gold-odvisno-kako-pogledas.mp3",
   );
 
   assertEquals(
     description,
-    '<p>Kolegica iz kulturne redakcije je nedavno namenila kritičen pogled <a' +
-    ' href="https://radiostudent.si/kultura/pritiskavec/odkrivanje-novih-pogl' +
-    'edov" target="_blank">Viewfinderju</a>, zato smo se odločili, da zajaham' +
-    'o širši trend in spregovorimo o igrah, ki se poigravajo s perspektivo te' +
-    'r jo uporabljajo ne samo v grafiki, ampak tudi kot igralno mehaniko.</p>\n'
+    "<p>Kolegica iz kulturne redakcije je nedavno namenila kritičen pogled <a" +
+      ' href="https://radiostudent.si/kultura/pritiskavec/odkrivanje-novih-pogl' +
+      'edov" target="_blank">Viewfinderju</a>, zato smo se odločili, da zajaham' +
+      "o širši trend in spregovorimo o igrah, ki se poigravajo s perspektivo te" +
+      "r jo uporabljajo ne samo v grafiki, ampak tudi kot igralno mehaniko.</p>\n",
   );
 });
