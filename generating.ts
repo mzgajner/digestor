@@ -19,6 +19,7 @@ export function generateFeed(entries: ParsedEntry[]) {
   });
 
   entries.forEach(entry => {
+    if (!entry.recordingUrl) return
     feed.addItem({
       title: entry.title,
       id: entry.url,
