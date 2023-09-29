@@ -1,27 +1,21 @@
 import { Feed } from "npm:feed";
 import { type ParsedEntry } from "./parsing.ts";
 
+const RS_LOGO_URL = "https://small-dragonfly-27.deno.dev/logo.png"
+
 export function generateFeed(entries: ParsedEntry[]) {
   const feed = new Feed({
-    title: "Feed Title",
-    description: "This is my personal feed!",
-    id: "http://example.com/",
-    link: "http://example.com/",
-    language: "en", // optional, used only in RSS 2.0, possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
-    image: "http://example.com/image.png",
-    favicon: "http://example.com/favicon.ico",
-    copyright: "All rights reserved 2013, John Doe",
-    updated: new Date(2013, 6, 14), // optional, default = today
-    generator: "awesome", // optional, default = 'Feed for Node.js'
-    feedLinks: {
-      json: "https://example.com/json",
-      atom: "https://example.com/atom"
-    },
-    author: {
-      name: "John Doe",
-      email: "johndoe@example.com",
-      link: "https://example.com/johndoe"
-    }
+    title: "Pritiskavec Gold",
+    description: "Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni",
+    id: "https://radiostudent.si/kultura/pritiskavec-gold",
+    link: "https://radiostudent.si/kultura/pritiskavec-gold",
+    language: "sl",
+    image: RS_LOGO_URL,
+    favicon: "https://radiostudent.si/sites/all/themes/eresh_lime/favicon.ico",
+    copyright: "Radio Študent, 2023",
+    updated: new Date(2013, 6, 14),
+    generator: "mzgajner/digestor",
+    author: entries[0].authors
   });
 
   entries.forEach(entry => {
@@ -31,32 +25,9 @@ export function generateFeed(entries: ParsedEntry[]) {
       link: entry.url,
       description: entry.description,
       content: entry.content,
-      author: [
-        {
-          name: "Jane Doe",
-          email: "janedoe@example.com",
-          link: "https://example.com/janedoe"
-        },
-        {
-          name: "Joe Smith",
-          email: "joesmith@example.com",
-          link: "https://example.com/joesmith"
-        }
-      ],
-      contributor: [
-        {
-          name: "Shawn Kemp",
-          email: "shawnkemp@example.com",
-          link: "https://example.com/shawnkemp"
-        },
-        {
-          name: "Reggie Miller",
-          email: "reggiemiller@example.com",
-          link: "https://example.com/reggiemiller"
-        }
-      ],
+      author: entry.authors,
       date: entry.date,
-      image: entry.image
+      image: RS_LOGO_URL
     });
   });
 

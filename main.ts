@@ -2,6 +2,7 @@ import { Status } from "https://deno.land/std/http/http_status.ts";
 import { load } from "https://deno.land/std/dotenv/mod.ts";
 import { fetchFeed } from "./fetching.ts";
 import { parseEntries } from "./parsing.ts";
+import { generateFeed } from "./generating.ts";
 
 const env = await load();
 const port = Number(env["PORT"]) ?? 80;
@@ -23,10 +24,10 @@ async function handler(request: Request): Promise<Response> {
 async function serveFeed() {
   const rawEntries = await fetchFeed();
   const parsedEntries = parseEntries(rawEntries);
-  const body = JSON.stringify(parsedEntries, null, "  ")
+  const feed = generateFeed(parsedEntries)
   const status = Status.OK
 
-  return new Response(body, { status });
+  return new Response(feed, { status });
 }
 
 async function serveLogo() {

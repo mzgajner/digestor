@@ -14,14 +14,14 @@ export async function getEntriesFromFeed(xml: string) {
 }
 
 function parseEntry(entry: FeedEntry) {
-  const { imageUrl, authors, date, recordingUrl } = parseValuesFromDescription(
-    entry.description?.value ?? ""
-  );
+  const { imageUrl, authors, date, recordingUrl, description } =
+    parseValuesFromPost(entry.description?.value ?? "");
   return {
     imageUrl,
     authors,
     date,
     recordingUrl,
+    description,
     url: entry.links[0]!.href ?? "",
     title: entry.title?.value ?? "",
   };
@@ -29,8 +29,8 @@ function parseEntry(entry: FeedEntry) {
 
 export type ParsedEntry = ReturnType<typeof parseEntry>;
 
-export function parseValuesFromDescription(description: string) {
-  const decodedHtml = Html5Entities.decode(description);
+export function parseValuesFromPost(postHtml: string) {
+  const decodedHtml = Html5Entities.decode(postHtml);
   const document = new DOMParser().parseFromString(decodedHtml, "text/html");
 
   // Image URL
@@ -64,5 +64,10 @@ export function parseValuesFromDescription(description: string) {
     ?.querySelector(".jp-playlist-first a")
     ?.getAttribute("href");
 
-  return { imageUrl, authors, date, recordingUrl };
+  // Description text from the actual post body
+  const description = document?.querySelector(
+    ".field-name-body .field-item"
+  )?.innerHTML;
+
+  return { imageUrl, authors, date, recordingUrl, description };
 }
