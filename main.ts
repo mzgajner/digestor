@@ -31,8 +31,8 @@ async function handler(request: Request): Promise<Response> {
 }
 
 async function serveFeed() {
-  const rawEntries = await fetchFeed();
-  const parsedEntries = parseEntries(rawEntries);
+  const { newsEntries, podcastEntries } = await fetchFeed();
+  const parsedEntries = parseEntries(newsEntries, podcastEntries);
   const feed = generateFeed(parsedEntries);
   const headers = { "Content-Type": "application/rss+xml", ...ACCEPT_RANGES };
   const status = Status.OK;

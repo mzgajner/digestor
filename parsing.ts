@@ -4,8 +4,18 @@ import { parseFeed } from "https://deno.land/x/rss/mod.ts";
 import { type FeedEntry } from "https://deno.land/x/rss/src/types/feed.ts";
 import { datetime } from "https://deno.land/x/ptera/mod.ts";
 
-export function parseEntries(rawEntries: FeedEntry[]) {
-  return rawEntries.map(parseEntry);
+export function parseEntries(
+  newsEntries: FeedEntry[],
+  podcastEntries: FeedEntry[],
+) {
+  const combinedEntries = podcastEntries.map((podcastEntry) => ({
+    podcastEntry,
+    newsEntry: newsEntries.find((entry) =>
+      entry.links[0].href === podcastEntry.id
+    )!,
+  })).filter((entry) => entry.newsEntry);
+
+  return combinedEntries.map(transformEntry);
 }
 
 export async function getEntriesFromFeed(xml: string) {
@@ -13,21 +23,27 @@ export async function getEntriesFromFeed(xml: string) {
   return feed.entries;
 }
 
-function parseEntry(entry: FeedEntry) {
+function transformEntry({
+  podcastEntry,
+  newsEntry,
+}: {
+  podcastEntry: FeedEntry;
+  newsEntry: FeedEntry;
+}) {
   const { imageUrl, authors, date, recordingUrl, description } =
-    parseValuesFromPost(entry.description?.value ?? "");
+    parseValuesFromPost(newsEntry.description?.value ?? "");
   return {
     imageUrl,
     authors,
     date,
     recordingUrl,
     description,
-    url: entry.links[0]!.href ?? "",
-    title: entry.title?.value ?? "",
+    url: newsEntry.links[0]!.href ?? "",
+    title: newsEntry.title?.value ?? "",
   };
 }
 
-export type ParsedEntry = ReturnType<typeof parseEntry>;
+export type ParsedEntry = ReturnType<typeof transformEntry>;
 
 export function parseValuesFromPost(postHtml: string) {
   const decodedHtml = Html5Entities.decode(postHtml);
