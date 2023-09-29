@@ -25,9 +25,10 @@ async function serveFeed() {
   const rawEntries = await fetchFeed();
   const parsedEntries = parseEntries(rawEntries);
   const feed = generateFeed(parsedEntries)
+  const headers = { 'content-type': 'application/rss+xml' }
   const status = Status.OK
 
-  return new Response(feed, { status });
+  return new Response(feed, { headers, status });
 }
 
 async function serveLogo() {
