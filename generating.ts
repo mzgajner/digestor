@@ -27,7 +27,10 @@ export function generateFeed(entries: ParsedEntry[]) {
       description: entry.description,
       author: entry.authors.map(name => ({ name })),
       date: entry.date,
-      image: RS_LOGO_URL
+      image: RS_LOGO_URL,
+      enclosure: {
+        url: entry.recordingUrl
+      }
     });
   });
 
