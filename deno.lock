@@ -3,7 +3,8 @@
   "packages": {
     "specifiers": {
       "npm:feed": "npm:feed@4.2.2",
-      "npm:feed-media": "npm:feed-media@5.0.1"
+      "npm:feed-media": "npm:feed-media@5.0.1",
+      "npm:podcast": "npm:podcast@2.0.1"
     },
     "npm": {
       "feed-media@5.0.1": {
@@ -18,6 +19,29 @@
           "xml-js": "xml-js@1.6.11"
         }
       },
+      "mime-db@1.25.0": {
+        "integrity": "sha512-5k547tI4Cy+Lddr/hdjNbBEWBwSl8EBc5aSdKvedav8DReADgWJzcYiktaRIw3GtGC1jjwldXtTzvqJZmtvC7w==",
+        "dependencies": {}
+      },
+      "mime-types@2.1.13": {
+        "integrity": "sha512-ryBDp1Z/6X90UvjUK3RksH0IBPM137T7cmg4OgD5wQBojlAiUwuok0QeELkim/72EtcYuNlmbkrcGuxj3Kl0YQ==",
+        "dependencies": {
+          "mime-db": "mime-db@1.25.0"
+        }
+      },
+      "podcast@2.0.1": {
+        "integrity": "sha512-TWXe/zVziwJNksAn7RLkSre+Z6VQgbs/+gC7qQCKdkyw0hv2hdFGOY9rHgKqa4LI+UP+yZBa6Wr+b9a9vrYDYQ==",
+        "dependencies": {
+          "rss": "rss@1.2.2"
+        }
+      },
+      "rss@1.2.2": {
+        "integrity": "sha512-xUhRTgslHeCBeHAqaWSbOYTydN2f0tAzNXvzh3stjz7QDhQMzdgHf3pfgNIngeytQflrFPfy6axHilTETr6gDg==",
+        "dependencies": {
+          "mime-types": "mime-types@2.1.13",
+          "xml": "xml@1.0.1"
+        }
+      },
       "sax@1.3.0": {
         "integrity": "sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==",
         "dependencies": {}
@@ -27,6 +51,10 @@
         "dependencies": {
           "sax": "sax@1.3.0"
         }
+      },
+      "xml@1.0.1": {
+        "integrity": "sha512-huCv9IH9Tcf95zuYCsQraZtWnJvBtLVE0QHMOs8bWyZAFZNDcYjsPq1nEx8jKA9y+Beo9v+7OBPRisQTjinQMw==",
+        "dependencies": {}
       }
     }
   },

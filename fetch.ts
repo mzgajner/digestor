@@ -1,4 +1,4 @@
-import { getEntriesFromFeed } from "./parse.ts";
+import { ExtendedFeedEntry, getEntriesFromFeed } from "./parse.ts";
 import { testNewsXml, testPodcastXml } from "./test-xml.ts";
 
 const NEWS_FEED_URL = "https://radiostudent.si/taxonomy/term/55167/%2A/feed";
@@ -20,7 +20,9 @@ export async function fetchFeed() {
   // const podcastEntries = await fetchEntries(PODCAST_FEED_URL)
 
   const newsEntries = await getEntriesFromFeed(testNewsXml);
-  const podcastEntries = await getEntriesFromFeed(testPodcastXml);
+  const podcastEntries = await getEntriesFromFeed(
+    testPodcastXml,
+  ) as ExtendedFeedEntry[];
 
   return { newsEntries, podcastEntries };
 }

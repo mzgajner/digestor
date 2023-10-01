@@ -3,8 +3,7 @@ import { testPostHtml } from "./test-xml.ts";
 import { parseValuesFromPost } from "./parse.ts";
 
 Deno.test(function parseValuesFromPostTest() {
-  const { imageUrl, authors, date, recordingUrl, description } =
-    parseValuesFromPost(testPostHtml);
+  const { imageUrl, authors, description } = parseValuesFromPost(testPostHtml);
 
   assertEquals(
     imageUrl,
@@ -17,13 +16,6 @@ Deno.test(function parseValuesFromPostTest() {
     "Rasto Pahor",
     "Tadej Pavković",
   ]);
-
-  assertEquals(date, new Date("2023-09-19T19:00:00Z"));
-
-  assertEquals(
-    recordingUrl,
-    "https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-09-19-pritiskavec-gold-odvisno-kako-pogledas.mp3",
-  );
 
   assertEquals(
     description,

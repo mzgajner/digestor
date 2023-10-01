@@ -2,20 +2,27 @@ import { Html5Entities } from "https://deno.land/x/html_entities/mod.js";
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 import { parseFeed } from "https://deno.land/x/rss/mod.ts";
 import { type FeedEntry } from "https://deno.land/x/rss/src/types/feed.ts";
-import { datetime } from "https://deno.land/x/ptera/mod.ts";
+
+export type ExtendedFeedEntry = FeedEntry & {
+  "itunes:summary": { value: string };
+};
 
 export function parseEntries(
   newsEntries: FeedEntry[],
-  podcastEntries: FeedEntry[],
+  podcastEntries: ExtendedFeedEntry[],
 ) {
-  const combinedEntries = podcastEntries.map((podcastEntry) => ({
-    podcastEntry,
-    newsEntry: newsEntries.find((entry) =>
-      entry.links[0].href === podcastEntry.id
-    )!,
-  })).filter((entry) => entry.newsEntry);
+  const entries = podcastEntries
+    .map((podcastEntry) => ({
+      podcastEntry,
+      newsEntry: newsEntries.find((entry) =>
+        entry.links[0].href === podcastEntry.id
+      )!,
+    }))
+    .filter((entry) => entry.newsEntry)
+    .map(transformEntry)
+    .sort((a, b) => b.date?.getTime() - a.date?.getTime());
 
-  return combinedEntries.map(transformEntry);
+  return entries;
 }
 
 export async function getEntriesFromFeed(xml: string) {
@@ -27,17 +34,25 @@ function transformEntry({
   podcastEntry,
   newsEntry,
 }: {
-  podcastEntry: FeedEntry;
+  podcastEntry: ExtendedFeedEntry;
   newsEntry: FeedEntry;
 }) {
-  const { imageUrl, authors, date, recordingUrl, description } =
-    parseValuesFromPost(newsEntry.description?.value ?? "");
+  const { imageUrl, authors, description } = parseValuesFromPost(
+    newsEntry.description?.value ?? "",
+  );
+
   return {
     imageUrl,
     authors,
-    date,
-    recordingUrl,
     description,
+    subtitle: podcastEntry["itunes:summary"].value,
+    date: podcastEntry.published!,
+    enclosure: {
+      url: podcastEntry.attachments![0].url!,
+      size: podcastEntry.attachments![0].sizeInBytes!,
+      type: podcastEntry.attachments![0].mimeType!,
+    },
+    guid: newsEntry.id.split(" at ")[0],
     url: newsEntry.links[0]!.href ?? "",
     title: newsEntry.title?.value ?? "",
   };
@@ -65,24 +80,10 @@ export function parseValuesFromPost(postHtml: string) {
     .filter(Boolean)
     .sort();
 
-  // Date of airing
-  const dateFromDescription =
-    document?.querySelector(".field-name-field-v-etru")?.textContent ?? "";
-  const date = datetime()
-    .parse(dateFromDescription, "d. M. YYYY - H.mm", {
-      locale: "Europe/Ljubljana",
-    })
-    .toJSDate();
-
-  // Path to recording, if it exists
-  const recordingUrl = document
-    ?.querySelector(".jp-playlist-first a")
-    ?.getAttribute("href");
-
   // Description text from the actual post body
   const description = document?.querySelector(
     ".field-name-body .field-item",
   )?.innerHTML;
 
-  return { imageUrl, authors, date, recordingUrl, description };
+  return { imageUrl, authors, description };
 }

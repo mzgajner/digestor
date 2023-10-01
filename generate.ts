@@ -1,58 +1,42 @@
-import { Feed } from "npm:feed-media";
+import { Podcast } from "npm:podcast";
 import { type ParsedEntry } from "./parse.ts";
+import { generateHumanReadableAuthors } from "./utils.ts";
 
 const RS_LOGO_URL = "https://small-dragonfly-27.deno.dev/logo.png";
 
 export function generateFeed(entries: ParsedEntry[]) {
-  const feed = new Feed({
+  const feed = new Podcast({
     title: "Pritiskavec Gold",
     description:
       "Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni",
-    id: "https://radiostudent.si/kultura/pritiskavec-gold",
-    link: "https://radiostudent.si/kultura/pritiskavec-gold",
+    siteUrl: "https://radiostudent.si/kultura/pritiskavec-gold",
     language: "sl",
-    image: RS_LOGO_URL,
-    favicon: "https://radiostudent.si/sites/all/themes/eresh_lime/favicon.ico",
+    imageUrl: RS_LOGO_URL,
     copyright: "Radio Študent, 2023",
-    updated: new Date(2013, 6, 14),
+    pubDate: entries[0].date,
     generator: "mzgajner/digestor",
-    author: { name: "Ekipa Pritiskavca" },
-  });
-  feed.options.podcast = true;
-
-  feed.addCategory("Video Games");
-
-  feed.addContributor({
-    name: "Domen Mohorič",
-    link: "https://radiostudent.si/ljudje/domen-mohorič",
-  });
-  feed.addContributor({
-    name: "Mato Žgajner",
-    link: "https://radiostudent.si/ljudje/mato-žgajner",
-  });
-  feed.addContributor({
-    name: "Rasto Pahor",
-    link: "https://radiostudent.si/ljudje/rasto-pahor",
-  });
-  feed.addContributor({
-    name: "Tadej Pavković",
-    link: "https://radiostudent.si/ljudje/tadej-pavković",
+    author: "Domen Mohorič, Mato Žgajner, Rasto Pahor in Tadej Pavkovič",
+    itunesExplicit: false,
+    categories: ["Video Games"],
+    itunesCategory: [{
+      text: "Leisure",
+      subcats: [{ text: "Video Games" }],
+    }],
   });
 
   entries.forEach((entry) => {
-    if (!entry.recordingUrl) return;
     feed.addItem({
       title: entry.title,
-      id: entry.url,
-      link: entry.url,
+      guid: entry.guid,
+      url: entry.url,
       description: entry.description,
-      author: entry.authors.map((name) => ({ name })),
+      author: generateHumanReadableAuthors(entry.authors),
       date: entry.date,
-      enclosure: {
-        url: entry.recordingUrl,
-      },
+      enclosure: entry.enclosure,
+      itunesSummary: entry.subtitle,
+      itunesSubtitle: entry.subtitle,
     });
   });
 
-  return feed.rss2();
+  return feed.buildXml({ indent: "  " });
 }
