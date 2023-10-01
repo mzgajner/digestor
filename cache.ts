@@ -2,6 +2,7 @@ import { ParsedEntry } from "./parse.ts";
 
 const kv = await Deno.openKv();
 
+// Entries are individually cached in Deno KV for 1 day
 export async function loadEntriesFromCache() {
   const entries: ParsedEntry[] = [];
   const iter = kv.list<ParsedEntry>({ prefix: ["entries"] });
@@ -21,4 +22,25 @@ export async function saveEntriesToCache(entries: ParsedEntry[]) {
   });
 
   await session.commit();
+}
+
+// Entire generated feed is stored in memory for an hour
+let lastFeedUpdate = 0;
+let generatedFeedCache = "";
+
+export function loadFeedFromCache() {
+  const HOUR_IN_MS = 60 * 60 * 1000;
+  const now = new Date().getTime();
+
+  if (now - lastFeedUpdate < HOUR_IN_MS) {
+    return generatedFeedCache;
+  } else {
+    generatedFeedCache = "";
+    return null;
+  }
+}
+
+export function saveFeedToCache(feed: string) {
+  lastFeedUpdate = new Date().getTime();
+  generatedFeedCache = feed;
 }
