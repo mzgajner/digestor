@@ -35,6 +35,17 @@ export function generateFeed(entries: ParsedEntry[]) {
           },
         },
       },
+      { "podcast:locked": "no" },
+      {
+        "podcast:funding": [
+          {
+            _attr: {
+              url: "https://siri.radiostudent.si/",
+            },
+          },
+          "Podpri Radio Študent",
+        ],
+      },
     ],
   });
 
