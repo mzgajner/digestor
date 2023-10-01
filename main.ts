@@ -1,8 +1,8 @@
 import { Status } from "https://deno.land/std/http/http_status.ts";
 import { load } from "https://deno.land/std/dotenv/mod.ts";
-import { fetchFeed } from "./fetching.ts";
-import { parseEntries } from "./parsing.ts";
-import { generateFeed } from "./generating.ts";
+import { fetchFeed } from "./fetch.ts";
+import { parseEntries } from "./parse.ts";
+import { generateFeed } from "./generate.ts";
 
 const env = await load();
 const port = Number(env["PORT"]) ?? 80;

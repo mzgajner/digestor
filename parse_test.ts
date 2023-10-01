@@ -1,6 +1,6 @@
 import { assertEquals } from "https://deno.land/std@0.202.0/assert/mod.ts";
 import { testPostHtml } from "./test-xml.ts";
-import { parseValuesFromPost } from "./parsing.ts";
+import { parseValuesFromPost } from "./parse.ts";
 
 Deno.test(function parseValuesFromPostTest() {
   const { imageUrl, authors, date, recordingUrl, description } =

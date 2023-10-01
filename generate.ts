@@ -1,5 +1,5 @@
 import { Feed } from "npm:feed";
-import { type ParsedEntry } from "./parsing.ts";
+import { type ParsedEntry } from "./parse.ts";
 
 const RS_LOGO_URL = "https://small-dragonfly-27.deno.dev/logo.png";
 

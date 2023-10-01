@@ -1,4 +1,4 @@
-import { getEntriesFromFeed } from "./parsing.ts";
+import { getEntriesFromFeed } from "./parse.ts";
 import { testNewsXml, testPodcastXml } from "./test-xml.ts";
 
 const NEWS_FEED_URL = "https://radiostudent.si/taxonomy/term/55167/%2A/feed";
