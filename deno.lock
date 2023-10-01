@@ -2,9 +2,16 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "npm:feed": "npm:feed@4.2.2"
+      "npm:feed": "npm:feed@4.2.2",
+      "npm:feed-media": "npm:feed-media@5.0.1"
     },
     "npm": {
+      "feed-media@5.0.1": {
+        "integrity": "sha512-OFZSNR9AZGn6jdTk+MssDt0IdSxWziqoI2iGjuMK+0QQ7zz8P7m4L5NlC+lN9kOIpWxPDSieUzRvo3AG2QVBWg==",
+        "dependencies": {
+          "xml-js": "xml-js@1.6.11"
+        }
+      },
       "feed@4.2.2": {
         "integrity": "sha512-u5/sxGfiMfZNtJ3OvQpXcvotFpYkL0n9u9mM2vkui2nGo8b4wvDkJ8gAkYqbA8QpGyFCv3RK0Z+Iv+9veCS9bQ==",
         "dependencies": {
