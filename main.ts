@@ -1,3 +1,5 @@
+/// <reference lib="deno.unstable" />
+
 import { load } from "https://deno.land/std/dotenv/mod.ts";
 import { serve404, serveFeed, serveLanding, serveLogo } from "./serve.ts";
 

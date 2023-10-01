@@ -3,6 +3,7 @@ import { Status } from "https://deno.land/std/http/http_status.ts";
 import { fetchFeed } from "./fetch.ts";
 import { parseEntries } from "./parse.ts";
 import { generateFeed } from "./generate.ts";
+import { loadEntriesFromCache, saveEntriesToCache } from "./cache.ts";
 
 export const NOT_FOUND_RESPONSE = new Response(null, {
   status: Status.NotFound,
@@ -11,9 +12,15 @@ const LOGO_IMAGE = await Deno.readFile("./logo.png");
 const LANDING_PAGE = await Deno.readFile("./index.html");
 
 export async function serveFeed(request: Request) {
-  const { newsEntries, podcastEntries } = await fetchFeed();
-  const parsedEntries = parseEntries(newsEntries, podcastEntries);
-  const feed = generateFeed(parsedEntries);
+  let entries = await loadEntriesFromCache();
+
+  if (entries.length === 0) {
+    const { newsEntries, podcastEntries } = await fetchFeed();
+    entries = parseEntries(newsEntries, podcastEntries);
+    saveEntriesToCache(entries);
+  }
+
+  const feed = generateFeed(entries);
 
   return generateResponse(feed, request, "application/rss+xml; charset=utf-8");
 }
