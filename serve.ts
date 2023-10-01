@@ -15,7 +15,7 @@ export async function serveFeed(request: Request) {
   const parsedEntries = parseEntries(newsEntries, podcastEntries);
   const feed = generateFeed(parsedEntries);
 
-  return generateResponse(feed, request, "application/rss+xml");
+  return generateResponse(feed, request, "application/rss+xml; charset=utf-8");
 }
 
 export function serveLogo(request: Request) {
@@ -23,7 +23,7 @@ export function serveLogo(request: Request) {
 }
 
 export function serveLanding(request: Request) {
-  return generateResponse(LANDING_PAGE, request, "text/html");
+  return generateResponse(LANDING_PAGE, request, "text/html; charset=utf-8");
 }
 
 export const serve404 = () => NOT_FOUND_RESPONSE;
