@@ -8,6 +8,7 @@ export const NOT_FOUND_RESPONSE = new Response(null, {
   status: Status.NotFound,
 });
 const LOGO_IMAGE = await Deno.readFile("./logo.png");
+const LANDING_PAGE = await Deno.readFile("./index.html");
 
 export async function serveFeed(request: Request) {
   const { newsEntries, podcastEntries } = await fetchFeed();
@@ -19,6 +20,10 @@ export async function serveFeed(request: Request) {
 
 export function serveLogo(request: Request) {
   return generateResponse(LOGO_IMAGE, request, "image/png");
+}
+
+export function serveLanding(request: Request) {
+  return generateResponse(LANDING_PAGE, request, "text/html");
 }
 
 export const serve404 = () => NOT_FOUND_RESPONSE;
@@ -39,4 +44,3 @@ function generateResponse(
 
   return new Response(body, { headers, status });
 }
-

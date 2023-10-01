@@ -1,5 +1,5 @@
 import { load } from "https://deno.land/std/dotenv/mod.ts";
-import { serve404, serveFeed, serveLogo } from "./serve.ts";
+import { serve404, serveFeed, serveLanding, serveLogo } from "./serve.ts";
 
 const env = await load();
 const port = Number(env["PORT"]) ?? 80;
@@ -12,6 +12,10 @@ async function handleRoute(request: Request): Promise<Response> {
       return await serveFeed(request);
     case "/logo.png":
       return await serveLogo(request);
+    case "/":
+    case "/index.htm":
+    case "/index.html":
+      return await serveLanding(request);
     default:
       return serve404();
   }
