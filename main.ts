@@ -1,51 +1,19 @@
-import { Status } from "https://deno.land/std/http/http_status.ts";
 import { load } from "https://deno.land/std/dotenv/mod.ts";
-import { fetchFeed } from "./fetch.ts";
-import { parseEntries } from "./parse.ts";
-import { generateFeed } from "./generate.ts";
+import { serve404, serveFeed, serveLogo } from "./serve.ts";
 
 const env = await load();
 const port = Number(env["PORT"]) ?? 80;
 
-const ACCEPT_RANGES = {
-  "Accept-Ranges": "bytes",
-};
-
-async function handler(request: Request): Promise<Response> {
+async function handleRoute(request: Request): Promise<Response> {
   const url = new URL(request.url);
 
-  if (request.method === "HEAD") {
-    return new Response(null, {
-      status: Status.OK,
-      headers: ACCEPT_RANGES,
-    });
-  } else if (request.method === "GET") {
-    if (url.pathname === "/podcast/feed.xml") {
-      return await serveFeed();
-    } else if (url.pathname === "/logo.png") {
-      return await serveLogo();
-    }
+  if (url.pathname === "/podcast/feed.xml") {
+    return await serveFeed(request);
+  } else if (url.pathname === "/logo.png") {
+    return await serveLogo(request);
+  } else {
+    return serve404()
   }
-
-  return new Response(null, { status: Status.NotFound });
 }
 
-async function serveFeed() {
-  const { newsEntries, podcastEntries } = await fetchFeed();
-  const parsedEntries = parseEntries(newsEntries, podcastEntries);
-  const feed = generateFeed(parsedEntries);
-  const headers = { "Content-Type": "application/rss+xml", ...ACCEPT_RANGES };
-  const status = Status.OK;
-
-  return new Response(feed, { headers, status });
-}
-
-async function serveLogo() {
-  const image = await Deno.readFile("./logo.png");
-  const headers = { "Content-Type": "image/png", ...ACCEPT_RANGES };
-  const status = Status.OK;
-
-  return new Response(image, { headers, status });
-}
-
-Deno.serve({ port }, handler);
+Deno.serve({ port }, handleRoute);
