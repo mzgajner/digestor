@@ -7,12 +7,13 @@ const port = Number(env["PORT"]) ?? 80;
 async function handleRoute(request: Request): Promise<Response> {
   const url = new URL(request.url);
 
-  if (url.pathname === "/podcast/feed.xml") {
-    return await serveFeed(request);
-  } else if (url.pathname === "/logo.png") {
-    return await serveLogo(request);
-  } else {
-    return serve404()
+  switch (url.pathname) {
+    case "/podcast/feed.xml":
+      return await serveFeed(request);
+    case "/logo.png":
+      return await serveLogo(request);
+    default:
+      return serve404();
   }
 }
 
