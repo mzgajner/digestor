@@ -13,7 +13,6 @@ import {
 export const NOT_FOUND_RESPONSE = new Response(null, {
   status: Status.NotFound,
 });
-const LOGO_IMAGE = await Deno.readFile("./logo.png");
 const LANDING_PAGE = await Deno.readFile("./index.html");
 
 export async function serveFeed(request: Request) {
@@ -33,10 +32,6 @@ export async function serveFeed(request: Request) {
   }
 
   return generateResponse(feed, request, "application/rss+xml; charset=utf-8");
-}
-
-export function serveLogo(request: Request) {
-  return generateResponse(LOGO_IMAGE, request, "image/png");
 }
 
 export function serveLanding(request: Request) {
