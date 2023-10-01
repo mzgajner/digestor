@@ -6,7 +6,7 @@ export function generateFeed(entries: ParsedEntry[]) {
   const feed = new Podcast({
     title: "Pritiskavec Gold",
     description:
-      "Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni",
+      "Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.",
     siteUrl: "https://radiostudent.si/kultura/pritiskavec-gold",
     language: "sl",
     imageUrl:
@@ -21,6 +21,21 @@ export function generateFeed(entries: ParsedEntry[]) {
       text: "Leisure",
       subcats: [{ text: "Video Games" }],
     }],
+    namespaces: {
+      iTunes: true,
+      podcast: true,
+      simpleChapters: false,
+    },
+    customElements: [
+      {
+        "atom:link": {
+          _attr: {
+            rel: "self",
+            href: "https://small-dragonfly-27.deno.dev/podcast/feed.xml",
+          },
+        },
+      },
+    ],
   });
 
   entries.forEach((entry) => {
@@ -34,6 +49,7 @@ export function generateFeed(entries: ParsedEntry[]) {
       enclosure: entry.enclosure,
       itunesSummary: entry.subtitle,
       itunesSubtitle: entry.subtitle,
+      customElements: [{ "dc:description": entry.description }],
     });
   });
 
