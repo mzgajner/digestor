@@ -30,6 +30,16 @@ export async function getEntriesFromFeed(xml: string) {
   return feed.entries;
 }
 
+function bytesToSeconds(bytes: number) {
+  const BITRATE_IN_KILOBITS = 320; // kilobits/second
+
+  const kilobytes = bytes / 1000;
+  const kilobits = kilobytes * 8;
+  const seconds = kilobits / BITRATE_IN_KILOBITS;
+
+  return seconds;
+}
+
 function transformEntry({
   podcastEntry,
   newsEntry,
@@ -52,6 +62,7 @@ function transformEntry({
       size: podcastEntry.attachments![0].sizeInBytes!,
       type: podcastEntry.attachments![0].mimeType!,
     },
+    duration: bytesToSeconds(podcastEntry.attachments![0].sizeInBytes!),
     guid: newsEntry.id.split(" at ")[0],
     url: newsEntry.links[0]!.href ?? "",
     title: newsEntry.title?.value ?? "",

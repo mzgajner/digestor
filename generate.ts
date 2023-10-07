@@ -60,6 +60,7 @@ export function generateFeed(entries: ParsedEntry[]) {
       enclosure: entry.enclosure,
       itunesSummary: entry.subtitle,
       itunesSubtitle: entry.subtitle,
+      itunesDuration: entry.duration,
       customElements: [{ "dc:description": entry.description }],
     });
   });
