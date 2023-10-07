@@ -15,12 +15,18 @@ export function generateFeed(entries: ParsedEntry[]) {
     pubDate: entries[0].date,
     generator: "mzgajner/digestor",
     author: "Domen Mohorič, Mato Žgajner, Rasto Pahor in Tadej Pavkovič",
+    itunesOwner: {
+      name: "Domen Mohorič, Mato Žgajner, Rasto Pahor in Tadej Pavkovič",
+      email: "mato@zgajner.com",
+    },
     itunesExplicit: false,
     categories: ["Video Games"],
-    itunesCategory: [{
-      text: "Leisure",
-      subcats: [{ text: "Video Games" }],
-    }],
+    itunesCategory: [
+      {
+        text: "Leisure",
+        subcats: [{ text: "Video Games" }],
+      },
+    ],
     namespaces: {
       iTunes: true,
       podcast: true,
