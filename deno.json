@@ -1,5 +1,9 @@
 {
   "tasks": {
     "dev": "deno run --allow-read --allow-net --unstable --watch main.ts"
+  },
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
   }
 }

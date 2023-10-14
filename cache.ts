@@ -1,46 +1,46 @@
-import type { ParsedEntry } from "./parse.ts";
+import type { ParsedEntry } from './parse.ts'
 
-const kv = await Deno.openKv();
+const kv = await Deno.openKv()
 
 // Entries are individually cached in Deno KV for 1 day
 export async function loadEntriesFromCache() {
-  const entries: ParsedEntry[] = [];
-  const iter = kv.list<ParsedEntry>({ prefix: ["entries"] });
+  const entries: ParsedEntry[] = []
+  const iter = kv.list<ParsedEntry>({ prefix: ['entries'] })
 
-  for await (const entry of iter) entries.push(entry.value);
+  for await (const entry of iter) entries.push(entry.value)
 
-  return entries;
+  return entries
 }
 
 export async function saveEntriesToCache(entries: ParsedEntry[]) {
-  const DAY_IN_MS = 24 * 60 * 60 * 1000;
+  const DAY_IN_MS = 24 * 60 * 60 * 1000
 
-  const session = kv.atomic();
+  const session = kv.atomic()
 
   entries.forEach((entry) => {
-    session.set(["entries"], entry, { expireIn: DAY_IN_MS });
-  });
+    session.set(['entries'], entry, { expireIn: DAY_IN_MS })
+  })
 
-  await session.commit();
+  await session.commit()
 }
 
 // Entire generated feed is stored in memory for an hour
-let lastFeedUpdate = 0;
-let generatedFeedCache = "";
+let lastFeedUpdate = 0
+let generatedFeedCache = ''
 
 export function loadFeedFromCache() {
-  const HOUR_IN_MS = 60 * 60 * 1000;
-  const now = new Date().getTime();
+  const HOUR_IN_MS = 60 * 60 * 1000
+  const now = new Date().getTime()
 
   if (now - lastFeedUpdate < HOUR_IN_MS) {
-    return generatedFeedCache;
+    return generatedFeedCache
   } else {
-    generatedFeedCache = "";
-    return null;
+    generatedFeedCache = ''
+    return null
   }
 }
 
 export function saveFeedToCache(feed: string) {
-  lastFeedUpdate = new Date().getTime();
-  generatedFeedCache = feed;
+  lastFeedUpdate = new Date().getTime()
+  generatedFeedCache = feed
 }

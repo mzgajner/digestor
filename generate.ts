@@ -1,30 +1,30 @@
-import { Podcast } from "npm:podcast";
-import { type ParsedEntry } from "./parse.ts";
-import { generateHumanReadableAuthors } from "./utils.ts";
+import { Podcast } from 'npm:podcast'
+import { type ParsedEntry } from './parse.ts'
+import { generateHumanReadableAuthors } from './utils.ts'
 
 export function generateFeed(entries: ParsedEntry[]) {
   const feed = new Podcast({
-    title: "Pritiskavec Gold",
+    title: 'Pritiskavec Gold',
     description:
-      "Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.",
-    siteUrl: "https://radiostudent.si/kultura/pritiskavec-gold",
-    language: "sl",
+      'Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.',
+    siteUrl: 'https://radiostudent.si/kultura/pritiskavec-gold',
+    language: 'sl',
     imageUrl:
-      "https://radiostudent.si/sites/all/themes/radiostudent/images/podcast_logo.png",
-    copyright: "Radio Študent, 2023",
+      'https://radiostudent.si/sites/all/themes/radiostudent/images/podcast_logo.png',
+    copyright: 'Radio Študent, 2023',
     pubDate: entries[0].date,
-    generator: "mzgajner/digestor",
-    author: "Domen Mohorič, Mato Žgajner, Rasto Pahor in Tadej Pavkovič",
+    generator: 'mzgajner/digestor',
+    author: 'Domen Mohorič, Mato Žgajner, Rasto Pahor in Tadej Pavkovič',
     itunesOwner: {
-      name: "Domen Mohorič, Mato Žgajner, Rasto Pahor in Tadej Pavkovič",
-      email: "mato@zgajner.com",
+      name: 'Domen Mohorič, Mato Žgajner, Rasto Pahor in Tadej Pavkovič',
+      email: 'mato@zgajner.com',
     },
     itunesExplicit: false,
-    categories: ["Video Games"],
+    categories: ['Video Games'],
     itunesCategory: [
       {
-        text: "Leisure",
-        subcats: [{ text: "Video Games" }],
+        text: 'Leisure',
+        subcats: [{ text: 'Video Games' }],
       },
     ],
     namespaces: {
@@ -34,26 +34,26 @@ export function generateFeed(entries: ParsedEntry[]) {
     },
     customElements: [
       {
-        "atom:link": {
+        'atom:link': {
           _attr: {
-            rel: "self",
-            href: "https://small-dragonfly-27.deno.dev/podcast/feed.xml",
+            rel: 'self',
+            href: 'https://small-dragonfly-27.deno.dev/podcast/feed.xml',
           },
         },
       },
-      { "podcast:locked": "no" },
+      { 'podcast:locked': 'no' },
       {
-        "podcast:funding": [
+        'podcast:funding': [
           {
             _attr: {
-              url: "https://siri.radiostudent.si/",
+              url: 'https://siri.radiostudent.si/',
             },
           },
-          "Podpri Radio Študent",
+          'Podpri Radio Študent',
         ],
       },
     ],
-  });
+  })
 
   entries.forEach((entry) => {
     feed.addItem({
@@ -67,9 +67,9 @@ export function generateFeed(entries: ParsedEntry[]) {
       itunesSummary: entry.subtitle,
       itunesSubtitle: entry.subtitle,
       itunesDuration: entry.duration,
-      customElements: [{ "dc:description": entry.description }],
-    });
-  });
+      customElements: [{ 'dc:description': entry.description }],
+    })
+  })
 
-  return feed.buildXml({ indent: "  " });
+  return feed.buildXml({ indent: '  ' })
 }

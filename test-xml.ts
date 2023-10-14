@@ -1211,7 +1211,7 @@ export const testNewsXml =
  <guid isPermaLink="false">73379 at https://radiostudent.si</guid>
   </item>
   </channel>
-</rss>`;
+</rss>`
 
 export const testPostHtml =
   `&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg?itok=7fY3WD3s&quot; width=&quot;610&quot; height=&quot;407&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/odvisno-kako-pogledas&quot;&gt;Odvisno, kako pogledaš&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
@@ -1280,7 +1280,7 @@ export const testPostHtml =
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;`;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;`
 export const testPodcastXml = `
 <?xml version="1.0" encoding="utf-8" ?> <rss version="2.0" xml:base="https://radiostudent.si/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"> <channel> <title>Pritiskavec Gold</title>
  <description>Podcast radijske vsebine z Radia Študent.</description>
@@ -2540,4 +2540,4 @@ export const testPodcastXml = `
  <itunes:author>Mato Žgajner</itunes:author>
 </item>
 </channel>
-</rss>`;
+</rss>`
