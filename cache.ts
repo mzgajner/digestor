@@ -1,4 +1,4 @@
-import { ParsedEntry } from "./parse.ts";
+import type { ParsedEntry } from "./parse.ts";
 
 const kv = await Deno.openKv();
 

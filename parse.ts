@@ -1,15 +1,12 @@
 import { Html5Entities } from "https://deno.land/x/html_entities/mod.js";
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
-import { parseFeed } from "https://deno.land/x/rss/mod.ts";
-import { type FeedEntry } from "https://deno.land/x/rss/src/types/feed.ts";
 
-export type ExtendedFeedEntry = FeedEntry & {
-  "itunes:summary": { value: string };
-};
+import type { FeedEntry } from "https://deno.land/x/rss/src/types/feed.ts";
+import type { PodcastFeedEntry } from "./fetch.ts";
 
 export function parseEntries(
   newsEntries: FeedEntry[],
-  podcastEntries: ExtendedFeedEntry[],
+  podcastEntries: PodcastFeedEntry[],
 ) {
   const entries = podcastEntries
     .map((podcastEntry) => ({
@@ -25,17 +22,12 @@ export function parseEntries(
   return entries;
 }
 
-export async function getEntriesFromFeed(xml: string) {
-  const feed = await parseFeed(xml);
-  return feed.entries;
-}
-
 function bytesToSeconds(bytes: number) {
-  const BITRATE_IN_KILOBITS = 320; // kilobits/second
+  const BITRATE_IN_KILOBITS_PER_SECOND = 320;
 
   const kilobytes = bytes / 1000;
   const kilobits = kilobytes * 8;
-  const seconds = kilobits / BITRATE_IN_KILOBITS;
+  const seconds = kilobits / BITRATE_IN_KILOBITS_PER_SECOND;
 
   return seconds;
 }
@@ -44,7 +36,7 @@ function transformEntry({
   podcastEntry,
   newsEntry,
 }: {
-  podcastEntry: ExtendedFeedEntry;
+  podcastEntry: PodcastFeedEntry;
   newsEntry: FeedEntry;
 }) {
   const { imageUrl, authors, description } = parseValuesFromPost(

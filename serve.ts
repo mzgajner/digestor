@@ -1,6 +1,6 @@
 import { Status } from "https://deno.land/std/http/http_status.ts";
 
-import { fetchFeed } from "./fetch.ts";
+import { fetchAllEntries } from "./fetch.ts";
 import { parseEntries } from "./parse.ts";
 import { generateFeed } from "./generate.ts";
 import {
@@ -22,7 +22,7 @@ export async function serveFeed(request: Request) {
     let entries = await loadEntriesFromCache();
 
     if (entries.length === 0) {
-      const { newsEntries, podcastEntries } = await fetchFeed();
+      const { newsEntries, podcastEntries } = await fetchAllEntries();
       entries = parseEntries(newsEntries, podcastEntries);
       saveEntriesToCache(entries);
     }

@@ -1,42 +1,57 @@
 import { load } from "https://deno.land/std/dotenv/mod.ts";
-import { ExtendedFeedEntry, getEntriesFromFeed } from "./parse.ts";
+import { parseFeed } from "https://deno.land/x/rss/mod.ts";
+import { type FeedEntry } from "https://deno.land/x/rss/src/types/feed.ts";
+
 import { testNewsXml, testPodcastXml } from "./test-xml.ts";
+
+export type PodcastFeedEntry = FeedEntry & {
+  "itunes:summary": { value: string };
+};
+
+const env = await load();
 
 const NEWS_FEED_URL = "https://radiostudent.si/taxonomy/term/55167/%2A/feed";
 const PODCAST_FEED_URL =
   "https://radiostudent.si/kultura/pritiskavec-gold/podcast";
 
-const env = await load();
+export async function fetchAllEntries() {
+  const newsEntries = await fetchEntriesFromUrl(NEWS_FEED_URL, true);
+  const podcastEntries = await fetchEntriesFromUrl(PODCAST_FEED_URL, false);
 
-export async function fetchFeed() {
-  let newsEntries, podcastEntries;
-  if (env["ENVIRONMENT"] === "development") {
-    newsEntries = await getEntriesFromFeed(testNewsXml);
-    podcastEntries = await getEntriesFromFeed(testPodcastXml);
-  } else {
-    newsEntries = [];
-    let entriesInLastRequest = 0;
-    let currentPage = 0;
-
-    do {
-      const entries = await fetchEntries(
-        `${NEWS_FEED_URL}?page=${currentPage}`,
-      );
-      newsEntries.push(...entries);
-      entriesInLastRequest = entries.length;
-      currentPage++;
-    } while (entriesInLastRequest > 0);
-
-    podcastEntries = await fetchEntries(PODCAST_FEED_URL);
-  }
-
-  return { newsEntries, podcastEntries: podcastEntries as ExtendedFeedEntry[] };
+  return { newsEntries, podcastEntries: podcastEntries as PodcastFeedEntry[] };
 }
 
-async function fetchEntries(url: string) {
-  const response = await fetch(url);
-  const xml = await response.text();
-  const entries = await getEntriesFromFeed(xml);
+async function fetchEntriesFromUrl(url: string, isPaginated: boolean) {
+  // Don't actually fetch, just return test data if in development
+  if (env["ENVIRONMENT"] === "development") {
+    const isNewsRequest = url == NEWS_FEED_URL;
+    const testXml = isNewsRequest ? testNewsXml : testPodcastXml;
+    const feed = await parseFeed(testXml);
+    return feed.entries;
+  }
+
+  const entries: FeedEntry[] = [];
+  let keepFetching = true;
+  let currentPage = 0;
+
+  while (keepFetching) {
+    const feed = await getFeedFromUrl(
+      `${url}?page=${currentPage}`,
+    );
+    entries.push(...feed.entries);
+
+    const entriesInLastRequest = feed.entries.length;
+    keepFetching = isPaginated && entriesInLastRequest > 0;
+    currentPage++;
+  }
 
   return entries;
+}
+
+async function getFeedFromUrl(url: string) {
+  const response = await fetch(url);
+  const xml = await response.text();
+  const feed = await parseFeed(xml);
+
+  return feed;
 }
