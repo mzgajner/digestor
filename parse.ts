@@ -1,6 +1,6 @@
 import { Html5Entities } from 'https://deno.land/x/html_entities/mod.js'
 import { DOMParser } from 'https://deno.land/x/deno_dom/deno-dom-wasm.ts'
-import { getLastName } from './utils.ts'
+import { convertBytesToSeconds, getLastName } from './utils.ts'
 
 import type { FeedEntry } from 'https://deno.land/x/rss/src/types/feed.ts'
 import type { PodcastFeedEntry } from './fetch.ts'
@@ -21,16 +21,6 @@ export function parseEntries(
     .sort((a, b) => b.date?.getTime() - a.date?.getTime())
 
   return entries
-}
-
-function bytesToSeconds(bytes: number) {
-  const BITRATE_IN_KILOBITS_PER_SECOND = 320
-
-  const kilobytes = bytes / 1000
-  const kilobits = kilobytes * 8
-  const seconds = kilobits / BITRATE_IN_KILOBITS_PER_SECOND
-
-  return seconds
 }
 
 function transformEntry({
@@ -55,7 +45,7 @@ function transformEntry({
       size: podcastEntry.attachments![0].sizeInBytes!,
       type: podcastEntry.attachments![0].mimeType!,
     },
-    duration: bytesToSeconds(podcastEntry.attachments![0].sizeInBytes!),
+    duration: convertBytesToSeconds(podcastEntry.attachments![0].sizeInBytes!),
     guid: newsEntry.id.split(' at ')[0],
     url: newsEntry.links[0]!.href ?? '',
     title: newsEntry.title?.value ?? '',

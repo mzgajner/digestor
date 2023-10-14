@@ -1,5 +1,9 @@
 import { assertEquals } from 'https://deno.land/std@0.202.0/assert/mod.ts'
-import { generateHumanReadableAuthors, getLastName } from './utils.ts'
+import {
+  convertBytesToSeconds,
+  generateHumanReadableAuthors,
+  getLastName,
+} from './utils.ts'
 
 Deno.test(function generateHumanReadableAuthorsTest() {
   assertEquals(
@@ -31,6 +35,13 @@ Deno.test(function generateHumanReadableAuthorsTest() {
     ]),
     'Domen Mohorič, Mato Žgajner, Rasto Pahor in Tadej Pavković',
   )
+})
+
+Deno.test(function convertBytesToSecondsTest() {
+  assertEquals(convertBytesToSeconds(0, 192), 0)
+  assertEquals(convertBytesToSeconds(1200000, 320), 30)
+  assertEquals(convertBytesToSeconds(1200000, 128), 75)
+  assertEquals(convertBytesToSeconds(142407052, 320), 3560)
 })
 
 Deno.test(function getLastNameTest() {
