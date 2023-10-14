@@ -8,3 +8,8 @@ export function generateHumanReadableAuthors(names: string[]) {
     return `${names.join(', ')} in ${last}`
   }
 }
+
+export function getLastName(name: string) {
+  const parts = name.split(' ')
+  return parts[parts.length - 1]
+}

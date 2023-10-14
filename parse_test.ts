@@ -14,9 +14,9 @@ Deno.test(function parseValuesFromPostHtmlTest() {
 
   assertEquals(authors, [
     'Domen Mohorič',
-    'Mato Žgajner',
     'Rasto Pahor',
     'Tadej Pavković',
+    'Mato Žgajner',
   ])
 
   assertEquals(

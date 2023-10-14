@@ -1,5 +1,6 @@
 import { Html5Entities } from 'https://deno.land/x/html_entities/mod.js'
 import { DOMParser } from 'https://deno.land/x/deno_dom/deno-dom-wasm.ts'
+import { getLastName } from './utils.ts'
 
 import type { FeedEntry } from 'https://deno.land/x/rss/src/types/feed.ts'
 import type { PodcastFeedEntry } from './fetch.ts'
@@ -11,8 +12,8 @@ export function parseEntries(
   const entries = podcastEntries
     .map((podcastEntry) => ({
       podcastEntry,
-      newsEntry: newsEntries.find((entry) =>
-        entry.links[0].href === podcastEntry.id
+      newsEntry: newsEntries.find(
+        (entry) => entry.links[0].href === podcastEntry.id,
       )!,
     }))
     .filter((entry) => entry.newsEntry)
@@ -81,7 +82,7 @@ export function parseValuesFromPostHtml(postHtml: string) {
   const authors = allAuthorElements
     .map((element) => element?.textContent ?? '')
     .filter(Boolean)
-    .sort()
+    .sort((a, b) => getLastName(a).localeCompare(getLastName(b)))
 
   // Description text from the actual post body
   const description = document?.querySelector(

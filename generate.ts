@@ -14,9 +14,9 @@ export function generateFeed(entries: ParsedEntry[]) {
     copyright: 'Radio Študent, 2023',
     pubDate: entries[0].date,
     generator: 'mzgajner/digestor',
-    author: 'Domen Mohorič, Mato Žgajner, Rasto Pahor in Tadej Pavkovič',
+    author: 'Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner',
     itunesOwner: {
-      name: 'Domen Mohorič, Mato Žgajner, Rasto Pahor in Tadej Pavkovič',
+      name: 'Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner',
       email: 'mato@zgajner.com',
     },
     itunesExplicit: false,

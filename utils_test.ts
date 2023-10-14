@@ -1,5 +1,5 @@
 import { assertEquals } from 'https://deno.land/std@0.202.0/assert/mod.ts'
-import { generateHumanReadableAuthors } from './utils.ts'
+import { generateHumanReadableAuthors, getLastName } from './utils.ts'
 
 Deno.test(function generateHumanReadableAuthorsTest() {
   assertEquals(
@@ -31,4 +31,10 @@ Deno.test(function generateHumanReadableAuthorsTest() {
     ]),
     'Domen Mohorič, Mato Žgajner, Rasto Pahor in Tadej Pavković',
   )
+})
+
+Deno.test(function getLastNameTest() {
+  assertEquals(getLastName('Janez Janša'), 'Janša')
+  assertEquals(getLastName('Jean Claude Van Damme'), 'Damme')
+  assertEquals(getLastName(''), '')
 })
