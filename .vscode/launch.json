@@ -10,7 +10,7 @@
       "type": "node",
       "program": "${workspaceFolder}/main.ts",
       "cwd": "${workspaceFolder}",
-      "runtimeExecutable": "/usr/local/bin/deno",
+      "runtimeExecutable": "deno",
       "runtimeArgs": [
         "run",
         "--inspect-wait",

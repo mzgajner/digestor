@@ -18,7 +18,7 @@ export async function saveEntriesToCache(entries: ParsedEntry[]) {
   const session = kv.atomic()
 
   entries.forEach((entry) => {
-    session.set(['entries'], entry, { expireIn: DAY_IN_MS })
+    session.set(['entries', entry.guid], entry, { expireIn: DAY_IN_MS })
   })
 
   await session.commit()
