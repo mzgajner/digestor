@@ -9,6 +9,8 @@ const port = Number(env['PORT']) ?? 80
 async function handleRoute(request: Request): Promise<Response> {
   const url = new URL(request.url)
 
+  console.log(`Requesting path "${url.pathname}".`)
+
   switch (url.pathname) {
     case '/podcast/feed.xml':
       return await serveFeed(request)

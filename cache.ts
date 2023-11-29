@@ -4,12 +4,18 @@ const kv = await Deno.openKv()
 
 // Entries are individually cached in Deno KV for 1 day
 export async function loadEntriesFromCache() {
+  console.log('Loading entries from Deno KV cache.')
+
   let entries: ParsedEntry[] = []
   const iter = kv.list<ParsedEntry[]>({ prefix: ['entries'] })
 
+  let loopCount = 0
   for await (const entry of iter) {
     entries = entries.concat(entry.value)
+    loopCount++
   }
+
+  console.log(`Ran for loop ${loopCount} times, found ${entries.length} entries.`)
 
   return entries
 }
