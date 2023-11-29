@@ -7,7 +7,9 @@ export async function loadEntriesFromCache() {
   let entries: ParsedEntry[] = []
   const iter = kv.list<ParsedEntry[]>({ prefix: ['entries'] })
 
-  for await (const entry of iter) entries = entries.concat(entry.value)
+  for await (const entry of iter) {
+    entries = entries.concat(entry.value)
+  }
 
   return entries
 }
@@ -37,25 +39,4 @@ export function createChunks<T>(array: T[], chunkSize: number): T[][] {
   }
 
   return chunks
-}
-
-// Entire generated feed is stored in memory for an hour
-let lastFeedUpdate = 0
-let generatedFeedCache = ''
-
-export function loadFeedFromCache() {
-  const HOUR_IN_MS = 60 * 60 * 1000
-  const now = new Date().getTime()
-
-  if (now - lastFeedUpdate < HOUR_IN_MS) {
-    return generatedFeedCache
-  } else {
-    generatedFeedCache = ''
-    return null
-  }
-}
-
-export function saveFeedToCache(feed: string) {
-  lastFeedUpdate = new Date().getTime()
-  generatedFeedCache = feed
 }
