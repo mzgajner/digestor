@@ -8,9 +8,8 @@ import { loadEntriesFromCache, saveEntriesToCache } from './cache.ts'
 export const NOT_FOUND_RESPONSE = new Response(null, {
   status: Status.NotFound,
 })
-const LANDING_PAGE = await Deno.readFile('./index.html')
 
-export async function serveFeed(request: Request) {
+export async function _serveDynamicFeed(request: Request) {
   let entries = await loadEntriesFromCache()
 
   if (entries.length === 0) {
@@ -24,7 +23,13 @@ export async function serveFeed(request: Request) {
   return generateResponse(feed, request, 'application/rss+xml; charset=utf-8')
 }
 
-export function serveLanding(request: Request) {
+export async function serveStaticFeed(request: Request) {
+  const FEED = await Deno.readFile('./feed.rss')
+  return generateResponse(FEED, request, 'application/rss+xml; charset=utf-8')
+}
+
+export async function serveLanding(request: Request) {
+  const LANDING_PAGE = await Deno.readFile('./index.html')
   return generateResponse(LANDING_PAGE, request, 'text/html; charset=utf-8')
 }
 
