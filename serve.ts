@@ -1,4 +1,4 @@
-import { Status } from 'https://deno.land/std/http/status.ts'
+import { STATUS_CODE } from 'https://deno.land/std/http/status.ts'
 
 import { fetchAllEntries } from './fetch.ts'
 import { parseEntries } from './parse.ts'
@@ -6,7 +6,7 @@ import { generateFeed } from './generate.ts'
 import { loadEntriesFromCache, saveEntriesToCache } from './cache.ts'
 
 export const NOT_FOUND_RESPONSE = new Response(null, {
-  status: Status.NotFound,
+  status: STATUS_CODE.NotFound,
 })
 
 export async function _serveDynamicFeed(request: Request) {
