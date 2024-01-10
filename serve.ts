@@ -47,7 +47,7 @@ function generateResponse(
     'Accept-Ranges': 'bytes',
     'Content-Type': contentType,
   }
-  const status = Status.OK
+  const status = STATUS_CODE.OK
 
   return new Response(body, { headers, status })
 }
