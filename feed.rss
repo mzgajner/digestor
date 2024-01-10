@@ -4,9 +4,9 @@
     <description><![CDATA[Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.]]></description>
     <link>https://radiostudent.si/kultura/pritiskavec-gold</link>
     <generator>mzgajner/digestor</generator>
-    <lastBuildDate>Wed, 13 Dec 2023 16:18:21 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jan 2024 11:32:50 GMT</lastBuildDate>
     <author><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner]]></author>
-    <pubDate>Tue, 12 Dec 2023 20:00:00 GMT</pubDate>
+    <pubDate>Tue, 09 Jan 2024 20:00:00 GMT</pubDate>
     <copyright><![CDATA[Radio Študent, 2023]]></copyright>
     <language><![CDATA[sl]]></language>
     <category><![CDATA[Video Games]]></category>
@@ -24,6 +24,43 @@
       <itunes:category text="Video Games"/>
     </itunes:category>
     <itunes:image href="https://radiostudent.si/sites/all/themes/radiostudent/images/podcast_logo.png"/>
+    <item>
+      <title><![CDATA[Prijetne igre]]></title>
+      <description><![CDATA[<p>Med prazniki smo preigravali takoimenovane cozy igre in se spraševali, kako hitro bodo postale dolgočasne.</p>
+<p>Med drugim smo omenjali:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Stardew_Valley" target="_blank">Stardew Valley</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dave_the_Diver" target="_blank">Dave the Diver</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dorfromantik" target="_blank">Dorfromantik</a></li>
+<li><a href="https://www.pcgamingwiki.com/wiki/Kynseed" target="_blank">Kynseed</a></li>
+<li><a href="https://www.bontemps.games/wtih" target="_blank">While the Iron's Hot</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unpacking_(video_game)" target="_blank">Unpacking</a></li>
+<li><a href="http://Spiritfarer" target="_blank">Spiritfarer</a></li>
+</ul>
+]]></description>
+      <link>https://radiostudent.si/kultura/pritiskavec-gold/prijetne-igre</link>
+      <guid isPermaLink="false">81854</guid>
+      <dc:creator><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner]]></dc:creator>
+      <pubDate>Tue, 09 Jan 2024 20:00:00 GMT</pubDate>
+      <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2024-01-09-pritiskavec-gold-prijetne-igre.mp3" length="145881337" type="audio/mpeg"/>
+      <dc:description>&lt;p&gt;Med prazniki smo preigravali takoimenovane cozy igre in se spraševali, kako hitro bodo postale dolgočasne.&lt;/p&gt;
+&lt;p&gt;Med drugim smo omenjali:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Stardew_Valley&quot; target=&quot;_blank&quot;&gt;Stardew Valley&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Dave_the_Diver&quot; target=&quot;_blank&quot;&gt;Dave the Diver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Dorfromantik&quot; target=&quot;_blank&quot;&gt;Dorfromantik&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.pcgamingwiki.com/wiki/Kynseed&quot; target=&quot;_blank&quot;&gt;Kynseed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.bontemps.games/wtih&quot; target=&quot;_blank&quot;&gt;While the Iron&apos;s Hot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Unpacking_(video_game)&quot; target=&quot;_blank&quot;&gt;Unpacking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://Spiritfarer&quot; target=&quot;_blank&quot;&gt;Spiritfarer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</dc:description>
+      <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
+      <itunes:subtitle>Iščemo igričarski ekvivalent tople odeje in skodelice kakava</itunes:subtitle>
+      <itunes:summary>Iščemo igričarski ekvivalent tople odeje in skodelice kakava</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>01:00:47</itunes:duration>
+    </item>
     <item>
       <title><![CDATA[Bullet time]]></title>
       <description><![CDATA[<p>Tokrat premlevamo bullet time oz. izredno upočasnitev časa ter uporabo le-tega kot igralne mehanike.</p>
