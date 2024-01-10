@@ -1,4 +1,4 @@
-import { Status } from 'https://deno.land/std/http/http_status.ts'
+import { Status } from 'https://deno.land/std/http/status.ts'
 
 import { fetchAllEntries } from './fetch.ts'
 import { parseEntries } from './parse.ts'
