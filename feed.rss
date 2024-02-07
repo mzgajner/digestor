@@ -4,9 +4,9 @@
     <description><![CDATA[Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.]]></description>
     <link>https://radiostudent.si/kultura/pritiskavec-gold</link>
     <generator>mzgajner/digestor</generator>
-    <lastBuildDate>Wed, 10 Jan 2024 11:38:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Feb 2024 15:32:35 GMT</lastBuildDate>
     <author><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner]]></author>
-    <pubDate>Tue, 09 Jan 2024 20:00:00 GMT</pubDate>
+    <pubDate>Tue, 06 Feb 2024 20:00:00 GMT</pubDate>
     <copyright><![CDATA[Radio Študent, 2023]]></copyright>
     <language><![CDATA[sl]]></language>
     <category><![CDATA[Video Games]]></category>
@@ -24,6 +24,41 @@
       <itunes:category text="Video Games"/>
     </itunes:category>
     <itunes:image href="https://radiostudent.si/sites/all/themes/radiostudent/images/podcast_logo.png"/>
+    <item>
+      <title><![CDATA[Izlet v Perzijo]]></title>
+      <description><![CDATA[<p>Iz naftalina smo potegnili leta 1989 izdani Prince of Persia, ki smo ga v računalniških učilnicah slovenskih osnovnih šol pogosto nažigali tja do srede devetdesetih. Po številnih rebootih v preteklih desetletjih zaenkrat ne izgleda, da bo Ubisoft kmalu pojenjal v svoji molzni vnemi - ravno prejšnji mesec smo dočakali svežo inačico s podnaslovom <em>The Lost Crown</em>. Si zasluži plemenito ime?</p>
+<p>Povezave do v oddaji omenjenih vsebin:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Prince_of_Persia" target="_blank">Original iz 1989</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Prince_of_Persia:_The_Sands_of_Time" target="_blank">Verjetno najboljši reboot iz 2003</a></li>
+<li>Z<a href="https://en.wikipedia.org/wiki/Prince_of_Persia:_The_Sands_of_Time_(film)" target="_blank">ares obupen film z Jakeom Gyllenhaalom iz 2010</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Prince_of_Persia:_The_Lost_Crown" target="_blank">Aktualni odvrtek</a></li>
+<li><a href="https://www.youtube.com/watch?v=6ozxnrs0BP4" target="_blank">Kratek dokumentarec o nastanku originala</a></li>
+<li><a href="https://www.rockpapershotgun.com/players-still-dont-feel-comfortable-with-game-subscription-services-says-ubisoft-boss" target="_blank">Ubisoftov bulšit o tem, kako naj se privadimo na njihove mesečne naročnine</a></li>
+</ul>
+]]></description>
+      <link>https://radiostudent.si/kultura/pritiskavec-gold/izlet-v-perzijo</link>
+      <guid isPermaLink="false">82366</guid>
+      <dc:creator><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner]]></dc:creator>
+      <pubDate>Tue, 06 Feb 2024 20:00:00 GMT</pubDate>
+      <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2024-02-06-pritiskavec-gold-izlet-v-perzijo.mp3" length="145190660" type="audio/mpeg"/>
+      <dc:description>&lt;p&gt;Iz naftalina smo potegnili leta 1989 izdani Prince of Persia, ki smo ga v računalniških učilnicah slovenskih osnovnih šol pogosto nažigali tja do srede devetdesetih. Po številnih rebootih v preteklih desetletjih zaenkrat ne izgleda, da bo Ubisoft kmalu pojenjal v svoji molzni vnemi - ravno prejšnji mesec smo dočakali svežo inačico s podnaslovom &lt;em&gt;The Lost Crown&lt;/em&gt;. Si zasluži plemenito ime?&lt;/p&gt;
+&lt;p&gt;Povezave do v oddaji omenjenih vsebin:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Prince_of_Persia&quot; target=&quot;_blank&quot;&gt;Original iz 1989&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Prince_of_Persia:_The_Sands_of_Time&quot; target=&quot;_blank&quot;&gt;Verjetno najboljši reboot iz 2003&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Z&lt;a href=&quot;https://en.wikipedia.org/wiki/Prince_of_Persia:_The_Sands_of_Time_(film)&quot; target=&quot;_blank&quot;&gt;ares obupen film z Jakeom Gyllenhaalom iz 2010&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Prince_of_Persia:_The_Lost_Crown&quot; target=&quot;_blank&quot;&gt;Aktualni odvrtek&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6ozxnrs0BP4&quot; target=&quot;_blank&quot;&gt;Kratek dokumentarec o nastanku originala&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rockpapershotgun.com/players-still-dont-feel-comfortable-with-game-subscription-services-says-ubisoft-boss&quot; target=&quot;_blank&quot;&gt;Ubisoftov bulšit o tem, kako naj se privadimo na njihove mesečne naročnine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</dc:description>
+      <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
+      <itunes:subtitle>Kultni Prince of Persia in vsi njegovi odvrtki - vključno z najnovejšim</itunes:subtitle>
+      <itunes:summary>Kultni Prince of Persia in vsi njegovi odvrtki - vključno z najnovejšim</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>01:00:30</itunes:duration>
+    </item>
     <item>
       <title><![CDATA[Prijetne igre]]></title>
       <description><![CDATA[<p>Med prazniki smo preigravali takoimenovane cozy igre in se spraševali, kako hitro bodo postale dolgočasne.</p>
