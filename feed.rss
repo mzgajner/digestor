@@ -4,9 +4,9 @@
     <description><![CDATA[Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.]]></description>
     <link>https://radiostudent.si/kultura/pritiskavec-gold</link>
     <generator>mzgajner/digestor</generator>
-    <lastBuildDate>Thu, 04 Apr 2024 12:55:50 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2024 18:00:50 GMT</lastBuildDate>
     <author><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner]]></author>
-    <pubDate>Tue, 02 Apr 2024 19:00:00 GMT</pubDate>
+    <pubDate>Tue, 28 May 2024 19:00:00 GMT</pubDate>
     <copyright><![CDATA[Radio Študent, 2023]]></copyright>
     <language><![CDATA[sl]]></language>
     <category><![CDATA[Video Games]]></category>
@@ -24,6 +24,32 @@
       <itunes:category text="Video Games"/>
     </itunes:category>
     <itunes:image href="https://radiostudent.si/sites/all/themes/radiostudent/images/podcast_logo.png"/>
+    <item>
+      <title><![CDATA[Rože mi vse povedo]]></title>
+      <description><![CDATA[<p>Po čudnem naključju smo se v zadnjem času nadpovprečno navdušili nad par igrami, ki jih druži osrednja tematika botaničnih izzivov. Sledili smo miselnemu toku in prišli do zaključka, da bi bilo vredno razmisliti, kakšno vlogo v igrah igrajo rastline.</p>
+<p>Omenjene igre:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Botany_Manor">Botany Manor</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Strange_Horticulture">Strange Horticulture</a></li>
+</ul>]]></description>
+      <link>https://radiostudent.si/kultura/pritiskavec-gold/roze-mi-vse-povedo</link>
+      <guid isPermaLink="false">83306</guid>
+      <dc:creator><![CDATA[Domen Mohorič, Rasto Pahor in Mato Žgajner]]></dc:creator>
+      <pubDate>Tue, 28 May 2024 19:00:00 GMT</pubDate>
+      <enclosure url="https://radiostudent.si/sites/default/files/2024-05/2024-05-28-pritiskavec_gold.mp3" length="140715362" type="audio/mpeg"/>
+      <dc:description>&lt;p&gt;Po čudnem naključju smo se v zadnjem času nadpovprečno navdušili nad par igrami, ki jih druži osrednja tematika botaničnih izzivov. Sledili smo miselnemu toku in prišli do zaključka, da bi bilo vredno razmisliti, kakšno vlogo v igrah igrajo rastline.&lt;/p&gt;
+&lt;p&gt;Omenjene igre:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Botany_Manor&quot;&gt;Botany Manor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Strange_Horticulture&quot;&gt;Strange Horticulture&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</dc:description>
+      <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
+      <itunes:subtitle>O igrah, v katerih se ukvarjamo predvsem z rastlinami</itunes:subtitle>
+      <itunes:summary>O igrah, v katerih se ukvarjamo predvsem z rastlinami</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:58:38</itunes:duration>
+    </item>
     <item>
       <title><![CDATA[Ta vlak, ki tiho pelje]]></title>
       <description><![CDATA[<p>Med kooperativnim nažiganjem Unrailed smo se napalili na vlake in pogruntali, da ponujajo odlično iztočnico za našo tokratno debato. Na tapeti bo vse od Transport Tycoona do zamud Slovenskih železnic.</p>
