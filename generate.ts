@@ -10,7 +10,7 @@ export function generateFeed(entries: ParsedEntry[]) {
     siteUrl: 'https://radiostudent.si/kultura/pritiskavec-gold',
     language: 'sl',
     imageUrl:
-      'https://radiostudent.si/sites/all/themes/radiostudent/images/podcast_logo.png',
+      'https://radiostudent.si/themes/custom/ereshnv/rs_1400.png',
     copyright: 'Radio Študent, 2023',
     pubDate: entries[0].date,
     generator: 'mzgajner/digestor',
