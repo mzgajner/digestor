@@ -9,9 +9,8 @@ export function generateFeed(entries: ParsedEntry[]) {
       'Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.',
     siteUrl: 'https://radiostudent.si/kultura/pritiskavec-gold',
     language: 'sl',
-    imageUrl:
-      'https://radiostudent.si/themes/custom/ereshnv/rs_1400.png',
-    copyright: 'Radio Študent, 2023',
+    imageUrl: 'https://small-dragonfly-27.deno.dev/podcast/logo.jpg',
+    copyright: 'Radio Študent, 2024',
     pubDate: entries[0].date,
     generator: 'mzgajner/digestor',
     author: 'Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner',

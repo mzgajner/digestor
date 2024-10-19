@@ -14,6 +14,11 @@ export async function serveLanding(request: Request) {
   return generateResponse(LANDING_PAGE, request, 'text/html; charset=utf-8')
 }
 
+export async function serveLogo(request: Request) {
+  const LOGO = await Deno.readFile('./logo.jpg')
+  return generateResponse(LOGO, request, 'image/jpeg')
+}
+
 export const serve404 = () => NOT_FOUND_RESPONSE
 
 function generateResponse(
