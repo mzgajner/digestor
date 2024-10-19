@@ -4,7 +4,7 @@
     <description><![CDATA[Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.]]></description>
     <link>https://radiostudent.si/kultura/pritiskavec-gold</link>
     <generator>mzgajner/digestor</generator>
-    <lastBuildDate>Sat, 19 Oct 2024 16:37:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Oct 2024 16:47:52 GMT</lastBuildDate>
     <author><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner]]></author>
     <pubDate>Tue, 15 Oct 2024 19:00:00 GMT</pubDate>
     <copyright><![CDATA[Radio Študent, 2024]]></copyright>
@@ -50,6 +50,7 @@
       <itunes:summary>Igramo se fevdalne in komunistične urbaniste</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:57:36</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/2024-10/manor-workers.jpg"/>
     </item>
     <item>
       <title><![CDATA[Smeh je ½ špila]]></title>
@@ -79,6 +80,7 @@
       <itunes:summary>Kako težko je iz dobre komedije narediti igro</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:38:44</itunes:duration>
+      <itunes:image href="https://naliniji.radiostudent.si/sites/default/files/2024-08/pexels-marcus-aurelius-6787978.jpg"/>
     </item>
     <item>
       <title><![CDATA[Had]]></title>
@@ -96,6 +98,7 @@
       <itunes:summary>Nič z Ronijem Kordišem, sam tok</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:56:09</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/2024-07/1000002487.jpg"/>
     </item>
     <item>
       <title><![CDATA[Zašpilaj eno domačo!]]></title>
@@ -141,6 +144,7 @@
       <itunes:summary>Hodimo po zemlji naši in igramo nje prelesti</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:29</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/2024-06/slovenske-igre.jpg"/>
     </item>
     <item>
       <title><![CDATA[Rože mi vse povedo]]></title>
@@ -168,6 +172,7 @@
       <itunes:summary>O igrah, v katerih se ukvarjamo predvsem z rastlinami</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:38</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/2024-05/roze.jpg"/>
     </item>
     <item>
       <title><![CDATA[Ta vlak, ki tiho pelje]]></title>
@@ -219,6 +224,7 @@
       <itunes:summary>Vlak kot tema, mehanika in pripovedno sredstvo v igrah.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:15</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2024-04-02-ta-vlak-ki-tiho-pelje-159296.jpg"/>
     </item>
     <item>
       <title><![CDATA[Pokemoni s kalašnikovimi]]></title>
@@ -254,6 +260,7 @@
       <itunes:summary>Kaj za vraga je Palworld in zakaj je tako popularen</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:30</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2024-03-05-pokemoni-s-kalasnikovimi-158392.jpg"/>
     </item>
     <item>
       <title><![CDATA[Izlet v Perzijo]]></title>
@@ -289,6 +296,7 @@
       <itunes:summary>Kultni Prince of Persia in vsi njegovi odvrtki – vključno z najnovejšim</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:30</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2024-02-06-izlet-v-perzijo-157520.jpg"/>
     </item>
     <item>
       <title><![CDATA[Prijetne igre]]></title>
@@ -326,6 +334,7 @@
       <itunes:summary>Iščemo igričarski ekvivalent tople odeje in skodelice kakava</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:47</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2024-01-09-prijetne-igre-156587.jpg"/>
     </item>
     <item>
       <title><![CDATA[Bullet time]]></title>
@@ -369,6 +378,7 @@
       <itunes:summary>Kako se je famozni filmski učinek udomačil tudi v videoigrah</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:24</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-12-12-bullet-time-155724.jpg"/>
     </item>
     <item>
       <title><![CDATA[Zbirke Dread X]]></title>
@@ -388,6 +398,7 @@
       <itunes:summary>Preigravamo antologije miniaturnih neodvisnih grozljivk</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:01:03</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-11-14-zbirke-dread-x-154745.jpg"/>
     </item>
     <item>
       <title><![CDATA[Po poteh Gloranthe]]></title>
@@ -411,6 +422,7 @@
       <itunes:summary>Potapljamo se v fantazijski svet Grega Stafforda – preigravamo King of Dragon Pass in nadaljevanja</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:08</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-10-17-po-poteh-gloranthe-153877.jpg"/>
     </item>
     <item>
       <title><![CDATA[Odvisno, kako pogledaš]]></title>
@@ -428,6 +440,7 @@
       <itunes:summary>O računalniških igrah, ki uporabljajo perspektivo kot mehaniko.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:20</itunes:duration>
+      <itunes:image href="https://indiere.radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg"/>
     </item>
     <item>
       <title><![CDATA[Krompirji in vampirji]]></title>
@@ -447,6 +460,7 @@
       <itunes:summary>Prebijamo se skozi pravi gozd iger, ki so jih inspirirali Vampire Survivors</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:41</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-08-22-krompirji-in-vampirji-152166.jpg"/>
     </item>
     <item>
       <title><![CDATA[Skoraj Pokemoni]]></title>
@@ -466,6 +480,7 @@
       <itunes:summary>Namesto žogic – pokemon kasete</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:50</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-07-25-skoraj-pokemoni-151558.jpg"/>
     </item>
     <item>
       <title><![CDATA[AI in etika]]></title>
@@ -483,6 +498,7 @@
       <itunes:summary>O nedavno izdanem System Shock rimejku</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:26</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-06-27-ai-in-etika-150778.png"/>
     </item>
     <item>
       <title><![CDATA[Prije jutra ribari se bude]]></title>
@@ -500,6 +516,7 @@
       <itunes:summary>Dredge ponuja precej bolj anksiozno podobo ribištva kot Vinko Coce</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:58</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-05-30-prije-jutra-ribari-se-bude-149842.jpg"/>
     </item>
     <item>
       <title><![CDATA[Delam, delam, delam]]></title>
@@ -519,6 +536,7 @@
       <itunes:summary>Delam kot beseda na z.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:01:54</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-05-02-delam-delam-delam-148827.jpg"/>
     </item>
     <item>
       <title><![CDATA[Game Gang]]></title>
@@ -540,6 +558,7 @@
       <itunes:summary>Udeležili smo se prve igričarske konference pri nas</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:17</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-04-04-game-gang-147930.jpg"/>
     </item>
     <item>
       <title><![CDATA[Pot v pekel je tlakovana z dobro muziko]]></title>
@@ -559,6 +578,7 @@
       <itunes:summary>V Crypt of the NecroDancer in Metal: Hellsinger ubijamo po ritmu</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:56</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-03-07-pot-v-pekel-je-tlakovana-z-dobro-muziko-146996.jpg"/>
     </item>
     <item>
       <title><![CDATA[Fontana iz kužkov]]></title>
@@ -578,6 +598,7 @@
       <itunes:summary>... in ostali povsem običajni pripetljaji v Dwarf Fortress</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:08</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-02-07-fontana-iz-kuzkov-145982.jpg"/>
     </item>
     <item>
       <title><![CDATA[Kaj prinaša 2023?]]></title>
@@ -623,6 +644,7 @@
       <itunes:summary>Zremo v kristalno kroglo in držimo prekrižane prste</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:15</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-01-10-kaj-prinasa-2023-145094.png"/>
     </item>
     <item>
       <title><![CDATA[Umori na podeželju]]></title>
@@ -642,6 +664,7 @@
       <itunes:summary>Lovimo morilce v Pentiment in The Case of the Golden Idol</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:22</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-12-13-umori-na-podezelju-144226.jpg"/>
     </item>
     <item>
       <title><![CDATA[Zapuščina Tončka Sokolovega]]></title>
@@ -659,6 +682,7 @@
       <itunes:summary>Kaj nam leto 2022 ponuja na polju skejterščin</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:20</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-11-15-zapuscina-tonyja-hawka-143214.jpg"/>
     </item>
     <item>
       <title><![CDATA[WTF je JRPG]]></title>
@@ -676,6 +700,7 @@
       <itunes:summary>Definiramo žanr s pomočjo Digimon Story Cyber Sleuth in Octopath Traveler</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:17</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-10-18-wtf-je-jrpg-142288.png"/>
     </item>
     <item>
       <title><![CDATA[Zachtronics]]></title>
@@ -711,6 +736,7 @@
       <itunes:summary>Retrospektiva del kultnega indie studia, ki je nedavno napovedal, da se bo samoukinil</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:17</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-09-20-zachtronics-141342.jpg"/>
     </item>
     <item>
       <title><![CDATA[Nearkadno tolčenje po soljudeh]]></title>
@@ -734,6 +760,7 @@
       <itunes:summary>Pow! Tresk! Zoom!</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:37</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-08-23-nearkadno-tolcenje-po-soljudeh-140659.jpg"/>
     </item>
     <item>
       <title><![CDATA[Uletu sm u Disko Elizijum]]></title>
@@ -753,6 +780,7 @@
       <itunes:summary>HARDCORE TO THE MEGA</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:01:14</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-07-26-uletu-sm-u-disko-elizijum-139923.jpeg"/>
     </item>
     <item>
       <title><![CDATA[Tudi nadzorniki so ljudje]]></title>
@@ -774,6 +802,7 @@
       <itunes:summary>O moralnih odločitvah in rušenju sistema skozi prizmo dveh aktualnih iger</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:30</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-06-28-tudi-nadzorniki-so-ljudje-139191.jpg"/>
     </item>
     <item>
       <title><![CDATA[Pikslasti pokol, občasno z motorko]]></title>
@@ -795,6 +824,7 @@
       <itunes:summary>Tod sekla bridka bodo jekla</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:57</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-05-31-pikslasti-pokol-obcasno-z-motorko-138142.jpg"/>
     </item>
     <item>
       <title><![CDATA[Lisica proti vrani]]></title>
@@ -812,6 +842,7 @@
       <itunes:summary>O dveh nenavadno podobnih akcijskih avanturah na foro starih Zeld</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:33</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-05-03-lisica-proti-vrani-137175.jpg"/>
     </item>
     <item>
       <title><![CDATA[Psihonavti]]></title>
@@ -839,6 +870,7 @@
       <itunes:summary>Vrnitev kultne in okultne platformščine</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:20</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-04-05-psihonavti-136260.jpg"/>
     </item>
     <item>
       <title><![CDATA[Pssst, pod škatlo sem]]></title>
@@ -860,6 +892,7 @@
       <itunes:summary>O videoigrah, v katerih se prikriva in prikrade</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:20</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-03-08-pssst-pod-skatlo-sem-135221.jpg"/>
     </item>
     <item>
       <title><![CDATA[Golo preživetje]]></title>
@@ -889,6 +922,7 @@
       <itunes:summary>The Long Dark in Rust</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:57</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-02-08-golo-prezivetje-134283.png"/>
     </item>
     <item>
       <title><![CDATA[Pretep s kartami]]></title>
@@ -908,6 +942,7 @@
       <itunes:summary>Videoigralsko kvartopirjenje na primeru Griftlands in Fights in Tight Spaces</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:34</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-01-11-pretep-s-kartami-133196.jpg"/>
     </item>
     <item>
       <title><![CDATA[Strateški podvig]]></title>
@@ -931,6 +966,7 @@
       <itunes:summary>O aktualnih nadaljevanjih in odvodih znamenitih strateških žanrskih klasik</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:59</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-12-14-strateski-podvig-132338.png"/>
     </item>
     <item>
       <title><![CDATA[Svižčev dan]]></title>
@@ -952,6 +988,7 @@
       <itunes:summary>O večnem vračanju istega... V videoigrah.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:36</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-11-16-casovno-zankanje-131373.jpg"/>
     </item>
     <item>
       <title><![CDATA[Japonska groza]]></title>
@@ -1033,6 +1070,7 @@
       <itunes:summary>Manj lignjev, več mrtvih otrok</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:51</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-10-19-japonska-groza-130426.png"/>
     </item>
     <item>
       <title><![CDATA[JAGODNI IZBOR 2020/21, II.]]></title>
@@ -1056,6 +1094,7 @@
       <itunes:summary>Še druga edicija našega letnega pregleda</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:12</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-09-21-jagodni-izbor-2020/21-ii-129584.jpg"/>
     </item>
     <item>
       <title><![CDATA[Jagodni izbor 2020/21, I.]]></title>
@@ -1081,6 +1120,7 @@
       <itunes:summary>Najboljše iz pretekle rubrične sezone, prvi del</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:43</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-08-24-jagodni-izbor-2020/21-i-128929.jpg"/>
     </item>
     <item>
       <title><![CDATA[Windows igre]]></title>
@@ -1102,6 +1142,7 @@
       <itunes:summary>Minolovci in pasjanse</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:24</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-07-27-windows-igre-128364.png"/>
     </item>
     <item>
       <title><![CDATA[Kako komunicirati z igro?]]></title>
@@ -1121,6 +1162,7 @@
       <itunes:summary>Vmesni zapovednik</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:23</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-06-29-kako-komunicirati-z-igro-127717.jpg"/>
     </item>
     <item>
       <title><![CDATA[TV Twitch]]></title>
@@ -1140,6 +1182,7 @@
       <itunes:summary>Comment and conquer</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:31</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-06-01-tv-twitch-126773.jpeg"/>
     </item>
     <item>
       <title><![CDATA[Return of Obra Dinn]]></title>
@@ -1161,6 +1204,7 @@
       <itunes:summary>Ladijska detektivka prvega ranga</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:03:35</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-05-04-return-of-obra-dinn-125791.png"/>
     </item>
     <item>
       <title><![CDATA[Filmi, laži in videoigre]]></title>
@@ -1182,6 +1226,7 @@
       <itunes:summary>Molzne krave brez mleka</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:50</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-04-06-filmi-la%C5%BEi-in-videoigre-124728.jpg"/>
     </item>
     <item>
       <title><![CDATA[Kulinarični kotiček]]></title>
@@ -1207,6 +1252,7 @@
       <itunes:summary>Hrana in prehranjevalne navade v videoigrah</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:54:53</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-03-09-kulinari%C4%8Dni-koti%C4%8Dek-123636.png"/>
     </item>
     <item>
       <title><![CDATA[Mini-špili]]></title>
@@ -1228,6 +1274,7 @@
       <itunes:summary>Igre znotraj iger</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:26</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-02-09-mini-%C5%A1pili-122531.jpg"/>
     </item>
     <item>
       <title><![CDATA[CyberFail 2077]]></title>
@@ -1249,6 +1296,7 @@
       <itunes:summary>Polom igre desetletja</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:44</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2021-01-12-cyberfail-2077-121414.jpg"/>
     </item>
     <item>
       <title><![CDATA[Znanstvene igre]]></title>
@@ -1288,6 +1336,7 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
       <itunes:summary>S špili do cepiv</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:01:38</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2020-12-15-znanstvene-igre-120363.jpg"/>
     </item>
     <item>
       <title><![CDATA[Konzolna vojna]]></title>
@@ -1307,6 +1356,7 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
       <itunes:summary>Že n-tič</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:01:27</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2020-11-17-konzolna-vojna-119291.png"/>
     </item>
     <item>
       <title><![CDATA[Veliki upi sezone 2020/21]]></title>
@@ -1368,6 +1418,7 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
       <itunes:summary>Cvetje v jeseni</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:02:03</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2020-10-20-veliki-upi-sezone-2020/21-118211.jpg"/>
     </item>
     <item>
       <title><![CDATA[Krmilnik]]></title>
@@ -1393,6 +1444,7 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
       <itunes:summary>Kaj imaš v rokah?</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:38</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2020-08-25-krmilnik-116523.jpg"/>
     </item>
     <item>
       <title><![CDATA[Slišati igro]]></title>
@@ -1412,6 +1464,7 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
       <itunes:summary>Moje pesmi, moje igranje</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:50:17</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2020-07-28-sli%C5%A1ati-igro-115926.jpg"/>
     </item>
     <item>
       <title><![CDATA[Peskovniki]]></title>
@@ -1433,6 +1486,7 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
       <itunes:summary>Igranje v pesku, neomejeno</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:57:20</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2020-06-30-peskovniki-115242.JPG"/>
     </item>
     <item>
       <title><![CDATA[Wilmot's Warehouse]]></title>
@@ -1452,6 +1506,7 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
       <itunes:summary>Simulacija... skladiščenja?</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:05</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2020-06-02-wilmots-warehouse-114213.jpg"/>
     </item>
     <item>
       <title><![CDATA[Toplo odsvetovano]]></title>
@@ -1479,6 +1534,7 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
       <itunes:summary>Igramo, zato da vam ni treba</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:04:19</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2020-05-05-toplo-odsvetovano-113116.jpg"/>
     </item>
     <item>
       <title><![CDATA[Videoigre v času korone]]></title>
@@ -1532,6 +1588,7 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
       <itunes:summary>Igranje je samo zdravje</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:51</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2020-04-07-videoigre-v-%C4%8Dasu-korone-111912.jpg"/>
     </item>
     <item>
       <title><![CDATA[Avtomobilski tat]]></title>
@@ -1553,6 +1610,7 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
       <itunes:summary>Rojstvo franšize iz duha dirkačin</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:22</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2020-03-10-avtomobilski-tat-110608.jpg"/>
     </item>
     <item>
       <title><![CDATA[Igre iz papirja #1]]></title>
@@ -1614,6 +1672,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Pritiskavci so se lotili treh namiznih iger iz 70-ih in 80-ih let</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:57:50</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/2024-10/2020-02-11-igre-iz-papirja-109534.jpg"/>
     </item>
     <item>
       <title><![CDATA[Drugi spol in videoigre]]></title>
@@ -1641,6 +1700,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Pritiskavec sreča Sektor Ž</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:02:31</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2020-01-07-drugi-spol-in-videoigre-108196.png"/>
     </item>
     <item>
       <title><![CDATA[Kratka zgodovina 3D streljanja]]></title>
@@ -1662,6 +1722,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Od Wolfensteina (1992) do Half Life: Alyx (2020)</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:01:08</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2019-12-03-kratka-zgodovina-3d-streljanja-106926.jpg"/>
     </item>
     <item>
       <title><![CDATA[Nekakovostna spolnost]]></title>
@@ -1705,6 +1766,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>O erotiki in upodobitvah spolnosti v našem najljubšem mediju</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:30</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2019-11-05-nekakovostna-spolnost-105837.png"/>
     </item>
     <item>
       <title><![CDATA[Brezplačniki]]></title>
@@ -1728,6 +1790,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Brez prebite pare</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:57:02</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2019-10-01-brezpla%C4%8Dniki-104463.jpg"/>
     </item>
     <item>
       <title><![CDATA[Pritiskavec kvartopirec]]></title>
@@ -1745,6 +1808,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Čemu služijo virtualne igre s kartami?</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:02</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2019-08-06-pritiskavec-kvartopirec-103391.jpg"/>
     </item>
     <item>
       <title><![CDATA[Sejem E3 2019]]></title>
@@ -1766,6 +1830,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>O sladkih obljubah največjega sejma videoiger. Fuj.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:01:34</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2019-07-02-sejem-e3-2019-102102.jpg"/>
     </item>
     <item>
       <title><![CDATA[Masivno večigralstvo]]></title>
@@ -1787,6 +1852,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>O WoW-u in drugih, ki še kar brcajo</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:01:15</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2019-06-04-masivno-ve%C4%8Digralstvo-101027.jpg"/>
     </item>
     <item>
       <title><![CDATA[Made in Japan]]></title>
@@ -1806,6 +1872,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Čudoviti svet iger tam zunaj</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:57</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2019-05-07-made-in-japan-98685.jpg"/>
     </item>
     <item>
       <title><![CDATA[DOS igre iz zgodnjih devetdesetih]]></title>
@@ -1827,6 +1894,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>cd igre &amp;lt;ENTER&amp;gt; cd winter &amp;lt;ENTER&amp;gt; winter &amp;lt;ENTER&amp;gt;</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:02:42</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2019-04-01-dos-igre-iz-zgodnjih-devetdesetih-98675.png"/>
     </item>
     <item>
       <title><![CDATA[Portal]]></title>
@@ -1846,6 +1914,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Torta je laž!</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:22</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2019-03-05-portal-97526.jpg"/>
     </item>
     <item>
       <title><![CDATA[Miselne igre]]></title>
@@ -1863,6 +1932,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>O logiki, ugankah, in razmišljanju - od Minolovca do Portala</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:14</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2019-02-05-miselne-igre-96407.png"/>
     </item>
     <item>
       <title><![CDATA[e-Šah in e-inteligenca]]></title>
@@ -1882,6 +1952,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Miti, štorije in zgodovina računalniškega učenja šaha</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:54:41</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2019-01-08-e-%C5%A0ah-95368.jpg"/>
     </item>
     <item>
       <title><![CDATA[Half Life...]]></title>
@@ -1903,6 +1974,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>...praznuje 20 let!</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:01:16</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2018-12-04-Half-Life-94019.png"/>
     </item>
     <item>
       <title><![CDATA[Lamentacije]]></title>
@@ -1924,6 +1996,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Pritožbe, laži in videoigre</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:51</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2018-11-06-lamentacije-92899.jpg"/>
     </item>
     <item>
       <title><![CDATA[Mrknil je Telltale]]></title>
@@ -1947,6 +2020,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>V spomin in opomin</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:34</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2018-10-02-mrknil-je-telltale-91355.jpg"/>
     </item>
     <item>
       <title><![CDATA[Jagodni izbor sezone 2017/18]]></title>
@@ -1976,6 +2050,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Najboljše iz rubrike pretekle sezone</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:25</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2018-08-07-jagodni-izbor-ii-89900.jpg"/>
     </item>
     <item>
       <title><![CDATA[Poletna vročica E3]]></title>
@@ -1995,6 +2070,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>O največjem igričarskem festivalu in njegovih zablodah</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:35:50</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2018-07-03-e3iler-89250.jpg"/>
     </item>
     <item>
       <title><![CDATA[Iz Rusije z ljubeznijo]]></title>
@@ -2018,6 +2094,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Igre iz druge strani berlinskega zidu</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:01:18</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2018-06-05-iz-rusije-z-ljubeznijo-87852.jpg"/>
     </item>
     <item>
       <title><![CDATA[Delovne igre]]></title>
@@ -2037,6 +2114,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Prvi maj obeležujemo v duhu iger-šihtov</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:57:40</itunes:duration>
+      <itunes:image href="https://naliniji.radiostudent.si/sites/default/files/slike/2018-05-01-delovne-igre-86359.jpg"/>
     </item>
     <item>
       <title><![CDATA[Mobilne igre]]></title>
@@ -2064,6 +2142,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>O igrah, ki jih z veseljem sovražimo</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:27</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2018-04-03-mobilne-igre-85409.jpg"/>
     </item>
     <item>
       <title><![CDATA[Igre na robu]]></title>
@@ -2085,6 +2164,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>WTF špili in WTF teorija</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:12</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2018-03-06-igre-na-robu-84276.png"/>
     </item>
     <item>
       <title><![CDATA[Tajkuni]]></title>
@@ -2110,6 +2190,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>O raznoraznih tajkunščinah in menedžerščinah</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:01:44</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2018-02-06-tajkuni-83195.jpg"/>
     </item>
     <item>
       <title><![CDATA[Creepyskavec]]></title>
@@ -2155,6 +2236,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Groza in strah v igrah</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:57:53</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2018-01-02-creepyskavec-81641.jpg"/>
     </item>
     <item>
       <title><![CDATA[Konzole proti PC-jem]]></title>
@@ -2174,6 +2256,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Primerjava igralne izkušnje na namiznem računalniku in konzoli v letu 2017</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:00</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2017-12-05-konzole-proti-pc-jem-80195.jpg"/>
     </item>
     <item>
       <title><![CDATA[Goin' rogue]]></title>
@@ -2209,6 +2292,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>O nekoč nišnem žanru, ki doživlja razcvet</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:46</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2017-11-07-goin-rogue-78881.jpg"/>
     </item>
     <item>
       <title><![CDATA[Ne DRM-aj!]]></title>
@@ -2226,6 +2310,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Magične zaščite in kako jih zlomiti</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:18</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2017-10-03-ne-drmaj-77487.jpg"/>
     </item>
     <item>
       <title><![CDATA[Jagodni izbor]]></title>
@@ -2245,6 +2330,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Trije recenzenti si izmenjajo favorite pretekle sezone</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:53:07</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2017-09-04-jagodni-izbor-76615.jpg"/>
     </item>
     <item>
       <title><![CDATA[e-Sports]]></title>
@@ -2268,6 +2354,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>O karieri profesionalnega igralca iger s posebnimi gosti iz branže</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:58:19</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2017-06-06-e-sports-73587.jpg"/>
     </item>
     <item>
       <title><![CDATA[LAN Partija]]></title>
@@ -2287,6 +2374,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Kabli, ljubezen in topli spomini</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:44</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2017-05-02-lan-partija-72655.jpg"/>
     </item>
     <item>
       <title><![CDATA[Die Spielen der Anderen]]></title>
@@ -2316,6 +2404,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Igranje drugih</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:03:00</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2017-04-04-die-spielen-der-anderen-70633.png"/>
     </item>
     <item>
       <title><![CDATA[Skupaj je lažje]]></title>
@@ -2333,6 +2422,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>O kooperaciji, medsebojni pomoči, timskem duhu in doseganju skupnega cilja.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:25</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2017-03-07-skupaj-je-la%C5%BEje-69243.jpg"/>
     </item>
     <item>
       <title><![CDATA[Strateški posvet]]></title>
@@ -2358,6 +2448,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Zgodovina nekega žanra</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:00:13</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2017-02-07-strate%C5%A1ki-posvet-67933.jpg"/>
     </item>
     <item>
       <title><![CDATA[Igre za negejmerje]]></title>
@@ -2413,6 +2504,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>O tem, kako začeti igrati, katerih iger se lotiti in kaj sploh dela ljudi gejmerje.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:28</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2017-01-03-igre-za-negejmerje-66206.jpg"/>
     </item>
     <item>
       <title><![CDATA[Formativna leta]]></title>
@@ -2432,6 +2524,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>O igrah, ob katerih smo zrasli in odrasli.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:37:11</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2016-02-29-pritiskavec-gold-53036.jpg"/>
     </item>
     <item>
       <title><![CDATA[Game Boy]]></title>
@@ -2485,6 +2578,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Pogovor o legendarni prenosni konzoli, kakšna je bila včasih in kako jo lahko igrate danes.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:38:56</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2015-11-30-pritiskavec-gold-game-boy-49204.jpg"/>
     </item>
   </channel>
 </rss>

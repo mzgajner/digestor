@@ -61,7 +61,6 @@ export function parseValuesFromPostHtml(postHtml: string) {
   const imageUrl = node
     ?.querySelector('.field--name-field-slika-media a')
     ?.getAttribute('href') ?? ''
-    .replace('default/files', 'default/files/styles/thumbnail_grid')
 
   // List of all author names
   const mainAuthorElement = node?.querySelector('.field--name-uid a')

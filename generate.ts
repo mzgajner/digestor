@@ -56,6 +56,7 @@ export function generateFeed(entries: ParsedEntry[]) {
 
   entries.forEach((entry) => {
     feed.addItem({
+      imageUrl: entry.imageUrl,
       title: entry.title,
       guid: entry.guid,
       url: entry.url,
