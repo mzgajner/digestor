@@ -4,10 +4,10 @@
     <description><![CDATA[Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.]]></description>
     <link>https://radiostudent.si/kultura/pritiskavec-gold</link>
     <generator>mzgajner/digestor</generator>
-    <lastBuildDate>Sat, 19 Oct 2024 16:22:14 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Oct 2024 16:37:39 GMT</lastBuildDate>
     <author><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner]]></author>
     <pubDate>Tue, 15 Oct 2024 19:00:00 GMT</pubDate>
-    <copyright><![CDATA[Radio Študent, 2023]]></copyright>
+    <copyright><![CDATA[Radio Študent, 2024]]></copyright>
     <language><![CDATA[sl]]></language>
     <category><![CDATA[Video Games]]></category>
     <atom:link rel="self" href="https://small-dragonfly-27.deno.dev/podcast/feed.xml"/>
@@ -23,7 +23,7 @@
     <itunes:category text="Leisure">
       <itunes:category text="Video Games"/>
     </itunes:category>
-    <itunes:image href="https://radiostudent.si/themes/custom/ereshnv/rs_1400.png"/>
+    <itunes:image href="https://small-dragonfly-27.deno.dev/podcast/logo.jpg"/>
     <item>
       <title><![CDATA[Naše malo misto]]></title>
       <description><![CDATA[<p>V nocojšnji epizodi bo debata tekla o dveh zelo aktualnih city builderjih – <em>Manor Lords</em> ter <em>Workers &amp; Resources.</em> Dotaknili se bomo tudi širše tematike tega podžanra strateških iger ter navrgli nekaj zgodovinskih primerkov, ki so se nam najbolj vtisnili v spomin.</p>
