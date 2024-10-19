@@ -1,1286 +1,544 @@
-export const testNewsXml =
-  `<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://radiostudent.si/taxonomy/term/55167/%2A" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <channel>
-    <title></title>
-    <link>https://radiostudent.si/taxonomy/term/55167/%2A</link>
-    <description></description>
-    <language>sl</language>
-     <atom:link href="https://radiostudent.si/taxonomy/term/55167/%2A/feed" rel="self" type="application/rss+xml" />
-      <item>
-    <title>Odvisno, kako pogledaš</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/odvisno-kako-pogledas</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg?itok=7fY3WD3s&quot; width=&quot;610&quot; height=&quot;407&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/odvisno-kako-pogledas&quot;&gt;Odvisno, kako pogledaš&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-79980-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-79980-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-79980-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-09-19-pritiskavec-gold-odvisno-kako-pogledas.mp3&quot; id=&quot;jplayer-node-79980-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2023-09-19-pritiskavec-gold-odvisno-kako-pogledas.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Kolegica iz kulturne redakcije je nedavno namenila kritičen pogled &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec/odkrivanje-novih-pogledov&quot; target=&quot;_blank&quot;&gt;Viewfinderju&lt;/a&gt;, zato smo se odločili, da zajahamo širši trend in spregovorimo o igrah, ki se poigravajo s perspektivo ter jo uporabljajo ne samo v grafiki, ampak tudi kot igralno mehaniko.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2023-09-19T21:00:00+02:00&quot; class=&quot;date-display-single&quot;&gt;19. 9. 2023 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/odvisno-kako-pogledas&amp;amp;t=Odvisno, kako pogledaš&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/odvisno-kako-pogledas&amp;amp;via=radiostudent&amp;amp;text=Odvisno, kako pogledaš&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 19 Sep 2023 10:04:56 +0000</pubDate>
- <dc:creator>Mato Žgajner</dc:creator>
- <guid isPermaLink="false">79980 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>Krompirji in vampirji</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/krompirji-in-vampirji</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2023-08-22-krompirji-in-vampirji-152166.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2023-08-22-krompirji-in-vampirji-152166.jpg?itok=sVDP0ml-&quot; width=&quot;610&quot; height=&quot;373&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/krompirji-in-vampirji&quot;&gt;Krompirji in vampirji&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-79564-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-79564-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-79564-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-08-22-pritiskavec-gold-krompirji-in-vampirji.mp3&quot; id=&quot;jplayer-node-79564-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2023-08-22-pritiskavec-gold-krompirji-in-vampirji.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Uničili smo še zadnje zametke normalnih bioritmov, ki so jih naša bradata, nadpovprečno inteligentna telesa premogla, in v imenu znanosti popili skodelico destiliranih endorfinov.&lt;/p&gt;
-&lt;p&gt;Ta mesec je bil namreč na jedilniku izredno zasvojljivi Vampire Survivors, za prilogo pa širok nabor sorodnih rougelike shmupov: Brotato, Project Lazarus, 20 Minutes Till Dawn, Soulstone Survivors, Boneraiser Minions, Nordic Ashes, Spirit Hunters: Infinite Horde in še kaj.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2023-08-22T21:00:00+02:00&quot; class=&quot;date-display-single&quot;&gt;22. 8. 2023 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/krompirji-in-vampirji&amp;amp;t=Krompirji in vampirji&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/krompirji-in-vampirji&amp;amp;via=radiostudent&amp;amp;text=Krompirji in vampirji&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Mon, 21 Aug 2023 09:56:16 +0000</pubDate>
- <dc:creator>Mato Žgajner</dc:creator>
- <guid isPermaLink="false">79564 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>Skoraj Pokemoni</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/skoraj-pokemoni</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Oddaja&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2023-07-25-skoraj-pokemoni-151558.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2023-07-25-skoraj-pokemoni-151558.jpg?itok=vwbqDcvE&quot; width=&quot;610&quot; height=&quot;343&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/skoraj-pokemoni&quot;&gt;Skoraj Pokemoni&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-79223-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-79223-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-79223-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-07-25-pritiskavec-gold-skoraj-pokemoni.mp3&quot; id=&quot;jplayer-node-79223-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2023-07-25-pritiskavec-gold-skoraj-pokemoni.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Ne bomo se tepli – to bodo namesto nas počeli animirani stvori, ki smo jih zasužnjili v ta namen. &lt;a href=&quot;https://store.steampowered.com/app/1321440/Cassette_Beasts/&quot; target=&quot;_blank&quot;&gt;Cassette Beasts&lt;/a&gt; nas pelje v zlato dobo Pokemonov, le da bomo našo žvad lovili v dobre stare avdio-kasete. &lt;a href=&quot;https://store.steampowered.com/app/957960/Inkulinati/&quot; target=&quot;_blank&quot;&gt;Inkulinati&lt;/a&gt; so prav tako potezna strategija z rogue elementi, ki za bojno polje uporablja slikanice iz srednjeveških rokopisov.&lt;/p&gt;
-&lt;p&gt;Nastopa poletno okrnjena ekipa, ki tokrat zastavlja nagradno vprašanje: ali nas moti, da je večina t.i. &quot;loading screenov&quot; v igrah povsem &lt;a href=&quot;https://www.rockpapershotgun.com/yes-video-game-loading-bars-are-fake-indie-devs-admit&quot; target=&quot;_blank&quot;&gt;lažnih in umetnih&lt;/a&gt;?&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2023-07-25T21:00:00+02:00&quot; class=&quot;date-display-single&quot;&gt;25. 7. 2023 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/skoraj-pokemoni&amp;amp;t=Skoraj Pokemoni&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/skoraj-pokemoni&amp;amp;via=radiostudent&amp;amp;text=Skoraj Pokemoni&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 25 Jul 2023 14:02:47 +0000</pubDate>
- <dc:creator>Rasto Pahor</dc:creator>
- <guid isPermaLink="false">79223 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>AI in etika</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/ai-in-etika</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2023-06-27-ai-in-etika-150778.png&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2023-06-27-ai-in-etika-150778.png?itok=EKAhhGTg&quot; width=&quot;610&quot; height=&quot;343&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/ai-in-etika&quot;&gt;AI in etika&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-78805-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-78805-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-78805-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-06-27-pritiskavec-gold-ai-in-etika.mp3&quot; id=&quot;jplayer-node-78805-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2023-06-27-pritiskavec-gold-ai-in-etika.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Pompozen naslov je samo clickbait - v tokratnem Pritiskavcu Gold ne pričakujte širšega problematiziranja umetne inteligence, temveč zgolj standardno pivsko debato o igrah. Ampak hej, preigrali smo osveženo različico kultnega System Shocka iz leta 1994, kjer se osrednji zaplet zgodi ravno zaradi pobezljanega AI-ja, tako da &lt;em&gt;tehnično&lt;/em&gt; nismo lagali.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2023-06-27T21:00:00+02:00&quot; class=&quot;date-display-single&quot;&gt;27. 6. 2023 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/ai-in-etika&amp;amp;t=AI in etika&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/ai-in-etika&amp;amp;via=radiostudent&amp;amp;text=AI in etika&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 27 Jun 2023 10:31:44 +0000</pubDate>
- <dc:creator>Mato Žgajner</dc:creator>
- <guid isPermaLink="false">78805 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>Prije jutra ribari se bude</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/prije-jutra-ribari-se-bude</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2023-05-30-prije-jutra-ribari-se-bude-149842.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2023-05-30-prije-jutra-ribari-se-bude-149842.jpg?itok=zYXpT-Ac&quot; width=&quot;610&quot; height=&quot;343&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/prije-jutra-ribari-se-bude&quot;&gt;Prije jutra ribari se bude&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-78311-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-78311-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-78311-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-05-30-pritiskavec-gold-prije-jutra-ribari-se-bude.mp3&quot; id=&quot;jplayer-node-78311-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2023-05-30-pritiskavec-gold-prije-jutra-ribari-se-bude.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Tokratna oddaja se posveča temni plati ribištva, pri čemer pa ne mislimo na uporabo vlečnih mrež, temveč na fantazijske pošasti, ki se skrivajo v kalnih vodah nedavno izdanega Dredge.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-video field-type-video-embed-field field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;embedded-video&quot;&gt;
-  &lt;div class=&quot;player&quot;&gt;
-    &lt;iframe class=&quot;&quot; width=&quot;530&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/O4Gg1SaSVN8?width=530&amp;amp;height=400&amp;amp;theme=light&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=1&amp;amp;modestbranding=1&amp;amp;iv_load_policy=3&amp;amp;autohide=2&amp;amp;vq=hd720&amp;amp;wmode=opaque&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2023-05-30T21:00:00+02:00&quot; class=&quot;date-display-single&quot;&gt;30. 5. 2023 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-umetniki field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Avtorji:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ustvarjalci/black-salt-games&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Black Salt Games&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/prije-jutra-ribari-se-bude&amp;amp;t=Prije jutra ribari se bude&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/prije-jutra-ribari-se-bude&amp;amp;via=radiostudent&amp;amp;text=Prije jutra ribari se bude&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 30 May 2023 10:17:05 +0000</pubDate>
- <dc:creator>Mato Žgajner</dc:creator>
- <guid isPermaLink="false">78311 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>Delam, delam, delam</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/delam-delam-delam</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2023-05-02-delam-delam-delam-148827.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2023-05-02-delam-delam-delam-148827.jpg?itok=RDhZawII&quot; width=&quot;610&quot; height=&quot;372&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/delam-delam-delam&quot;&gt;Delam, delam, delam&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-77841-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-77841-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-77841-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-05-02-pritiskavec-gold-delam-delam-delam.mp3&quot; id=&quot;jplayer-node-77841-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2023-05-02-pritiskavec-gold-delam-delam-delam.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Ob prazniku dela tokrat delamo tudi v igrah – kmetujemo, kosimo, peremo, dostavljamo in še kaj.&lt;/p&gt;
-&lt;p&gt;Na tapeti bodo raznovrstni simulatorji bolj ali manj vsakdanjih aktivnosti, predvsem takih, ki jih v resničnem življenju včasih ne počnemo najraje.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2023-05-02T21:00:00+02:00&quot; class=&quot;date-display-single&quot;&gt;2. 5. 2023 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/delam-delam-delam&amp;amp;t=Delam, delam, delam&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/delam-delam-delam&amp;amp;via=radiostudent&amp;amp;text=Delam, delam, delam&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 02 May 2023 15:41:56 +0000</pubDate>
- <dc:creator>Mato Žgajner</dc:creator>
- <guid isPermaLink="false">77841 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>Game Gang</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/game-gang</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Oddaja&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2023-04-04-game-gang-147930.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2023-04-04-game-gang-147930.jpg?itok=njTTrmzz&quot; width=&quot;610&quot; height=&quot;275&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/game-gang&quot;&gt;Game Gang&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-77397-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-77397-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-77397-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-04-04-pritiskavec-gold-game-gang.mp3&quot; id=&quot;jplayer-node-77397-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2023-04-04-pritiskavec-gold-game-gang.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Ekipa Pritiskavca je po boomersko povohunila, kaj uganjajo na Gospodarskem razstavišču pretekli vikend. Odvil se je namreč Game Gang – prvi pravi igričarski festival pri nas. Prilično okičen v barvah energijskih pijač, občasno obiskan celo do natlačenosti – je Slovenija pripravljena?&lt;/p&gt;
-&lt;p&gt;Kako je spremljati živi turnir najboljših lokalcev v Fifi ali Valorantu? Je igranje muzejskih konzol vsaj tako zabavno, kot se spominjajo naše babice in dedki? Kakšna potovalna slabost dočaka človeka v VR očalih? Koliko podpisov smo uspeli zbrati za osvoboditev Andrewa Tata?&lt;/p&gt;
-&lt;p&gt;Vse to in še več v oddaji. &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2023-04-04T21:00:00+02:00&quot; class=&quot;date-display-single&quot;&gt;4. 4. 2023 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/game-gang&amp;amp;t=Game Gang&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/game-gang&amp;amp;via=radiostudent&amp;amp;text=Game Gang&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 04 Apr 2023 17:40:14 +0000</pubDate>
- <dc:creator>Rasto Pahor</dc:creator>
- <guid isPermaLink="false">77397 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>Pot v pekel je tlakovana z dobro muziko</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/pot-v-pekel-je-tlakovana-z-dobro-muziko</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2023-03-07-pot-v-pekel-je-tlakovana-z-dobro-muziko-146996.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2023-03-07-pot-v-pekel-je-tlakovana-z-dobro-muziko-146996.jpg?itok=ZJZmDK8y&quot; width=&quot;610&quot; height=&quot;343&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/pot-v-pekel-je-tlakovana-z-dobro-muziko&quot;&gt;Pot v pekel je tlakovana z dobro muziko&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-76918-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-76918-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-76918-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-03-07-pritiskavec-gold-pot-v-pekel-je-tlakovana-z-dobro-muziko.mp3&quot; id=&quot;jplayer-node-76918-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2023-03-07-pritiskavec-gold-pot-v-pekel-je-tlakovana-z-dobro-muziko.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Tokrat bomo vsi štirje celo uro v taktu z nogo butali ob tla, pretekli mesec smo namreč preigravali &lt;a href=&quot;https://en.wikipedia.org/wiki/Metal:_Hellsinger&quot; target=&quot;_blank&quot;&gt;Metal: Hellsinger&lt;/a&gt; in &lt;a href=&quot;https://en.wikipedia.org/wiki/Crypt_of_the_NecroDancer&quot; target=&quot;_blank&quot;&gt;Crypt of the NecroDancer&lt;/a&gt;. Ritmični igri sta si podobni v tem, da sta z Guitar Herota in Dance Dance Revolution spretno odrezali glasbeni cepič ter z njim oplemenitili deblo nasilnejših akcijskih zvrsti.&lt;/p&gt;
-&lt;p&gt;Pa se je prijelo? Prisluhnite.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2023-03-07T21:00:00+01:00&quot; class=&quot;date-display-single&quot;&gt;7. 3. 2023 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/pot-v-pekel-je-tlakovana-z-dobro-muziko&amp;amp;t=Pot v pekel je tlakovana z dobro muziko&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/pot-v-pekel-je-tlakovana-z-dobro-muziko&amp;amp;via=radiostudent&amp;amp;text=Pot v pekel je tlakovana z dobro muziko&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 07 Mar 2023 13:49:31 +0000</pubDate>
- <dc:creator>Mato Žgajner</dc:creator>
- <guid isPermaLink="false">76918 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>Fontana iz kužkov</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/fontana-iz-kuzkov</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2023-02-07-fontana-iz-kuzkov-145982.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2023-02-07-fontana-iz-kuzkov-145982.jpg?itok=MQSaVELQ&quot; width=&quot;610&quot; height=&quot;407&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/fontana-iz-kuzkov&quot;&gt;Fontana iz kužkov&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-76416-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-76416-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-76416-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-02-07-pritiskavec-gold-fontana-iz-kuzkov.mp3&quot; id=&quot;jplayer-node-76416-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2023-02-07-pritiskavec-gold-fontana-iz-kuzkov.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Po več desetletjih obstoja in kultnega čaščenja najzvestejših privržencev smo tudi člani ekipe Pritiskavca prijeli v roke Dwarf Fortress. Novo, ljudem prijazno Steam različico z dejanskim uporabniškim vmesnikom, kakopak.&lt;/p&gt;
-&lt;p&gt;Vklopite se in bodite podučeni o menda najtežji video igri vseh časov.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2023-02-07T21:00:00+01:00&quot; class=&quot;date-display-single&quot;&gt;7. 2. 2023 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-umetniki field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Avtorji:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ustvarjalci/tarn-adams&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Tarn Adams&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ustvarjalci/zach-adams&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Zach Adams&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/fontana-iz-kuzkov&amp;amp;t=Fontana iz kužkov&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/fontana-iz-kuzkov&amp;amp;via=radiostudent&amp;amp;text=Fontana iz kužkov&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 07 Feb 2023 10:47:17 +0000</pubDate>
- <dc:creator>Mato Žgajner</dc:creator>
- <guid isPermaLink="false">76416 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>Kaj prinaša 2023?</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/kaj-prinasa-2023</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2023-01-10-kaj-prinasa-2023-145094.png&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2023-01-10-kaj-prinasa-2023-145094.png?itok=TFWrka33&quot; width=&quot;610&quot; height=&quot;373&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/kaj-prinasa-2023&quot;&gt;Kaj prinaša 2023?&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-75907-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-75907-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-75907-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-01-10-pritiskavec-gold-kaj-prinasa-2023.mp3&quot; id=&quot;jplayer-node-75907-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2023-01-10-pritiskavec-gold-kaj-prinasa-2023.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Pritiskavški četverec je na mizo vrgel karte, a ne tistih za pasjanso, &lt;em&gt;Magic: The Gathering&lt;/em&gt; ali &lt;em&gt;Hearthstone&lt;/em&gt;. Ne, s tresočimi rokami smo mešali tarot karte in napenjali oči, da bi uzrli kako jasno podobo v megleni prihodnosti. Večer smo posvetili debati o (nam) interesantnih neodvisnih igrah, ki imajo iziti v letu 2023.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/1363080/Manor_Lords/&quot; target=&quot;_blank&quot;&gt;Manor Lords&lt;/a&gt; (Slavic Magic)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/1624540/Storyteller/&quot; target=&quot;_blank&quot;&gt;Storyteller&lt;/a&gt; (Daniel Benmergui)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/1887840/Another_Crabs_Treasure/&quot; target=&quot;_blank&quot;&gt;Another Crab&#039;s Treasure&lt;/a&gt; (Aggro Crab)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/2154780/Elation_For_The_Wonder_Box_6000/&quot; target=&quot;_blank&quot;&gt;Elation For The Wonder Box 6000&lt;/a&gt; (Digital Tchotchkes)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/2109370/The_Great_War_Western_Front/&quot; target=&quot;_blank&quot;&gt;The Great War: Western Front&lt;/a&gt; (Petroglyph Games)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/986130/Shadows_of_Doubt/&quot; target=&quot;_blank&quot;&gt;Shadows of Doubt&lt;/a&gt; (ColePowered Games)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/957960/Inkulinati/&quot; target=&quot;_blank&quot;&gt;Inkulinati&lt;/a&gt; (Yaza Games)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/1321440/Cassette_Beasts/&quot; target=&quot;_blank&quot;&gt;Cassette Beasts&lt;/a&gt; (Bytten Studio)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/2207970/Interior_Worlds/&quot; target=&quot;_blank&quot;&gt;Interior Worlds&lt;/a&gt; (sodaraptor)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/1983220/Ugly/&quot; target=&quot;_blank&quot;&gt;Ugly&lt;/a&gt; (Team Ugly)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/1353230/Bomb_Rush_Cyberfunk/&quot; target=&quot;_blank&quot;&gt;Bomb Rush Cyberfunk&lt;/a&gt; (Team Reptile)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/492540/She_Dreams_Elsewhere/&quot; target=&quot;_blank&quot;&gt;She Dreams Elsewhere&lt;/a&gt; (Studio Zevere)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-video field-type-video-embed-field field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;embedded-video&quot;&gt;
-  &lt;div class=&quot;player&quot;&gt;
-    &lt;iframe class=&quot;&quot; width=&quot;530&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/PGOjx_1a3jI?width=530&amp;amp;height=400&amp;amp;theme=light&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=1&amp;amp;modestbranding=1&amp;amp;iv_load_policy=3&amp;amp;autohide=2&amp;amp;vq=hd720&amp;amp;wmode=opaque&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;
-&lt;div class=&quot;embedded-video&quot;&gt;
-  &lt;div class=&quot;player&quot;&gt;
-    &lt;iframe class=&quot;&quot; width=&quot;530&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/evbrPS8xw8w?width=530&amp;amp;height=400&amp;amp;theme=light&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=1&amp;amp;modestbranding=1&amp;amp;iv_load_policy=3&amp;amp;autohide=2&amp;amp;vq=hd720&amp;amp;wmode=opaque&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;embedded-video&quot;&gt;
-  &lt;div class=&quot;player&quot;&gt;
-    &lt;iframe class=&quot;&quot; width=&quot;530&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/lp3Uy4CYNJc?width=530&amp;amp;height=400&amp;amp;theme=light&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=1&amp;amp;modestbranding=1&amp;amp;iv_load_policy=3&amp;amp;autohide=2&amp;amp;vq=hd720&amp;amp;wmode=opaque&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;
-&lt;div class=&quot;embedded-video&quot;&gt;
-  &lt;div class=&quot;player&quot;&gt;
-    &lt;iframe class=&quot;&quot; width=&quot;530&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/DoZ3aKKpDvQ?width=530&amp;amp;height=400&amp;amp;theme=light&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=1&amp;amp;modestbranding=1&amp;amp;iv_load_policy=3&amp;amp;autohide=2&amp;amp;vq=hd720&amp;amp;wmode=opaque&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;embedded-video&quot;&gt;
-  &lt;div class=&quot;player&quot;&gt;
-    &lt;iframe class=&quot;&quot; width=&quot;530&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/WeB4veq5IRI?width=530&amp;amp;height=400&amp;amp;theme=light&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=1&amp;amp;modestbranding=1&amp;amp;iv_load_policy=3&amp;amp;autohide=2&amp;amp;vq=hd720&amp;amp;wmode=opaque&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;
-&lt;div class=&quot;embedded-video&quot;&gt;
-  &lt;div class=&quot;player&quot;&gt;
-    &lt;iframe class=&quot;&quot; width=&quot;530&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/8IeH1q3eoJI?width=530&amp;amp;height=400&amp;amp;theme=light&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=1&amp;amp;modestbranding=1&amp;amp;iv_load_policy=3&amp;amp;autohide=2&amp;amp;vq=hd720&amp;amp;wmode=opaque&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;embedded-video&quot;&gt;
-  &lt;div class=&quot;player&quot;&gt;
-    &lt;iframe class=&quot;&quot; width=&quot;530&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/pydbU0FovBw?width=530&amp;amp;height=400&amp;amp;theme=light&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=1&amp;amp;modestbranding=1&amp;amp;iv_load_policy=3&amp;amp;autohide=2&amp;amp;vq=hd720&amp;amp;wmode=opaque&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;
-&lt;div class=&quot;embedded-video&quot;&gt;
-  &lt;div class=&quot;player&quot;&gt;
-    &lt;iframe class=&quot;&quot; width=&quot;530&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/mSHPkTUvMSg?width=530&amp;amp;height=400&amp;amp;theme=light&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=1&amp;amp;modestbranding=1&amp;amp;iv_load_policy=3&amp;amp;autohide=2&amp;amp;vq=hd720&amp;amp;wmode=opaque&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;embedded-video&quot;&gt;
-  &lt;div class=&quot;player&quot;&gt;
-    &lt;iframe class=&quot;&quot; width=&quot;530&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/bn220MY8Buo?width=530&amp;amp;height=400&amp;amp;theme=light&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=1&amp;amp;modestbranding=1&amp;amp;iv_load_policy=3&amp;amp;autohide=2&amp;amp;vq=hd720&amp;amp;wmode=opaque&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;
-&lt;div class=&quot;embedded-video&quot;&gt;
-  &lt;div class=&quot;player&quot;&gt;
-    &lt;iframe class=&quot;&quot; width=&quot;530&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/1mptdlfRJkw?width=530&amp;amp;height=400&amp;amp;theme=light&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=1&amp;amp;modestbranding=1&amp;amp;iv_load_policy=3&amp;amp;autohide=2&amp;amp;vq=hd720&amp;amp;wmode=opaque&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;embedded-video&quot;&gt;
-  &lt;div class=&quot;player&quot;&gt;
-    &lt;iframe class=&quot;&quot; width=&quot;530&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/2XRcbGRgnyA?width=530&amp;amp;height=400&amp;amp;theme=light&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=1&amp;amp;modestbranding=1&amp;amp;iv_load_policy=3&amp;amp;autohide=2&amp;amp;vq=hd720&amp;amp;wmode=opaque&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-ap-oznake field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Aktualno-politične oznake:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/oznake/videoigre&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;videoigre&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2023-01-10T21:00:00+01:00&quot; class=&quot;date-display-single&quot;&gt;10. 1. 2023 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/kaj-prinasa-2023&amp;amp;t=Kaj prinaša 2023?&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/kaj-prinasa-2023&amp;amp;via=radiostudent&amp;amp;text=Kaj prinaša 2023?&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 10 Jan 2023 12:12:42 +0000</pubDate>
- <dc:creator>Mato Žgajner</dc:creator>
- <guid isPermaLink="false">75907 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>Umori na podeželju</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/umori-na-podezelju</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2022-12-13-umori-na-podezelju-144226.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2022-12-13-umori-na-podezelju-144226.jpg?itok=VEXMJcmZ&quot; width=&quot;610&quot; height=&quot;373&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/umori-na-podezelju&quot;&gt;Umori na podeželju&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-75417-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-75417-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-75417-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2022-12-13-pritiskavec-gold-umori-na-podezelju.mp3&quot; id=&quot;jplayer-node-75417-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2022-12-13-pritiskavec-gold-umori-na-podezelju.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Za vse, ki radi s šalico kakava v roki med zimskimi meseci razpletate fiktivne zločine, imamo dva predloga, bolj interaktivna od Umorov na podeželju.&lt;/p&gt;
-&lt;p&gt;Preigrali smo zelo frišna &lt;a href=&quot;https://pentiment.obsidian.net/&quot; target=&quot;_blank&quot;&gt;Pentiment&lt;/a&gt; in &lt;a href=&quot;https://www.thegoldenidol.com/&quot; target=&quot;_blank&quot;&gt;The Case of the Golden Idol&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-ap-oznake field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Aktualno-politične oznake:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/oznake/videoigre&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;videoigre&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2022-12-13T21:00:00+01:00&quot; class=&quot;date-display-single&quot;&gt;13. 12. 2022 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/umori-na-podezelju&amp;amp;t=Umori na podeželju&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/umori-na-podezelju&amp;amp;via=radiostudent&amp;amp;text=Umori na podeželju&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 13 Dec 2022 12:33:56 +0000</pubDate>
- <dc:creator>Mato Žgajner</dc:creator>
- <guid isPermaLink="false">75417 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>Zapuščina Tončka Sokolovega</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/zapuscina-toncka-sokolovega</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2022-11-15-zapuscina-tonyja-hawka-143214.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2022-11-15-zapuscina-tonyja-hawka-143214.jpg?itok=IpkYLtpe&quot; width=&quot;610&quot; height=&quot;373&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/zapuscina-toncka-sokolovega&quot;&gt;Zapuščina Tončka Sokolovega&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-74858-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-74858-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-74858-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2022-11-15-pritiskavec-gold-zapuscina-toncka-sokolovega.mp3&quot; id=&quot;jplayer-node-74858-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2022-11-15-pritiskavec-gold-zapuscina-toncka-sokolovega.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Igramo dva THPS-like naslova: Rollerdrome in OlliOlli World ter debatiramo o &lt;em&gt;pravih&lt;/em&gt; skejterjih in mazohističnih užitkih repeticije.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-ap-oznake field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Aktualno-politične oznake:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/oznake/videoigre&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;videoigre&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2022-11-15T21:00:00+01:00&quot; class=&quot;date-display-single&quot;&gt;15. 11. 2022 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/zapuscina-toncka-sokolovega&amp;amp;t=Zapuščina Tončka Sokolovega&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/zapuscina-toncka-sokolovega&amp;amp;via=radiostudent&amp;amp;text=Zapuščina Tončka Sokolovega&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 15 Nov 2022 09:15:34 +0000</pubDate>
- <dc:creator>Mato Žgajner</dc:creator>
- <guid isPermaLink="false">74858 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>WTF je JRPG</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/wtf-je-jrpg</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2022-10-18-wtf-je-jrpg-142288.png&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2022-10-18-wtf-je-jrpg-142288.png?itok=YFhrAB4H&quot; width=&quot;610&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/wtf-je-jrpg&quot;&gt;WTF je JRPG&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-74315-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-74315-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-74315-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2022-10-18-pritiskavec-gold-wtf-je-jrpg.mp3&quot; id=&quot;jplayer-node-74315-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2022-10-18-pritiskavec-gold-wtf-je-jrpg.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Tokrat smo se zapodili za popularnimi, a obenem presenetljivo izmuzljivimi primerki japonskih arpiđijev. Katere kljukice morajo biti obkljukane, da je ustrezno kratico začeti s črko J; kateri so najboljši primerki žanra in zakaj sploh poseči po njih namesto po morju zahodnjaških izdaj.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-ap-oznake field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Aktualno-politične oznake:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/oznake/videoigre&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;videoigre&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2022-10-18T21:00:00+02:00&quot; class=&quot;date-display-single&quot;&gt;18. 10. 2022 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/wtf-je-jrpg&amp;amp;t=WTF je JRPG&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/wtf-je-jrpg&amp;amp;via=radiostudent&amp;amp;text=WTF je JRPG&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 18 Oct 2022 13:39:08 +0000</pubDate>
- <dc:creator>Mato Žgajner</dc:creator>
- <guid isPermaLink="false">74315 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>Zachtronics</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/zachtronics</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2022-09-20-zachtronics-141342.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2022-09-20-zachtronics-141342.jpg?itok=PgOYEP1s&quot; width=&quot;610&quot; height=&quot;343&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/zachtronics&quot;&gt;Zachtronics&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-73779-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-73779-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-73779-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2022-09-20-pritiskavec-gold-zachtronics.mp3&quot; id=&quot;jplayer-node-73779-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2022-09-20-pritiskavec-gold-zachtronics.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Zachtronics so internetu znani predvsem kot avtorji številnih zagamanih logičnih iger z obilico duše. Konec tega leta se prostovoljno odpravljajo v večna lovišča, zato bo tudi ekipa Pritiskavca izstrelila nekaj ognjenih puščic v splav s pokojniki, ki počasi pluje proti horizontu.&lt;/p&gt;
-&lt;p&gt;V preteklih sezonah jutranjih recenzij smo med drugim priporočili njihove:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/spacechem&quot; target=&quot;_blank&quot;&gt;SpaceChem&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/tis-100&quot; target=&quot;_blank&quot;&gt;TIS-100&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/eliza&quot; target=&quot;_blank&quot;&gt;Eliza&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/exapunks&quot; target=&quot;_blank&quot;&gt;Exapunks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Preverite tudi &lt;a href=&quot;https://www.zachtronics.com/podcast/&quot; target=&quot;_blank&quot;&gt;The Zachtronics Podcast&lt;/a&gt; in pa knjigo &lt;a href=&quot;https://www.zachtronics.com/zach-like/&quot; target=&quot;_blank&quot;&gt;ZACH-LIKE&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2022-09-20T21:00:00+02:00&quot; class=&quot;date-display-single&quot;&gt;20. 9. 2022 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-umetniki field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Avtorji:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ustvarjalci/zach-barth&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;zach barth&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/zachtronics&amp;amp;t=Zachtronics&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/zachtronics&amp;amp;via=radiostudent&amp;amp;text=Zachtronics&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 20 Sep 2022 10:11:53 +0000</pubDate>
- <dc:creator>Mato Žgajner</dc:creator>
- <guid isPermaLink="false">73779 at https://radiostudent.si</guid>
-  </item>
-  <item>
-    <title>Nearkadno tolčenje po soljudeh</title>
-    <link>https://radiostudent.si/kultura/pritiskavec-gold/nearkadno-tolcenje-po-soljudeh</link>
-    <description>&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Oddaja&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2022-08-23-nearkadno-tolcenje-po-soljudeh-140659.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2022-08-23-nearkadno-tolcenje-po-soljudeh-140659.jpg?itok=99-jmmam&quot; width=&quot;610&quot; height=&quot;373&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/nearkadno-tolcenje-po-soljudeh&quot;&gt;Nearkadno tolčenje po soljudeh&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-73379-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-73379-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-73379-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2022-08-23-pritiskavec-gold-nearkadno-tolcenje-po-soljudeh.mp3&quot; id=&quot;jplayer-node-73379-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2022-08-23-pritiskavec-gold-nearkadno-tolcenje-po-soljudeh.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Pretepačine. Nekoč na velikih arkadnih strojih - danes na malo manjših kištah, z večjimi zasloni in večimi udeleženci. &lt;/p&gt;
-&lt;p&gt;Ekipa Pritiskavca se je po dolgem času usedla skupaj na kavč in preigrala legendarne &quot;nindža kornjače&quot; in Streets of rage. Po natančni antropološki študiji razkrijemo, ali je nostalgija upravičena - ali ne.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2022-08-23T21:00:00+02:00&quot; class=&quot;date-display-single&quot;&gt;23. 8. 2022 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/nearkadno-tolcenje-po-soljudeh&amp;amp;t=Nearkadno tolčenje po soljudeh&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/nearkadno-tolcenje-po-soljudeh&amp;amp;via=radiostudent&amp;amp;text=Nearkadno tolčenje po soljudeh&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Mon, 22 Aug 2022 21:53:42 +0000</pubDate>
- <dc:creator>Rasto Pahor</dc:creator>
- <guid isPermaLink="false">73379 at https://radiostudent.si</guid>
-  </item>
-  </channel>
-</rss>`
-
-export const testPostHtml =
-  `&lt;div class=&quot;field field-name-field-vrsta field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Okrogla miza, intervju ali pogovor&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://radiostudent.si/sites/default/files/styles/thumbnail_w530/public/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg?itok=7fY3WD3s&quot; width=&quot;610&quot; height=&quot;407&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-title field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;dc:title&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/kultura/pritiskavec-gold/odvisno-kako-pogledas&quot;&gt;Odvisno, kako pogledaš&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-posnetek field-type-file field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-&lt;div class=&quot;jp-audio&quot;&gt;
-  &lt;div class=&quot;jp-type-single&quot;&gt;
-    &lt;div id=&quot;jplayer-node-79980-field-posnetek-1695584812&quot; class=&quot;jp-jplayer&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;jplayer-node-79980-field-posnetek-1695584812_interface&quot; class=&quot;jp-interface&quot;&gt;
-            &lt;ul class=&quot;jp-controls&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-play&quot; tabindex=&quot;1&quot;&gt;play&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-pause&quot; tabindex=&quot;1&quot;&gt;pause&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-stop&quot; tabindex=&quot;1&quot;&gt;stop&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-mute&quot; tabindex=&quot;1&quot;&gt;mute&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;jp-unmute&quot; tabindex=&quot;1&quot;&gt;unmute&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-
-      &lt;div class=&quot;jp-progress&quot;&gt;
-        &lt;div class=&quot;jp-seek-bar&quot;&gt;
-          &lt;div class=&quot;jp-play-bar&quot;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-volume-bar&quot;&gt;
-        &lt;div class=&quot;jp-volume-bar-value&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;jp-current-time&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;jp-duration&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;jplayer-node-79980-field-posnetek-1695584812_playlist&quot; class=&quot;jp-playlist&quot;&gt;
-              &lt;ul&gt;&lt;li class=&quot;first jp-playlist-first last jp-playlist-last&quot;&gt;&lt;a href=&quot;https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-09-19-pritiskavec-gold-odvisno-kako-pogledas.mp3&quot; id=&quot;jplayer-node-79980-field-posnetek-1695584812_item_0&quot; tabindex=&quot;1&quot; onclick=&quot;return(false);&quot;&gt;2023-09-19-pritiskavec-gold-odvisno-kako-pogledas.mp3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;          &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Kolegica iz kulturne redakcije je nedavno namenila kritičen pogled &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec/odkrivanje-novih-pogledov&quot; target=&quot;_blank&quot;&gt;Viewfinderju&lt;/a&gt;, zato smo se odločili, da zajahamo širši trend in spregovorimo o igrah, ki se poigravajo s perspektivo ter jo uporabljajo ne samo v grafiki, ampak tudi kot igralno mehaniko.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-author field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/mato-%C5%BEgajner&quot; title=&quot;Prikaži profil uporabnika.&quot; class=&quot;username&quot;&gt;Mato Žgajner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-dodatni-avtorji field-type-user-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/rasto-pahor&quot;&gt;Rasto Pahor&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/ljudje/domen-mohori%C4%8D&quot;&gt;Domen Mohorič&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/ljudje/tadej-pavkovic&quot;&gt;Tadej Pavković&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-v-etru field-type-datetime field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span  property=&quot;dc:date&quot; datatype=&quot;xsd:dateTime&quot; content=&quot;2023-09-19T21:00:00+02:00&quot; class=&quot;date-display-single&quot;&gt;19. 9. 2023 - 21.00&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-facebook-share field-type-ds field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://radiostudent.si/kultura/pritiskavec-gold/odvisno-kako-pogledas&amp;amp;t=Odvisno, kako pogledaš&quot;&gt;&lt;img alt=&quot;facebook&quot; src=&quot;/sites/all/themes/radiostudent/images/facebook.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://radiostudent.si/kultura/pritiskavec-gold/odvisno-kako-pogledas&amp;amp;via=radiostudent&amp;amp;text=Odvisno, kako pogledaš&quot;&gt;&lt;img alt=&quot;twitter&quot; src=&quot;/sites/all/themes/radiostudent/images/twitter.png&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/podcast&quot;&gt;&lt;img alt=&quot;rss&quot; src=&quot;/sites/all/themes/radiostudent/images/rss.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-oddaja-tip field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;&amp;nbsp;/&amp;nbsp;&lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold&quot;&gt;Pritiskavec Gold&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-sponsor-reference field-type-node-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div class=&quot;ds-1col node node-banner node-promoted view-mode-inline &quot;&gt;
-
-
-  &lt;div class=&quot;field field-name-field-banner-inline field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold&#039;;
-	src: url(&#039;GT-Walsheim-Bold.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold.svg&#039;)  format(&#039;svg&#039;);
-}
-@font-face {
-	font-family: &#039;GT-Walsheim-Bold-Oblique&#039;;
-	src: url(&#039;GT-Walsheim-Bold-Oblique.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.woff&#039;)  format(&#039;woff&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.ttf&#039;) format(&#039;truetype&#039;),
-		 url(&#039;https://siri.radiostudent.si/sirirs/static/fonts/GT-Walsheim-Bold-Oblique.svg&#039;)  format(&#039;svg&#039;);
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--&gt;&lt;!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--&gt;&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;div style=&quot;background-color: black; display: block; overflow: auto; padding: 20px;&quot;&gt;
-&lt;div style=&quot;width: 80%; display: inline-block; float: left;&quot;&gt;
-&lt;p style=&quot;color: white; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;b&gt;Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.&lt;/b&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;width: 15%; display: inline-block; float: left; margin-top: 10px; margin-left: 20px;&quot;&gt;
-&lt;div style=&quot;background-color: #ffd200; color: black; text-align: center; font-family: GT-Walsheim-Bold;&quot;&gt;&lt;a href=&quot;https://siri.radiostudent.si&quot; onclick=&quot;javascript:_paq.push([&#039;trackEvent&#039;, &#039;Donacijska-pasica&#039;]);&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;DONIRAJ&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;`
+export const testPostHtml = `<!DOCTYPE html>
+<html lang="sl" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://anal.radiostudent.si/" : "http://anal.radiostudent.si/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"matomo.php"]);_paq.push(["setDoNotTrack", 1]);if (!window.matomo_search_results_active) {_paq.push(["trackPageView"]);}_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"matomo.js";s.parentNode.insertBefore(g,s);})();</script>
+<meta name="robots" content="max-image-preview:large" />
+<link rel="canonical" href="https://radiostudent.si/kultura/pritiskavec-gold/odvisno-kako-pogledas" />
+<link rel="image_src" href="https://radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg" />
+<meta property="og:site_name" content="Radio Študent" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://radiostudent.si/kultura/pritiskavec-gold/odvisno-kako-pogledas" />
+<meta property="og:title" content="Odvisno, kako pogledaš" />
+<meta property="og:image" content="https://radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Odvisno, kako pogledaš" />
+<meta name="twitter:site" content="@radiostudent" />
+<meta name="twitter:creator" content="@radiostudent" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon_3.ico" type="image/vnd.microsoft.icon" />
+
+    <meta name="theme-color" content="#ffd200" />
+    <title>Odvisno, kako pogledaš | Radio Študent</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_hCTcYmdlzj3wHq_jPHYXgs9K98Tn296VUqB1TH4HhPo.css?delta=0&amp;language=sl&amp;theme=ereshnv&amp;include=eJw9jUEOgzAMBD_kxk9CSezSCGMjO6Hw-6JS9bI7O5f1mPbG70DnsOGVA-KMziuWHAx86ZfuOIuVLI_opzSdgY9-9YLkY8uSfhPqwtS6-ZRrNadmin9KTzftrAT33zfTajSEoZqYFztwk9z0AwyLOmg" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Y2RIpDIVtjMKXnaPt6ajojC735INCYhsDMpeoLT3wf8.css?delta=1&amp;language=sl&amp;theme=ereshnv&amp;include=eJw9jUEOgzAMBD_kxk9CSezSCGMjO6Hw-6JS9bI7O5f1mPbG70DnsOGVA-KMziuWHAx86ZfuOIuVLI_opzSdgY9-9YLkY8uSfhPqwtS6-ZRrNadmin9KTzftrAT33zfTajSEoZqYFztwk9z0AwyLOmg" />
+
+
+  </head>
+
+  <body class="path-node page-node-type-prispevek" temna-tema>
+
+    <header class="layout-header" role="banner">
+  <div id="block-ereshnv-branding">
+
+
+        <a href="/" rel="home">
+      <img src="/themes/custom/ereshnv/logo.svg" alt="Vstopna stran" fetchpriority="high" />
+    </a>
+
+</div>
+
+
+  <div id="player-container"></div>
+  <div class="search-bar">
+    <form action="/iskanje" method="GET">
+      <input name="niz" type="text">
+      <input type="submit" style="display: none">
+    </form>
+  </div>
+  <details id="nav-meni">
+    <summary>
+      <div id="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </summary>
+
+    <div class="layout-sidemenu">
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a href="/" data-drupal-link-system-path="<front>" class="is-active">Vstopna stran</a>
+          </li>
+        </ul>
+      </nav>
+      <nav id="search-sidemenu-container">
+        <ul>
+          <li>
+            <form action="/iskanje" method="GET" id="search-sidemenu">
+              <input name="niz" type="text" placeholder="Išči">
+            </form>
+          </li>
+        </ul>
+      </nav>
+      <nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation">
+
+  <h2 class="visually-hidden" id="block-mainnavigation-menu">Navigacijski meni</h2>
+
+
+        <button class="zapri-meni"></button>
+              <ul>
+              <li>
+        <a href="/program" data-drupal-link-system-path="program">Program</a>
+              </li>
+          <li>
+        <a href="/politika" data-drupal-link-system-path="taxonomy/term/125">Politika</a>
+              </li>
+          <li>
+        <a href="/glasba" data-drupal-link-system-path="taxonomy/term/123">Glasba</a>
+              </li>
+          <li>
+        <a href="/kultura" data-drupal-link-system-path="taxonomy/term/127">Kultura</a>
+              </li>
+          <li>
+        <a href="/druzba" data-drupal-link-system-path="taxonomy/term/126">Družba</a>
+              </li>
+          <li>
+        <a href="/univerza" data-drupal-link-system-path="taxonomy/term/38002">Univerza</a>
+              </li>
+          <li>
+        <a href="/znanost" data-drupal-link-system-path="taxonomy/term/46552">Znanost</a>
+              </li>
+          <li>
+        <a href="/rtvs-prispevki" data-drupal-link-system-path="rtvs-prispevki">RTVŠ</a>
+              </li>
+          <li>
+        <a href="/ostalo" title="Ostale vsebine" data-drupal-link-system-path="taxonomy/term/6161">Ostalo</a>
+              </li>
+          <li>
+        <a href="/glasbena-oprema" data-drupal-link-system-path="glasbena-oprema">Glasbena oprema</a>
+              </li>
+          <li>
+        <a href="/rs-hit" data-drupal-link-system-path="rs-hit">RŠ hit</a>
+              </li>
+          <li>
+        <a href="/danasnji-mestni-napovednik" data-drupal-link-system-path="danasnji-mestni-napovednik">Mestni napovednik</a>
+              </li>
+          <li>
+        <a href="/#nedavni-komentarji" data-drupal-link-system-path="&lt;front&gt;">Komentarji</a>
+              </li>
+          <li>
+        <a href="https://old.radiostudent.si" target="_blank">Arhiv</a>
+              </li>
+          <li>
+        <a href="https://siri.radiostudent.si/" target="_blank">Podpri RŠ</a>
+              </li>
+          <li>
+        <a href="https://trgovina.radiostudent.si" target="_blank">Trgovina</a>
+              </li>
+        </ul>
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-sociallinks-menu" id="block-sociallinks">
+
+  <h2 class="visually-hidden" id="block-sociallinks-menu">Social links</h2>
+
+
+                <ul class="clearfix">
+              <li>
+          <a target="_blank" href="https://obvestila.radiostudent.si/subscription/oNzBJAlbKM?locale=sl-SI">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+              <li>
+          <a target="_blank" href="https://zars.bandcamp.com/">
+            <i class="fa fa-bandcamp"></i>
+          </a>
+        </li>
+              <li>
+          <a target="_blank" href="https://www.youtube.com/user/radiostudent893">
+            <i class="fa fa-youtube"></i>
+          </a>
+        </li>
+              <li>
+          <a target="_blank" href="https://twitter.com/radiostudent">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+              <li>
+          <a target="_blank" href="https://www.facebook.com/radiostudent89.3">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+              <li>
+          <a target="_blank" href="https://www.instagram.com/radiostudent/">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+              <li>
+          <a target="_blank" href="https://vimeo.com/channels/radio">
+            <i class="fa fa-vimeo"></i>
+          </a>
+        </li>
+          </ul>
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-ereshnv-vmesnik-menu" id="block-ereshnv-vmesnik">
+
+  <h2 class="visually-hidden" id="block-ereshnv-vmesnik-menu">Vmesnik</h2>
+
+
+                <ul class="clearfix">
+              <li>
+          <a href="#spremeni-temo">
+            <i class="fa fa-adjust"></i>
+          </a>
+        </li>
+          </ul>
+
+
+  </nav>
+
+
+    </div>
+    <div class="sidemenu-bg"></div>
+  </details>
+  <div class="rep"></div>
+</header>
+
+<div class="body-container">
+  <div id="layout-main-overlay"></div>
+  <main role="main">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+
+    <div id="block-krovnaoddaja">
+
+
+    <h1 class="page-krovna-oddaja-title krovna-oddaja-tip-127">
+  <a href="/kultura">
+   Kultura
+  </a>
+</h1>
+
+  </div>
+<div id="block-ereshnv-system-main">
+
+
+    <article class="node node--type-prispevek node--promoted node--view-mode-full">
+
+
+
+<div  id="node-prispevek-full-group-prispevek-info" class="clearfix group-prispevek-info field-group-div">
+      <div class="field field--name-field-oddaja-tip field--type-entity-reference field--label-hidden field__items">
+                      <div class="field__item krovna-oddaja-tip-127 oddaja-level-2 oddaja-vmesni-tip oddaja-tip-55167"><a href="/kultura/pritiskavec-gold" hreflang="sl">Pritiskavec Gold</a></div>
+      </div>
+            <div class="field field--name-field-v-etru field--type-datetime field--label-hidden field__item">19. 9. 2023 – 21.00
+</div>
+            <div class="field field--name-uid field--type-string field--label-hidden"><a href="/ljudje/mato-zgajner" hreflang="sl">Mato Žgajner</a></div>
+        <div class="field field--name-field-dodatni-avtorji field--type-entity-reference field--label-hidden field__items">
+              <div class="field__item"><a href="/ljudje/rasto-pahor" hreflang="sl">Rasto Pahor</a></div>
+              <div class="field__item"><a href="/ljudje/domen-mohoric" hreflang="sl">Domen Mohorič</a></div>
+              <div class="field__item"><a href="/ljudje/tadej-pavkovic" hreflang="sl">Tadej Pavković</a></div>
+          </div>
+
+  </div>
+<h1 class="page-title">Odvisno, kako pogledaš</h1>
+
+            <div class="field field--name-field-posnetek-oddaje field--type-entity-reference field--label-hidden field__item"><div>
+
+    <div class="field field--name-field-media-audio-file field--type-file field--label-visually_hidden">
+    <div class="field__label visually-hidden">Audio file</div>
+              <div class="field__item"><audio-file controls="controls" node-title="Odvisno, kako pogledaš" node-url="/kultura/pritiskavec-gold/odvisno-kako-pogledas" preload="metadata">
+  <a href="/sites/default/files/posnetki/pritiskavec-gold/2023-09-19-pritiskavec-gold-odvisno-kako-pogledas.mp3" target="_blank">
+    Predvajaj
+  </a>
+</audio-file>
+</div>
+          </div>
+
+</div>
+</div>
+          <div class="field field--name-field-slika-media field--type-entity-reference field--label-hidden field__item"><div>
+
+              <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">
+<a href="https://indiere.radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg" aria-label="{&quot;alt&quot;:&quot;&quot;}" role="button"  title="" data-colorbox-gallery="gallery-image-152962-ZhMx2j_CPTE" class="colorbox" aria-controls="colorbox-2EfZQHKcgd8" data-cbox-img-attrs="{&quot;alt&quot;:&quot;&quot;}">
+
+
+<img id="colorbox-2EfZQHKcgd8" src="/sites/default/files/styles/wide/public/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg?itok=peMY5PAp" width="1090" height="726" loading="lazy" class="image image-style-wide" />
+
+
+</a>
+</div>
+
+</div>
+</div>
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Kolegica iz kulturne redakcije je nedavno namenila kritičen pogled <a href="https://radiostudent.si/kultura/pritiskavec/odkrivanje-novih-pogledov" target="_blank">Viewfinderju</a>, zato smo se odločili, da zajahamo širši trend in spregovorimo o igrah, ki se poigravajo s perspektivo ter jo uporabljajo ne samo v grafiki, ampak tudi kot igralno mehaniko.</p>
+</div>
+                  <div class="field field--name-field-sponsor-reference field--type-entity-reference field--label-hidden field__item"><div class="pasica pasica-40899">
+              <div class="field field--name-field-banner-inline field--type-text-long field--label-hidden field__item"><!--Vam je bilo všeč, kar ste prebrali? Če bi radi spodbudili in podprli še več takih vsebin, potem kliknite na--><!--RŠ praznuje 51 let! Če bi radi spodbujali kakovostne radijske vsebine tudi v postabrahamski dobi, potem kliknite na--><div class="doniraj-rs-container">
+<p class="doniraj-rs-text">
+Prazen radio ne stoji pokonci! Podpri RŠ in omogoči produkcijo alternativnih, kritičnih in neodvisnih vsebin.
+</p>
+<div class="doniraj-rs-gumb">
+    <a href="https://siri.radiostudent.si" target="_blank">Doniraj</a>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+      <details class="comment-section comment-section-empty" id="komentarji">
+      <summary><h3>Dodaj komentar</h3></summary>
+
+
+
+      <h3>Komentiraj</h3>
+    <form class="comment-comment-node-prispevek-form comment-form" data-drupal-selector="comment-form" action="/comment/reply/node/79980/comment_node_prispevek" method="post" id="comment-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-name js-form-item-name">
+      <label for="edit-name">Ime</label>
+        <input data-drupal-default-value="Anonymous" placeholder="Ime" data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="30" maxlength="60" class="form-text" />
+
+        </div>
+<div class="field--type-text-long field--name-comment-body field--widget-text-textarea" data-drupal-selector="edit-comment-body-wrapper" id="edit-comment-body-wrapper">      <div class="js-text-format-wrapper js-form-item form-item">
+  <div class="js-form-item form-item js-form-type-textarea form-item-comment-body-0-value js-form-item-comment-body-0-value">
+      <label for="edit-comment-body-0-value" class="js-form-required form-required">Comment</label>
+        <div>
+  <textarea class="js-text-full text-full form-textarea required" data-entity_embed-host-entity-langcode="sl" data-media-embed-host-entity-langcode="sl" data-drupal-selector="edit-comment-body-0-value" id="edit-comment-body-0-value" name="comment_body[0][value]" rows="5" cols="60" placeholder="" required="required" aria-required="true"></textarea>
+</div>
+
+        </div>
+
+  </div>
+
+  </div>
+<input data-drupal-selector="form-maakw5xgugyane0p486zvlxy1exh6mdxhk4-baaxk4c" type="hidden" name="form_build_id" value="form-mAakW5xGuGyANE0P486ZvlXy1ExH6MDxHk4-BAaXK4c" />
+<input data-drupal-selector="edit-comment-comment-node-prispevek-form" type="hidden" name="form_id" value="comment_comment_node_prispevek_form" />
+<input data-drupal-selector="edit-honeypot-time" type="hidden" name="honeypot_time" value="X1rfFZhPoT5YrlX_5Y0jbMI7fBxt8EJ2VJ8dA5MUOOQ" />
+<div data-drupal-selector="edit-actions" class="form-actions" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Oddaj" class="button button--primary js-form-submit form-submit" />
+</div>
+<div class="email-textfield" style="display: none !important;"><div class="js-form-item form-item js-form-type-textfield form-item-email js-form-item-email">
+      <label for="edit-email">Leave this field blank</label>
+        <input autocomplete="off" data-drupal-selector="edit-email" type="text" id="edit-email" name="email" value="" size="20" maxlength="128" class="form-text" />
+
+        </div>
+</div>
+
+</form>
+
+    <div class="pravila-komentiranja">
+      Z objavo komentarja potrjujete, da se strinjate s <a href="/pravila-komentiranja" target="_blank">pravili komentiranja</a>.
+    </div>
+
+</details>
+
+</article>
+
+  </div>
+<div class="views-element-container" id="block-ereshnv-views-block-uredniski-bannerji-block-1">
+
+
+    <div class="view view-uredniski-bannerji view-id-uredniski_bannerji view-display-id-block_1 js-view-dom-id-319b16282888caeb86b31577df184bf407dca9a362658bd9a12ab3b1a488c4ce">
+
+
+
+
+      <div class="views-row">  <a href="https://radiostudent.si/klubskimaraton/" target="_blank"><div>
+
+              <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">
+
+
+<img src="/sites/default/files/2024-10/km24.gif" width="408" height="340" alt="" loading="lazy" class="image" />
+
+
+</div>
+      <div class="field field--name-field-avtorstvo-slike field--type-string field--label-hidden">
+  <div>Vir: RŠ</div>
+</div>
+
+</div>
+</a></div>
+<div class="views-row">  <a href="https://radiostudent.si/avdicija2024" target="_blank"><div>
+
+              <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">
+
+
+<img src="/sites/default/files/2024-10/banneravdicija2024.gif" width="816" height="680" alt="" loading="lazy" class="image" />
+
+
+</div>
+      <div class="field field--name-field-avtorstvo-slike field--type-string field--label-hidden">
+  <div>Vir: RŠ</div>
+</div>
+
+</div>
+</a></div>
+<div class="views-row">  <a href="https://radiostudent.si/druzba/ni-se-gotovo/peticija-vladi-slovenija-mora-ukrepati-proti-genocidu" target="_blank"><div>
+
+              <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">
+
+
+<img src="/sites/default/files/2024-09/peticija-banner-novi.gif" width="814" height="676" alt="" loading="lazy" class="image" />
+
+
+</div>
+      <div class="field field--name-field-avtorstvo-slike field--type-string field--label-hidden">
+  <div>Vir: RŠ</div>
+</div>
+
+</div>
+</a></div>
+
+
+        </div>
+
+
+  </div>
+
+
+  </main>
+  <footer class="layout-footer" role="contentinfo">
+    <div class="footer">
+  <div id="block-footerlogo">
+
+
+                <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="/"><img src="/themes/custom/ereshnv/logo.svg"></a></p>
+</div>
+
+  </div>
+<nav role="navigation" aria-labelledby="block-koristnepovezave-menu" id="block-koristnepovezave">
+
+  <h2 class="visually-hidden" id="block-koristnepovezave-menu">Noga - Prvi stolpec (Koristne povezave)</h2>
+
+
+        <button class="zapri-meni"></button>
+              <ul>
+              <li>
+        <a href="/kontakti" data-drupal-link-system-path="node/100001">Kontakti</a>
+              </li>
+          <li>
+        <a href="/o-radiu-student" data-drupal-link-system-path="node/100003">O Radiu Študent</a>
+              </li>
+          <li>
+        <a href="http://www.radiostudent.si/marketing/" target="_blank">Marketing in produkcija</a>
+              </li>
+          <li>
+        <a href="http://zalozba.radiostudent.si/" target="_blank">Trgovina</a>
+              </li>
+          <li>
+        <a href="/user/login?current=/kultura/pritiskavec-gold/odvisno-kako-pogledas" data-drupal-link-system-path="user/login">Prijava</a>
+              </li>
+          <li>
+        <a href="/sites/default/files/2023-10/Izjava%20o%20varstvu%20osebnih%20podatkov%20-%20Privacy%20Policy.pdf">Izjava o varstvu podatkov</a>
+              </li>
+        </ul>
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-projektirs-menu" id="block-projektirs">
+
+  <h2 class="visually-hidden" id="block-projektirs-menu">Noga - Drugi stolpec (projekti)</h2>
+
+
+        <button class="zapri-meni"></button>
+              <ul>
+              <li>
+        <a href="https://zalozba.radiostudent.si" target="_blank">Založba Radia Študent</a>
+              </li>
+          <li>
+        <a href="http://radiostudent.si/klubskimaraton/" target="_blank">Klubski maraton</a>
+              </li>
+          <li>
+        <a href="https://tresk.si" target="_blank">Festival Tresk</a>
+              </li>
+          <li>
+        <a href="http://www.radiostudent.si/radar" target="_blank">Radar</a>
+              </li>
+          <li>
+        <a href="/projekti" data-drupal-link-system-path="projekti">Projekti RŠ</a>
+              </li>
+        </ul>
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-ereshnv-nogatretjistolpecdoniraj-menu" id="block-ereshnv-nogatretjistolpecdoniraj">
+
+  <h2 class="visually-hidden" id="block-ereshnv-nogatretjistolpecdoniraj-menu">Noga tretji stolpec (doniraj)</h2>
+
+
+        <button class="zapri-meni"></button>
+              <ul>
+              <li>
+        <a href="https://siri.radiostudent.si/" target="_blank">Doniraj</a>
+              </li>
+        </ul>
+
+
+  </nav>
+<div id="block-ereshnv-acflogo">
+
+
+                <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><img src="/sites/default/files/inline-images/Active-citizens-fund_White%404x_0.png" data-entity-uuid="790daa49-c346-44c8-a38f-99a86d669ade" data-entity-type="file" width="193" alt="Active citizens fund logo" height="1173" loading="lazy"></p>
+</div>
+
+  </div>
+<nav role="navigation" aria-labelledby="block-ereshnv-sociallinks-menu" id="block-ereshnv-sociallinks">
+
+  <h2 class="visually-hidden" id="block-ereshnv-sociallinks-menu">Social links</h2>
+
+
+                <ul class="clearfix">
+              <li>
+          <a target="_blank" href="https://obvestila.radiostudent.si/subscription/oNzBJAlbKM?locale=sl-SI">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+              <li>
+          <a target="_blank" href="https://zars.bandcamp.com/">
+            <i class="fa fa-bandcamp"></i>
+          </a>
+        </li>
+              <li>
+          <a target="_blank" href="https://www.youtube.com/user/radiostudent893">
+            <i class="fa fa-youtube"></i>
+          </a>
+        </li>
+              <li>
+          <a target="_blank" href="https://twitter.com/radiostudent">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+              <li>
+          <a target="_blank" href="https://www.facebook.com/radiostudent89.3">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+              <li>
+          <a target="_blank" href="https://www.instagram.com/radiostudent/">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+              <li>
+          <a target="_blank" href="https://vimeo.com/channels/radio">
+            <i class="fa fa-vimeo"></i>
+          </a>
+        </li>
+          </ul>
+
+
+  </nav>
+
+</div>
+
+  </footer>
+</div>
+
+
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/79980","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"sl"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"matomo":{"disableCookies":false,"trackMailto":true,"trackColorbox":true},"rs":{"gindex":{"url":"https:\/\/gindex.radiostudent.si\/latest_song"}},"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"0","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":"","extCssInclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","extHideIcons":false,"mailtoClass":"mailto","telClass":"","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","whitelistedDomains":[],"extExcludeNoreferrer":""}},"ckeditorAccordion":{"accordionStyle":{"collapseAll":null,"keepRowsOpen":null,"animateAccordionOpenAndClose":1,"openTabsWithHash":1}},"colorbox":{"transition":"fade","speed":150,"opacity":0.85,"slideshow":false,"slideshowAuto":true,"slideshowSpeed":2500,"slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} izmed {total}","previous":"\u00ab Nazaj","next":"Naprej \u00bb","close":"Zapri","overlayClose":true,"returnFocus":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"300","initialHeight":"250","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"field_group":{"html_element":{"mode":"default","context":"view","settings":{"classes":"clearfix group-prispevek-info field-group-div","id":"node_prispevek_full_group_prispevek_info","element":"div","show_label":false,"label_element":"h2","effect":"none","speed":"none","formatter":"open","description":""}}},"ajaxTrustedUrl":{"\/comment\/reply\/node\/79980\/comment_node_prispevek":true},"user":{"uid":0,"permissionsHash":"bf264a7ac94687ecf7b17e8f4cd1681fac06b1abed0cae3fd8ab5ed64808c158"}}</script>
+<script src="/sites/default/files/js/js_8Dn2f9V0XvWjk3QymrDYHDE7Eql_dgoiWl4lFjAgYso.js?scope=footer&amp;delta=0&amp;language=sl&amp;theme=ereshnv&amp;include=eJxNjlsWgyAMBTdEZUmeCMGmBsIJwdrd1z6s_boz83UzmGTx-T1O27iA4SxKN_SKTboGbK--Et7bX8Idr2X1M8sEfGlBqdqeN2Mqi4_aK_DwVRcWjGSiI4QgGkmK_9GQVIphiU6m1FvYD4yYgdhHTNDZXBAWnWTzB5ylMlA5NUquXSk9XCI21OPHx56vjV3B"></script>
+<script src="/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?skuhrc"></script>
+<script src="/sites/default/files/js/js_SKg61NTyCIkSVm5yRschWMOYaObyHs3ktUE7RTbpkNI.js?scope=footer&amp;delta=2&amp;language=sl&amp;theme=ereshnv&amp;include=eJxNjlsWgyAMBTdEZUmeCMGmBsIJwdrd1z6s_boz83UzmGTx-T1O27iA4SxKN_SKTboGbK--Et7bX8Idr2X1M8sEfGlBqdqeN2Mqi4_aK_DwVRcWjGSiI4QgGkmK_9GQVIphiU6m1FvYD4yYgdhHTNDZXBAWnWTzB5ylMlA5NUquXSk9XCI21OPHx56vjV3B"></script>
+
+  </body>
+</html>
+`
 export const testPodcastXml = `
 <?xml version="1.0" encoding="utf-8" ?> <rss version="2.0" xml:base="https://radiostudent.si/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"> <channel> <title>Pritiskavec Gold</title>
  <description>Podcast radijske vsebine z Radia Študent.</description>

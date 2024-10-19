@@ -9,7 +9,7 @@ Deno.test(function parseValuesFromPostHtmlTest() {
 
   assertEquals(
     imageUrl,
-    'https://radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg',
+    'https://indiere.radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg',
   )
 
   assertEquals(authors, [

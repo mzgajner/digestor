@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --allow-read --allow-net --unstable --watch main.ts",
+    "dev": "deno run --allow-read --allow-net --unstable-kv --watch main.ts",
     "regenerate": "deno run --allow-all regenerate.ts"
   },
   "fmt": {

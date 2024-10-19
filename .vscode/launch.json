@@ -8,7 +8,7 @@
       "request": "launch",
       "name": "Debug Digestor",
       "type": "node",
-      "program": "${workspaceFolder}/main.ts",
+      "program": "${workspaceFolder}/regenerate.ts",
       "cwd": "${workspaceFolder}",
       "runtimeExecutable": "deno",
       "runtimeArgs": [

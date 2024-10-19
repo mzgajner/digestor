@@ -1,11 +1,11 @@
 /// <reference lib="deno.unstable" />
 
-import { fetchAllEntries } from './fetch.ts'
+import fetchPodcastEntries from './fetch.ts'
 import { generateFeed } from './generate.ts'
 import { parseEntries } from './parse.ts'
 
-const { newsEntries, podcastEntries } = await fetchAllEntries()
-const entries = parseEntries(newsEntries, podcastEntries)
+const podcastEntries = await fetchPodcastEntries()
+const entries = await parseEntries(podcastEntries)
 const feed = generateFeed(entries)
 
 const encoder = new TextEncoder()

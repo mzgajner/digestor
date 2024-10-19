@@ -1,27 +1,8 @@
 import { STATUS_CODE } from 'https://deno.land/std/http/status.ts'
 
-import { fetchAllEntries } from './fetch.ts'
-import { parseEntries } from './parse.ts'
-import { generateFeed } from './generate.ts'
-import { loadEntriesFromCache, saveEntriesToCache } from './cache.ts'
-
 export const NOT_FOUND_RESPONSE = new Response(null, {
   status: STATUS_CODE.NotFound,
 })
-
-export async function _serveDynamicFeed(request: Request) {
-  let entries = await loadEntriesFromCache()
-
-  if (entries.length === 0) {
-    const { newsEntries, podcastEntries } = await fetchAllEntries()
-    entries = parseEntries(newsEntries, podcastEntries)
-    saveEntriesToCache(entries)
-  }
-
-  const feed = generateFeed(entries)
-
-  return generateResponse(feed, request, 'application/rss+xml; charset=utf-8')
-}
 
 export async function serveStaticFeed(request: Request) {
   const FEED = await Deno.readFile('./feed.rss')
