@@ -4,9 +4,9 @@
     <description><![CDATA[Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.]]></description>
     <link>https://radiostudent.si/kultura/pritiskavec-gold</link>
     <generator>mzgajner/digestor</generator>
-    <lastBuildDate>Sat, 19 Oct 2024 16:51:29 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Dec 2024 09:38:11 GMT</lastBuildDate>
     <author><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner]]></author>
-    <pubDate>Tue, 15 Oct 2024 19:00:00 GMT</pubDate>
+    <pubDate>Tue, 10 Dec 2024 20:00:00 GMT</pubDate>
     <copyright><![CDATA[Radio Študent, 2024]]></copyright>
     <language><![CDATA[sl]]></language>
     <category><![CDATA[Video Games]]></category>
@@ -24,6 +24,62 @@
       <itunes:category text="Video Games"/>
     </itunes:category>
     <itunes:image href="https://small-dragonfly-27.deno.dev/logo.jpg"/>
+    <item>
+      <title><![CDATA[Pikslasta snežinka, ki pada]]></title>
+      <description><![CDATA[<p>Brskamo po zgodovini iger, ki se dogajajo na snegu, in tarnamo, zakaj jih dandanes ni več toliko.</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ski_or_Die">Ski or Die</a></li>
+<li><a href="https://www.mediamond.fi/">Deluxe Ski Jump</a></li>
+<li><a href="https://en.wikipedia.org/wiki/The_Games:_Winter_Challenge">The Games: Winter Challenge</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Supreme_Snowboarding">Supreme Snowboarding</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SSX">SSX</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Riders_Republic">Riders Republic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tux_Racer">Tux Racer</a></li>
+</ul>
+]]></description>
+      <link>https://radiostudent.si/kultura/pritiskavec-gold/pikslasta-snezinka-ki-pada</link>
+      <guid isPermaLink="false">103127</guid>
+      <dc:creator><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner]]></dc:creator>
+      <pubDate>Tue, 10 Dec 2024 20:00:00 GMT</pubDate>
+      <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2024-12-10-pritiskavec-gold-pikslasta-snezinka-ki-pada.mp3" length="144651493" type="audio/mpeg"/>
+      <dc:description>&lt;p&gt;Brskamo po zgodovini iger, ki se dogajajo na snegu, in tarnamo, zakaj jih dandanes ni več toliko.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ski_or_Die&quot;&gt;Ski or Die&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.mediamond.fi/&quot;&gt;Deluxe Ski Jump&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/The_Games:_Winter_Challenge&quot;&gt;The Games: Winter Challenge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Supreme_Snowboarding&quot;&gt;Supreme Snowboarding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/SSX&quot;&gt;SSX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Riders_Republic&quot;&gt;Riders Republic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Tux_Racer&quot;&gt;Tux Racer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</dc:description>
+      <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
+      <itunes:subtitle>Je globalno segrevanje poleg snega odneslo tudi zimske igre?</itunes:subtitle>
+      <itunes:summary>Je globalno segrevanje poleg snega odneslo tudi zimske igre?</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>01:00:16</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/2024-12/winter.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[ONE BTN BOSSES]]></title>
+      <description><![CDATA[<p>V studiu se nam bo pridružil Brin Žvan, programer iz ekipe Midnight Munchies, ki je nedavno obelodanila svoj prvi projekt <a href="https://store.steampowered.com/app/1910600/ONE_BTN_BOSSES/">ONE BTN BOSSES</a>.</p>
+<p>Spraševali ga bomo (kakopak) o igri, pa tudi o poklicu, delovnih procesih, kreativnosti, financah in vsem ostalem. Skratka, zanima nas, kako je, ko se ti uresniči otroška želja, da bi delal igre, ko boš velik.</p>
+]]></description>
+      <link>https://radiostudent.si/kultura/pritiskavec-gold/one-btn-bosses</link>
+      <guid isPermaLink="false">102638</guid>
+      <dc:creator><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner]]></dc:creator>
+      <pubDate>Tue, 12 Nov 2024 20:00:00 GMT</pubDate>
+      <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2024-11-12-pritiskavec-gold-one-btn-bosses_0.mp3" length="141758170" type="audio/mpeg"/>
+      <dc:description>&lt;p&gt;V studiu se nam bo pridružil Brin Žvan, programer iz ekipe Midnight Munchies, ki je nedavno obelodanila svoj prvi projekt &lt;a href=&quot;https://store.steampowered.com/app/1910600/ONE_BTN_BOSSES/&quot;&gt;ONE BTN BOSSES&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Spraševali ga bomo (kakopak) o igri, pa tudi o poklicu, delovnih procesih, kreativnosti, financah in vsem ostalem. Skratka, zanima nas, kako je, ko se ti uresniči otroška želja, da bi delal igre, ko boš velik.&lt;/p&gt;
+</dc:description>
+      <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
+      <itunes:subtitle>Pogovor z razvijalcem nedavno izdanega naslova</itunes:subtitle>
+      <itunes:summary>Pogovor z razvijalcem nedavno izdanega naslova</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:59:04</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/2024-11/ss_c56f703765682f2d475546c1d7d370e9097c9d5c.jpg"/>
+    </item>
     <item>
       <title><![CDATA[Naše malo misto]]></title>
       <description><![CDATA[<p>V nocojšnji epizodi bo debata tekla o dveh zelo aktualnih city builderjih – <em>Manor Lords</em> ter <em>Workers &amp; Resources.</em> Dotaknili se bomo tudi širše tematike tega podžanra strateških iger ter navrgli nekaj zgodovinskih primerkov, ki so se nam najbolj vtisnili v spomin.</p>
@@ -80,7 +136,7 @@
       <itunes:summary>Kako težko je iz dobre komedije narediti igro</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:38:44</itunes:duration>
-      <itunes:image href="https://naliniji.radiostudent.si/sites/default/files/2024-08/pexels-marcus-aurelius-6787978.jpg"/>
+      <itunes:image href="https://radiostudent.si/sites/default/files/2024-08/pexels-marcus-aurelius-6787978.jpg"/>
     </item>
     <item>
       <title><![CDATA[Had]]></title>
@@ -440,7 +496,7 @@
       <itunes:summary>O računalniških igrah, ki uporabljajo perspektivo kot mehaniko.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:20</itunes:duration>
-      <itunes:image href="https://indiere.radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg"/>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-09-19-odvisno-kako-pogledas-152962.jpg"/>
     </item>
     <item>
       <title><![CDATA[Krompirji in vampirji]]></title>
@@ -498,7 +554,7 @@
       <itunes:summary>O nedavno izdanem System Shock rimejku</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:26</itunes:duration>
-      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2023-06-27-ai-in-etika-150778.png"/>
+      <itunes:image href="https://indiere.radiostudent.si/sites/default/files/slike/2023-06-27-ai-in-etika-150778.png"/>
     </item>
     <item>
       <title><![CDATA[Prije jutra ribari se bude]]></title>
@@ -664,7 +720,7 @@
       <itunes:summary>Lovimo morilce v Pentiment in The Case of the Golden Idol</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:22</itunes:duration>
-      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2022-12-13-umori-na-podezelju-144226.jpg"/>
+      <itunes:image href="https://naliniji.radiostudent.si/sites/default/files/slike/2022-12-13-umori-na-podezelju-144226.jpg"/>
     </item>
     <item>
       <title><![CDATA[Zapuščina Tončka Sokolovega]]></title>
@@ -1722,7 +1778,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Od Wolfensteina (1992) do Half Life: Alyx (2020)</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>01:01:08</itunes:duration>
-      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2019-12-03-kratka-zgodovina-3d-streljanja-106926.jpg"/>
+      <itunes:image href="https://pg.radiostudent.si/sites/default/files/slike/2019-12-03-kratka-zgodovina-3d-streljanja-106926.jpg"/>
     </item>
     <item>
       <title><![CDATA[Nekakovostna spolnost]]></title>
@@ -2114,7 +2170,7 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <itunes:summary>Prvi maj obeležujemo v duhu iger-šihtov</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:57:40</itunes:duration>
-      <itunes:image href="https://naliniji.radiostudent.si/sites/default/files/slike/2018-05-01-delovne-igre-86359.jpg"/>
+      <itunes:image href="https://radiostudent.si/sites/default/files/slike/2018-05-01-delovne-igre-86359.jpg"/>
     </item>
     <item>
       <title><![CDATA[Mobilne igre]]></title>
