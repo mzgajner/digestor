@@ -5,7 +5,9 @@ import { convertBytesToSeconds, getLastName } from './utils.ts'
 import type { PodcastFeedEntry } from './fetch.ts'
 
 export async function parseEntries(podcastEntries: PodcastFeedEntry[]) {
-  const transformedEntries = podcastEntries.map(transformEntry)
+  const transformedEntries = podcastEntries
+    .filter((entry) => Boolean(entry.attachments?.[0]?.url))
+    .map(transformEntry)
   const entries = (await Promise.all(transformedEntries))
     .sort((a, b) => b.date?.getTime() - a.date?.getTime())
 
