@@ -4,9 +4,9 @@
     <description><![CDATA[Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.]]></description>
     <link>https://radiostudent.si/kultura/pritiskavec-gold</link>
     <generator>mzgajner/digestor</generator>
-    <lastBuildDate>Tue, 18 Feb 2025 08:38:33 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Apr 2025 07:53:13 GMT</lastBuildDate>
     <author><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner]]></author>
-    <pubDate>Tue, 11 Feb 2025 19:00:00 GMT</pubDate>
+    <pubDate>Tue, 08 Apr 2025 18:00:00 GMT</pubDate>
     <copyright><![CDATA[Radio Študent, 2024]]></copyright>
     <language><![CDATA[sl]]></language>
     <category><![CDATA[Video Games]]></category>
@@ -24,6 +24,42 @@
       <itunes:category text="Video Games"/>
     </itunes:category>
     <itunes:image href="https://small-dragonfly-27.deno.dev/logo.jpg"/>
+    <item>
+      <title><![CDATA[Pubi, usidma se]]></title>
+      <description><![CDATA[<p>V vlogi nedolžnih zunanjih opazovalcev smo na glavo skočili v svet tovarniških simulacij in se zate, poslušalka, prostovoljno soočili z odvisnostjo. Na jedilniku bodo Factorio, Shapez, Satisfactory in Dyson Sphere Program.</p>
+<p>Povezave do omenjenih vsebin:</p>
+<ul>
+<li><a href="https://factorio.com/">Factorio</a></li>
+<li><a href="https://www.satisfactorygame.com/">Satisfactory</a></li>
+<li><a href="https://store.steampowered.com/app/1366540/Dyson_Sphere_Program/">Dyson Sphere Program</a></li>
+<li><a href="https://shapez2.com/">Shapez 2</a></li>
+<li><a href="https://factorioprints.com/">Factorio Prints - spletna baza blueprintov</a></li>
+<li><a href="https://shapez.io/">Demo Shapez 1 v brskalniku</a></li>
+</ul>
+]]></description>
+      <link>https://radiostudent.si/kultura/pritiskavec-gold/pubi-usidma-se</link>
+      <guid isPermaLink="false">104865</guid>
+      <dc:creator><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavković, Lea Sande in Mato Žgajner]]></dc:creator>
+      <pubDate>Tue, 08 Apr 2025 18:00:00 GMT</pubDate>
+      <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-04-08-pritiskavec-gold-pubi-usidma-se.mp3" length="139750921" type="audio/mpeg"/>
+      <dc:description>&lt;p&gt;V vlogi nedolžnih zunanjih opazovalcev smo na glavo skočili v svet tovarniških simulacij in se zate, poslušalka, prostovoljno soočili z odvisnostjo. Na jedilniku bodo Factorio, Shapez, Satisfactory in Dyson Sphere Program.&lt;/p&gt;
+&lt;p&gt;Povezave do omenjenih vsebin:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://factorio.com/&quot;&gt;Factorio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.satisfactorygame.com/&quot;&gt;Satisfactory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/1366540/Dyson_Sphere_Program/&quot;&gt;Dyson Sphere Program&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://shapez2.com/&quot;&gt;Shapez 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://factorioprints.com/&quot;&gt;Factorio Prints - spletna baza blueprintov&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://shapez.io/&quot;&gt;Demo Shapez 1 v brskalniku&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</dc:description>
+      <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković, Lea Sande in Mato Žgajner</itunes:author>
+      <itunes:subtitle>Pogled v obsesivni žanr tovarniških iger</itunes:subtitle>
+      <itunes:summary>Pogled v obsesivni žanr tovarniških iger</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:58:14</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/2025-04/factorio.jpg"/>
+    </item>
     <item>
       <title><![CDATA[Vzemi šraufe, če greš ven!]]></title>
       <description><![CDATA[<p>Spakirali smo salame in kruh v že tako prenaložen nahrbtnik in se podali v sumljive cone okrog Černobila. Ja, uganili ste, igramo <em>S.T.A.L.K.E.R. 2: Heart of Chornobyl</em>.</p>
