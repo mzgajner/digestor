@@ -4,9 +4,9 @@
     <description><![CDATA[Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.]]></description>
     <link>https://radiostudent.si/kultura/pritiskavec-gold</link>
     <generator>mzgajner/digestor</generator>
-    <lastBuildDate>Sun, 26 Oct 2025 10:12:46 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 13:59:30 GMT</lastBuildDate>
     <author><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner]]></author>
-    <pubDate>Tue, 14 Oct 2025 18:00:00 GMT</pubDate>
+    <pubDate>Tue, 09 Dec 2025 19:00:00 GMT</pubDate>
     <copyright><![CDATA[Radio Študent, 2024]]></copyright>
     <language><![CDATA[sl]]></language>
     <category><![CDATA[Video Games]]></category>
@@ -25,6 +25,22 @@
     </itunes:category>
     <itunes:image href="https://small-dragonfly-27.deno.dev/logo.jpg"/>
     <item>
+      <title><![CDATA[A me cukaš za pimpeka?!]]></title>
+      <description><![CDATA[<p>Kingdom Come: Deliverance 2, znan tudi kot Henry Simulator, je srednjeveški RPG epskih razsežnosti. Witcher 3, posodobljen za 2025. Verjetno najbolj obetaven kandidat za igro leta.</p><p>Za nekaj tednov smo opustili družabno življenje in ga preigrali do obisti, da vam lahko razložimo, v čem je štos.</p><p>&nbsp;</p><p>*Op. p.: Vulgarni naslov prispevka je poskus prevoda v igri pogosto uporabljene besedne zveze <em>Are you yanking my pizzle?</em></p>]]></description>
+      <link>https://radiostudent.si/kultura/pritiskavec-gold/a-me-cukas-za-pimpeka</link>
+      <guid isPermaLink="false">108107</guid>
+      <dc:creator><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner]]></dc:creator>
+      <pubDate>Tue, 09 Dec 2025 19:00:00 GMT</pubDate>
+      <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-12-09-pritiskavec-gold-a-me-cukas-za-pimpeka.mp3" length="144975411" type="audio/mpeg"/>
+      <dc:description>&lt;p&gt;Kingdom Come: Deliverance 2, znan tudi kot Henry Simulator, je srednjeveški RPG epskih razsežnosti. Witcher 3, posodobljen za 2025. Verjetno najbolj obetaven kandidat za igro leta.&lt;/p&gt;&lt;p&gt;Za nekaj tednov smo opustili družabno življenje in ga preigrali do obisti, da vam lahko razložimo, v čem je štos.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;*Op. p.: Vulgarni naslov prispevka je poskus prevoda v igri pogosto uporabljene besedne zveze &lt;em&gt;Are you yanking my pizzle?&lt;/em&gt;&lt;/p&gt;</dc:description>
+      <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
+      <itunes:subtitle>Kingdom Come: Deliverance 2</itunes:subtitle>
+      <itunes:summary>Kingdom Come: Deliverance 2</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>01:00:24</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/2025-12/kcd2.jpg"/>
+    </item>
+    <item>
       <title><![CDATA[V 30 dneh okrog enega studia]]></title>
       <description><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Inkle_(company)">Inkle</a> je majhen studio iz Cambridgea v Angliji, verjetno najbolj znan po eni od svojih zgodnejših iger 80 days.</p><p>Povezave do v oddaji omenjenih vsebin:</p><ul><li><a href="https://archive.is/20251017202608/https://www.zeit.de/2025/43/baschar-al-assad-moskau-russland-syrien-familie-wladimir-putin">Bašar al Asad v Moskvi gejma</a></li><li><a href="https://www.bbc.com/news/articles/cn4w3jzx807o">Jared Kushner z arabskim investicijskim skladom kupuje EA</a></li><li><a href="https://www.inklestudios.com/80days/">80 days</a></li><li><a href="https://www.inklestudios.com/heavensvault/">Heaven's Vault</a></li><li><a href="https://www.inklestudios.com/a-highland-song/">A Highland Song</a></li><li><a href="https://www.inklestudios.com/overboard/">Overboard!</a> in <a href="https://www.inklestudios.com/expelled/">Expelled!</a></li></ul>]]></description>
       <link>https://radiostudent.si/kultura/pritiskavec-gold/v-30-dneh-okrog-enega-studia</link>
@@ -38,7 +54,7 @@
       <itunes:summary>Preigravamo opus studia Inkle</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:39</itunes:duration>
-      <itunes:image href="https://maggie.radiostudent.si/sites/default/files/2025-10/80days.jpg"/>
+      <itunes:image href="https://embed.radiostudent.si/sites/default/files/2025-10/80days.jpg"/>
     </item>
     <item>
       <title><![CDATA[Matranje iz principa]]></title>
@@ -71,6 +87,22 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:59:26</itunes:duration>
       <itunes:image href="https://radiostudent.si/sites/default/files/2025-08/expedition.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[Qudjanske jame]]></title>
+      <description><![CDATA[<p>Spet pogledujemo v smeri <a href="https://www.roguebasin.com/index.php/Berlin_Interpretation">roguelikeov</a> - grobih, neodvisnih, delno tekstovnih. Predvsem na račun pred dobre pol leta končno uradno sfiniširane Caves of Qud.&nbsp;</p><p>V oddaji omenjene igre:</p><ul><li><a href="https://www.cavesofqud.com/">Caves of Qud</a></li><li><a href="https://store.steampowered.com/app/2058570/Rift_Wizard_2/">Rift Wizard 2</a></li><li><a href="https://pathofachra.com/">Path of Achra</a></li><li><a href="https://en.wikipedia.org/wiki/Cataclysm:_Dark_Days_Ahead">Cataclysm: Dark Days Ahead</a></li></ul>]]></description>
+      <link>https://radiostudent.si/kultura/pritiskavec-gold/qudjanske-jame</link>
+      <guid isPermaLink="false">107477</guid>
+      <dc:creator><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner]]></dc:creator>
+      <pubDate>Tue, 08 Jul 2025 18:00:00 GMT</pubDate>
+      <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-07-08-pritiskavec-gold-qudjanske-jame.mp3" length="146676505" type="audio/mpeg"/>
+      <dc:description>&lt;p&gt;Spet pogledujemo v smeri &lt;a href=&quot;https://www.roguebasin.com/index.php/Berlin_Interpretation&quot;&gt;roguelikeov&lt;/a&gt; - grobih, neodvisnih, delno tekstovnih. Predvsem na račun pred dobre pol leta končno uradno sfiniširane Caves of Qud.&amp;nbsp;&lt;/p&gt;&lt;p&gt;V oddaji omenjene igre:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.cavesofqud.com/&quot;&gt;Caves of Qud&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/2058570/Rift_Wizard_2/&quot;&gt;Rift Wizard 2&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://pathofachra.com/&quot;&gt;Path of Achra&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cataclysm:_Dark_Days_Ahead&quot;&gt;Cataclysm: Dark Days Ahead&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
+      <itunes:subtitle>Spet malo roguelikeov</itunes:subtitle>
+      <itunes:summary>Spet malo roguelikeov</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>01:01:07</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/2025-10/caves-of-qud.png"/>
     </item>
     <item>
       <title><![CDATA[Dva bunkeljna gresta na Bradavičarko]]></title>
