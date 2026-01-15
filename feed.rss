@@ -4,9 +4,9 @@
     <description><![CDATA[Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.]]></description>
     <link>https://radiostudent.si/kultura/pritiskavec-gold</link>
     <generator>mzgajner/digestor</generator>
-    <lastBuildDate>Mon, 15 Dec 2025 13:59:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 14:33:02 GMT</lastBuildDate>
     <author><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner]]></author>
-    <pubDate>Tue, 09 Dec 2025 19:00:00 GMT</pubDate>
+    <pubDate>Tue, 13 Jan 2026 19:00:00 GMT</pubDate>
     <copyright><![CDATA[Radio Študent, 2024]]></copyright>
     <language><![CDATA[sl]]></language>
     <category><![CDATA[Video Games]]></category>
@@ -24,6 +24,22 @@
       <itunes:category text="Video Games"/>
     </itunes:category>
     <itunes:image href="https://small-dragonfly-27.deno.dev/logo.jpg"/>
+    <item>
+      <title><![CDATA[Še malo levo, okej, stop!]]></title>
+      <description><![CDATA[<p>Leitmotif tokratne oddaje bo roadtrip, v 2025 sta namreč izšli dve zelo različni igri na to temo: potezni RPG Keep Driving in kooperativna preživetvena simulacija avtodoma RV There Yet.</p><p>Vsi štirje člani ekipe Pritiskavca smo se prvič v zgodovini oddaje zbrali v online seansah, kjer smo dve zimski nedelji zapored kadili virtualne čike, pili virtualne pire in počasi navigirali star avtodom skozi neprijazno severnoameriško divjino.</p><p>Povezave do v oddaji omenjenih reči:</p><ul><li><a href="https://store.steampowered.com/app/2756920/Keep_Driving/" data-entity-type="external">Keep Driving</a></li><li><a href="https://store.steampowered.com/app/3949040/RV_There_Yet/" data-entity-type="external">RV There Yet?</a></li></ul>]]></description>
+      <link>https://radiostudent.si/kultura/pritiskavec-gold/se-malo-levo-okej-stop</link>
+      <guid isPermaLink="false">108575</guid>
+      <dc:creator><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner]]></dc:creator>
+      <pubDate>Tue, 13 Jan 2026 19:00:00 GMT</pubDate>
+      <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2026-01-13-pritiskavec-gold-se-malo-levo-okej-stop.mp3" length="140633860" type="audio/mpeg"/>
+      <dc:description>&lt;p&gt;Leitmotif tokratne oddaje bo roadtrip, v 2025 sta namreč izšli dve zelo različni igri na to temo: potezni RPG Keep Driving in kooperativna preživetvena simulacija avtodoma RV There Yet.&lt;/p&gt;&lt;p&gt;Vsi štirje člani ekipe Pritiskavca smo se prvič v zgodovini oddaje zbrali v online seansah, kjer smo dve zimski nedelji zapored kadili virtualne čike, pili virtualne pire in počasi navigirali star avtodom skozi neprijazno severnoameriško divjino.&lt;/p&gt;&lt;p&gt;Povezave do v oddaji omenjenih reči:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/2756920/Keep_Driving/&quot; data-entity-type=&quot;external&quot;&gt;Keep Driving&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/3949040/RV_There_Yet/&quot; data-entity-type=&quot;external&quot;&gt;RV There Yet?&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
+      <itunes:subtitle>RV There Yet in Keep Driving</itunes:subtitle>
+      <itunes:summary>RV There Yet in Keep Driving</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:58:36</itunes:duration>
+      <itunes:image href="https://radiostudent.si/sites/default/files/2026-01/rvthereyet.jpg"/>
+    </item>
     <item>
       <title><![CDATA[A me cukaš za pimpeka?!]]></title>
       <description><![CDATA[<p>Kingdom Come: Deliverance 2, znan tudi kot Henry Simulator, je srednjeveški RPG epskih razsežnosti. Witcher 3, posodobljen za 2025. Verjetno najbolj obetaven kandidat za igro leta.</p><p>Za nekaj tednov smo opustili družabno življenje in ga preigrali do obisti, da vam lahko razložimo, v čem je štos.</p><p>&nbsp;</p><p>*Op. p.: Vulgarni naslov prispevka je poskus prevoda v igri pogosto uporabljene besedne zveze <em>Are you yanking my pizzle?</em></p>]]></description>
