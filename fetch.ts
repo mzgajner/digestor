@@ -1,21 +1,13 @@
-import { load } from 'https://deno.land/std/dotenv/mod.ts'
-import { parseFeed } from 'https://deno.land/x/rss/mod.ts'
-import { type FeedEntry } from 'https://deno.land/x/rss/src/types/feed.ts'
+import { DOMParser } from 'https://deno.land/x/deno_dom/deno-dom-wasm.ts'
 
-import { testPodcastXml } from './test-xml.ts'
-
-export type PodcastFeedEntry = FeedEntry & {
-  'itunes:summary': { value: string }
-}
-
-const env = await load()
-
-const PODCAST_FEED_URL =
-  'https://radiostudent.si/kultura/pritiskavec-gold/podcast'
+const BASE_URL = 'https://radiostudent.si'
+const SECTION_PATH = '/kultura/pritiskavec-gold'
+const SECTION_URL = `${BASE_URL}${SECTION_PATH}`
 
 // Spotify complained these contain copyrighted material, so we're excluding
-// them from the feed to avoid any issues.
-const SPOTIFY_BLACKLIST = [
+// them from the feed to avoid any issues. Matched against episode titles in
+// parse.ts.
+export const SPOTIFY_BLACKLIST = [
   'Skupaj je lažje',
   'Mrknil je Telltale',
   'Portal',
@@ -24,35 +16,48 @@ const SPOTIFY_BLACKLIST = [
   'Slišati igro',
 ]
 
-export default async function fetchPodcastEntries() {
-  // Don't actually fetch, just return test data if in development
-  if (env['ENVIRONMENT'] === 'development') {
-    const feed = await parseFeed(testPodcastXml)
-    return feed.entries as PodcastFeedEntry[]
+// Walks the paginated section listing and returns the absolute URL of every
+// episode, newest first. The RSS feed only ever returns the latest 40 items
+// (its `?page=` parameter is ignored), but the HTML listing paginates all the
+// way back to the very first episode, so we scrape that instead.
+export default async function fetchEpisodeUrls() {
+  const urls: string[] = []
+  const seen = new Set<string>()
+  let page = 0
+
+  while (true) {
+    const pageUrls = await fetchEpisodeUrlsForPage(page)
+    const newUrls = pageUrls.filter((url) => !seen.has(url))
+
+    // No new episodes means we've reached the end (or pagination broke), so
+    // we stop instead of looping forever.
+    if (newUrls.length === 0) break
+
+    newUrls.forEach((url) => {
+      seen.add(url)
+      urls.push(url)
+    })
+    page++
   }
 
-  const entries: PodcastFeedEntry[] = []
-  let keepFetching = true
-  let currentPage = 0
-
-  while (keepFetching) {
-    const feed = await getFeedFromUrl(`${PODCAST_FEED_URL}?page=${currentPage}`)
-    entries.push(...feed.entries as PodcastFeedEntry[])
-
-    const entriesInLastRequest = feed.entries.length
-    keepFetching = entriesInLastRequest > 0
-    currentPage++
-  }
-
-  return entries.filter((entry) =>
-    !SPOTIFY_BLACKLIST.includes(entry.title?.value ?? '')
-  )
+  return urls
 }
 
-async function getFeedFromUrl(url: string) {
-  const response = await fetch(url)
-  const xml = await response.text()
-  const feed = await parseFeed(xml)
+async function fetchEpisodeUrlsForPage(page: number) {
+  const response = await fetch(`${SECTION_URL}?page=${page}`)
+  const html = await response.text()
+  const document = new DOMParser().parseFromString(html, 'text/html')!
 
-  return feed
+  const paths = [...document.querySelectorAll('a[href]')]
+    .map((anchor) => anchor.getAttribute('href') ?? '')
+    .filter(isEpisodePath)
+
+  return [...new Set(paths)].map((path) => `${BASE_URL}${path}`)
+}
+
+// Matches an episode path (/kultura/pritiskavec-gold/<slug>) while excluding
+// the section root, the /podcast feed and any deeper paths.
+function isEpisodePath(href: string) {
+  const match = href.match(/^\/kultura\/pritiskavec-gold\/([a-z0-9-]+)$/)
+  return Boolean(match) && match![1] !== 'podcast'
 }
