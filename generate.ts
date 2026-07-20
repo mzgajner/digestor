@@ -40,6 +40,7 @@ export function generateFeed(entries: ParsedEntry[]) {
           },
         },
       },
+      { 'itunes:new-feed-url': 'https://pritiskavec.z0.si/podcast/feed.xml' },
       { 'podcast:locked': 'no' },
       {
         'podcast:funding': [

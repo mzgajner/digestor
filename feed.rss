@@ -11,6 +11,7 @@
     <language><![CDATA[sl]]></language>
     <category><![CDATA[Video Games]]></category>
     <atom:link rel="self" href="https://pritiskavec.z0.si/podcast/feed.xml"/>
+    <itunes:new-feed-url>https://pritiskavec.z0.si/podcast/feed.xml</itunes:new-feed-url>
     <podcast:locked>no</podcast:locked>
     <podcast:funding url="https://siri.radiostudent.si/">Podpri Radio Študent</podcast:funding>
     <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner</itunes:author>
