@@ -10,6 +10,10 @@ const BASE_URL = 'https://radiostudent.si'
 // rate limited).
 const CONCURRENCY = 8
 
+// The source occasionally returns an incomplete page (a 200 that's missing
+// the audio/date fields), so we retry a few times before giving up.
+const MAX_ATTEMPTS = 3
+
 export type ParsedEntry = {
   imageUrl: string
   authors: string[]
@@ -23,61 +27,89 @@ export type ParsedEntry = {
   title: string
 }
 
-export async function parseEntries(episodeUrls: string[]) {
-  const transformed = await mapWithConcurrency(
+type ParseOptions = {
+  // Entries already present in the feed, keyed by episode URL.
+  existing?: Map<string, ParsedEntry>
+  // Re-fetch every episode instead of reusing the ones we already have.
+  full?: boolean
+}
+
+export async function parseEntries(
+  episodeUrls: string[],
+  { existing = new Map(), full = false }: ParseOptions = {},
+) {
+  const resolved = await mapWithConcurrency(
     episodeUrls,
     CONCURRENCY,
-    transformEntry,
+    async (url) => {
+      // In incremental mode we reuse whatever we already have without hitting
+      // the network at all.
+      if (!full && existing.has(url)) return existing.get(url)!
+
+      // Otherwise fetch it fresh, but fall back to the existing entry (if any)
+      // so a flaky fetch never drops an episode we already had.
+      return (await transformEntry(url)) ?? existing.get(url) ?? null
+    },
   )
 
-  return transformed
-    .filter((entry): entry is ParsedEntry => entry !== null)
+  const byUrl = new Map<string, ParsedEntry>()
+  for (const entry of resolved) if (entry) byUrl.set(entry.url, entry)
+  // Keep any existing episodes that fell off the listing entirely.
+  for (const [url, entry] of existing) if (!byUrl.has(url)) byUrl.set(url, entry)
+
+  return [...byUrl.values()]
     .filter((entry) => !SPOTIFY_BLACKLIST.includes(entry.title))
     .sort((a, b) => b.date.getTime() - a.date.getTime())
 }
 
 async function transformEntry(url: string): Promise<ParsedEntry | null> {
-  try {
-    const postHtml = await fetchHtml(url)
-    const {
-      imageUrl,
-      authors,
-      description,
-      subtitle,
-      date,
-      mp3Path,
-      duration,
-      guid,
-      title,
-    } = parseValuesFromPostHtml(postHtml)
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    try {
+      const postHtml = await fetchHtml(url)
+      const {
+        imageUrl,
+        authors,
+        description,
+        subtitle,
+        date,
+        mp3Path,
+        duration,
+        guid,
+        title,
+      } = parseValuesFromPostHtml(postHtml)
 
-    // Episodes that can't be fully resolved (missing audio or date) are
-    // skipped rather than breaking the whole run.
-    if (!mp3Path || !date) return null
+      // A page missing its audio or date is treated as a transient failure
+      // and retried rather than silently dropping the episode.
+      if (!mp3Path || !date) throw new Error('missing audio or date')
 
-    const enclosureUrl = `${BASE_URL}${mp3Path}`
-    const contentLength = await fetchContentLength(enclosureUrl)
+      const enclosureUrl = `${BASE_URL}${mp3Path}`
+      const contentLength = await fetchContentLength(enclosureUrl)
 
-    return {
-      imageUrl,
-      authors,
-      description,
-      subtitle,
-      date,
-      enclosure: {
-        url: enclosureUrl,
-        size: contentLength,
-      },
-      duration: duration ?? convertBytesToSeconds(contentLength),
-      url,
-      guid,
-      title,
+      return {
+        imageUrl,
+        authors,
+        description,
+        subtitle,
+        date,
+        enclosure: {
+          url: enclosureUrl,
+          size: contentLength,
+        },
+        duration: duration ?? convertBytesToSeconds(contentLength),
+        url,
+        guid,
+        title,
+      }
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error)
+      if (attempt === MAX_ATTEMPTS) {
+        console.warn(`Giving up on ${url}: ${message}`)
+        return null
+      }
     }
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error)
-    console.warn(`Skipping ${url}: ${message}`)
-    return null
   }
+
+  return null
 }
 
 async function fetchHtml(url: string) {
