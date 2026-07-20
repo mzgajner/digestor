@@ -1,10 +1,11 @@
 /// <reference lib="deno.unstable" />
 
-import { load } from 'https://deno.land/std/dotenv/mod.ts'
 import { serve404, serveLanding, serveLogo, serveStaticFeed } from './serve.ts'
 
-const env = await load()
-const port = Number(env['PORT']) ?? 80
+// Dokku (and most PaaS) inject configuration as real environment variables and
+// set PORT to the port the app must listen on, so we read straight from the
+// process env. Locally `deno task dev` can still export PORT via a .env file.
+const port = Number(Deno.env.get('PORT')) || 8080
 
 async function handleRoute(request: Request): Promise<Response> {
   const url = new URL(request.url)

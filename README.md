@@ -21,6 +21,27 @@ deno test
 deno fmt
 ```
 
-Automatically deployed to
-[small-dragonfly-27.deno.dev](https://small-dragonfly-27.deno.dev/) with Deno
-Deploy.
+## Deployment
+
+Deployed to [pritiskavec.z0.si](https://pritiskavec.z0.si/) on Dokku via the
+included `Dockerfile`. Dokku detects the Dockerfile, maps public port 80 to the
+container's exposed 8080, and the app reads `$PORT` from the environment.
+
+First-time setup on the Dokku host:
+
+```bash
+dokku apps:create digestor
+dokku domains:set digestor pritiskavec.z0.si
+# optional: dokku letsencrypt:enable digestor
+```
+
+Then, from a local clone, add the remote and push:
+
+```bash
+git remote add dokku dokku@<your-dokku-host>:digestor
+git push dokku main
+```
+
+The `feed.rss` is committed and served as a static file. To refresh it with new
+episodes, run `deno task regenerate` locally and commit the result before
+pushing.

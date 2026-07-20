@@ -1,0 +1,10 @@
+.git
+.gitignore
+.env
+.vscode
+.cursor
+cov_profile
+example.html
+test-xml.ts
+*_test.ts
+README.md

@@ -10,7 +10,7 @@
     <copyright><![CDATA[Radio Študent, 2024]]></copyright>
     <language><![CDATA[sl]]></language>
     <category><![CDATA[Video Games]]></category>
-    <atom:link rel="self" href="https://small-dragonfly-27.deno.dev/podcast/feed.xml"/>
+    <atom:link rel="self" href="https://pritiskavec.z0.si/podcast/feed.xml"/>
     <podcast:locked>no</podcast:locked>
     <podcast:funding url="https://siri.radiostudent.si/">Podpri Radio Študent</podcast:funding>
     <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner</itunes:author>
@@ -23,7 +23,7 @@
     <itunes:category text="Leisure">
       <itunes:category text="Video Games"/>
     </itunes:category>
-    <itunes:image href="https://small-dragonfly-27.deno.dev/logo.jpg"/>
+    <itunes:image href="https://pritiskavec.z0.si/logo.jpg"/>
     <item>
       <title><![CDATA[3D platformamo, kot da je 1999]]></title>
       <description><![CDATA[<p>3D platformščine so svojo slavo doživele konec devetdesetih in v začetku novega tisočletja, nakar so se umaknile na obrobje. Kot številne druge žanre, ki ustrezajo temu opisu, jih danes v valu nostalgije oživljajo predvsem neodvisni studii. Pritiskavce smo tokrat pritiskali v <em>Big Hops</em> in <em>Demon Tides</em>.</p><p>V oddaji omenjene reči:</p><ul><li><a href="https://en.wikipedia.org/wiki/Super_Mario_64">Super Mario 64</a></li><li><a href="https://store.steampowered.com/app/1221480/Big_Hops/">Big Hops</a></li><li><a href="https://store.steampowered.com/app/2585890/Demon_Tides/">Demon Tides</a></li><li><a href="https://en.wikipedia.org/wiki/Super_Meat_Boy_3D">Super Meat Boy 3D</a></li></ul>]]></description>
