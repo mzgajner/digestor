@@ -1,2 +1,6 @@
 .env
 example.html
+.cache/
+transcription/sidecar/.venv/
+transcription/sidecar/__pycache__/
+transcripts/*.tmp

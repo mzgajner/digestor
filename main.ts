@@ -1,6 +1,13 @@
 /// <reference lib="deno.unstable" />
 
-import { serve404, serveLanding, serveLogo, serveStaticFeed } from './serve.ts'
+import {
+  matchTranscriptRoute,
+  serve404,
+  serveLanding,
+  serveLogo,
+  serveStaticFeed,
+  serveTranscript,
+} from './serve.ts'
 
 // Dokku (and most PaaS) inject configuration as real environment variables and
 // set PORT to the port the app must listen on, so we read straight from the
@@ -20,6 +27,11 @@ async function handleRoute(request: Request): Promise<Response> {
 
   if (redirectBaseUrl) {
     return Response.redirect(new URL(url.pathname, redirectBaseUrl), 301)
+  }
+
+  const transcript = matchTranscriptRoute(url.pathname)
+  if (transcript) {
+    return await serveTranscript(request, transcript.guid, transcript.format)
   }
 
   switch (url.pathname) {

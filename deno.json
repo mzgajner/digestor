@@ -2,8 +2,11 @@
   "tasks": {
     "dev": "deno run --allow-read --allow-net --allow-env --env-file --unstable-kv --watch main.ts",
     "start": "deno run --allow-read --allow-net --allow-env main.ts",
-    "regenerate": "deno run --allow-all regenerate.ts"
+    "regenerate": "deno run --allow-all regenerate.ts",
+    "transcribe": "deno run --allow-read --allow-write --allow-net --allow-env --allow-run transcribe.ts",
+    "test": "deno test --allow-read --allow-write --allow-net --allow-run --allow-env"
   },
+  "exclude": ["transcripts/", ".cache/", "transcription/sidecar/.venv/"],
   "fmt": {
     "semiColons": false,
     "singleQuote": true

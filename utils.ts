@@ -1,3 +1,9 @@
+// Sent with every request to the source site, so its admins can tell who is
+// scraping and have something to allowlist.
+export const USER_AGENT = 'digestor (+https://github.com/mzgajner/digestor)'
+
+export type FetchFn = typeof fetch
+
 export function generateHumanReadableAuthors(names: string[]) {
   if (names.length === 0) {
     return undefined
