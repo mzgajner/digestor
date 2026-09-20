@@ -4,7 +4,7 @@
     <description><![CDATA[Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.]]></description>
     <link>https://radiostudent.si/kultura/pritiskavec-gold</link>
     <generator>mzgajner/digestor</generator>
-    <lastBuildDate>Sun, 13 Sep 2026 09:18:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 16:07:10 GMT</lastBuildDate>
     <author><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner]]></author>
     <pubDate>Tue, 08 Sep 2026 18:00:00 GMT</pubDate>
     <copyright><![CDATA[Radio Študent, 2024]]></copyright>
@@ -1162,6 +1162,9 @@
 &lt;p&gt;Vir fotografije: images.alphacoders.com&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/71046.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/71046.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/71046.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Vrnitev kultne in okultne platformščine</itunes:subtitle>
       <itunes:summary>Vrnitev kultne in okultne platformščine</itunes:summary>
@@ -1186,6 +1189,9 @@
 &lt;p&gt;V zasedi bomo čakali na &lt;a href=&quot;https://en.wikipedia.org/wiki/Hitman_3&quot; target=&quot;_blank&quot;&gt;Hitmana 3&lt;/a&gt; in &lt;a href=&quot;https://en.wikipedia.org/wiki/Shadow_Tactics:_Blades_of_the_Shogun#Aiko&apos;s_Choice&quot; target=&quot;_blank&quot;&gt;Shadow Tactics: Aiko&apos;s Choice&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/70503.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/70503.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/70503.json" type="application/json" language="sl"/>
       <itunes:author>Mato Žgajner</itunes:author>
       <itunes:subtitle>O videoigrah, v katerih se prikriva in prikrade</itunes:subtitle>
       <itunes:summary>O videoigrah, v katerih se prikriva in prikrade</itunes:summary>
@@ -1226,6 +1232,9 @@
 &lt;p&gt;Vir naslovne slike: Steam&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/70022.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/70022.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/70022.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>The Long Dark in Rust</itunes:subtitle>
       <itunes:summary>The Long Dark in Rust</itunes:summary>
@@ -1246,6 +1255,9 @@
       <dc:description>&lt;p&gt;O vprašanju, zakaj tudi digitalne igre ne morejo uiti analognim kartam, smo že razpravljali v enem od &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec-gold/pritiskavec-kvartopirec&quot; target=&quot;_blank&quot;&gt;preteklih Pritiskavcev&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Tokrat se vračamo h kartam&amp;nbsp;na primeru iger Griftlands in Fights in Tight Spaces. V eni se fajtamo/kvartopirimo kot vesoljska sodrga, v drugem pa kot generični angleški tajni agent.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/69435.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/69435.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/69435.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Videoigralsko kvartopirjenje na primeru Griftlands in Fights in Tight Spaces</itunes:subtitle>
       <itunes:summary>Videoigralsko kvartopirjenje na primeru Griftlands in Fights in Tight Spaces</itunes:summary>
@@ -1274,6 +1286,9 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/69000.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/69000.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/69000.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>O aktualnih nadaljevanjih in odvodih znamenitih strateških žanrskih klasik</itunes:subtitle>
       <itunes:summary>O aktualnih nadaljevanjih in odvodih znamenitih strateških žanrskih klasik</itunes:summary>
@@ -1298,6 +1313,9 @@
 &lt;p&gt;O časovnem potovanju in zankanju v videoigrah se bomo pogovarjali na dveh primerih nedavno izdanih odmevnih iger&amp;nbsp;– 12 Minutes in Forgotten City.&lt;/p&gt;
 
 &lt;p&gt;Kot vselej – ekipa Tadej, Mato, Domen in Rasto.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/68472.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/68472.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/68472.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>O večnem vračanju istega... V videoigrah.</itunes:subtitle>
       <itunes:summary>O večnem vračanju istega... V videoigrah.</itunes:summary>
@@ -1440,6 +1458,9 @@
 &lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Night Delivery (2021)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;The Night Way Home (2021)&lt;/strong&gt;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/67965.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/67965.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/67965.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Manj lignjev, več mrtvih otrok</itunes:subtitle>
       <itunes:summary>Manj lignjev, več mrtvih otrok</itunes:summary>
@@ -1468,6 +1489,9 @@
 &lt;p&gt;2. Ugankarica &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/supraland&quot; target=&quot;_blank&quot;&gt;Supraland&lt;/a&gt; (recenziral Mato)&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/67501.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/67501.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/67501.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Še druga edicija našega letnega pregleda</itunes:subtitle>
       <itunes:summary>Še druga edicija našega letnega pregleda</itunes:summary>
@@ -1500,6 +1524,9 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Ekipa kot vselej: Tadej, Mato, Domen in Rasto&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/67126.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/67126.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/67126.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Najboljše iz pretekle rubrične sezone, prvi del</itunes:subtitle>
       <itunes:summary>Najboljše iz pretekle rubrične sezone, prvi del</itunes:summary>
@@ -1524,6 +1551,9 @@
 &lt;p&gt;Z vami bomo Tadej, Mato, Domen in Rasto.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/66761.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/66761.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/66761.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Minolovci in pasjanse</itunes:subtitle>
       <itunes:summary>Minolovci in pasjanse</itunes:summary>
@@ -1544,6 +1574,9 @@
       <dc:description>&lt;p&gt;Tokrat o enem najbolj spregledanih aspektov videoiger - uporabniških vmesnikih.&lt;/p&gt;
 
 &lt;p&gt;V generičnih streljankah je vmesnik komaj kaj več od merka na sredini ekrana in merilca zdravja, a se situacija v drugih žanrih znatno zakomplicira. O dobrih in slabih primerkih razglablja ekipa Pritiskavca.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/66389.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/66389.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/66389.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Vmesni zapovednik</itunes:subtitle>
       <itunes:summary>Vmesni zapovednik</itunes:summary>
@@ -1564,6 +1597,9 @@
       <dc:description>&lt;p&gt;Twitch že desetletje buri duhove v svetu videoiger. Iz malega eksperimenta se je razvil megalomanski korporativni mastodont, ki že dolgo ne služi več samo svojemu izvirnemu namenu - streamanju iger.&lt;/p&gt;
 
 &lt;p&gt;Kako je Twitch spremenil svet videoiger,&amp;nbsp;kaj je doprinesel in kaj odnesel? Raziskuje standardna ekipa Pritiskavca.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/65873.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/65873.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/65873.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Comment and conquer</itunes:subtitle>
       <itunes:summary>Comment and conquer</itunes:summary>
@@ -1588,6 +1624,9 @@
 &lt;p&gt;V ekipi Pritiskavca se lotevamo ene od iger leta 2018 in novega izdelka Lucasa Popea, sicer avtorja legendarnega indie bisera Papers, Please.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/65326.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/65326.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/65326.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Ladijska detektivka prvega ranga</itunes:subtitle>
       <itunes:summary>Ladijska detektivka prvega ranga</itunes:summary>
@@ -1612,6 +1651,9 @@
 &lt;p&gt;Ekipa Pritiskavca si je ogledala nekaj filmov, da jih vam ne bo treba. Mortal Kombat, Hitman, Assassin&apos;s Creed, Tomb Raider, Super Mario in številne druge franšize - nekatere celo zmerno spoštovane - so pokleknile pred skušnjavo, da si priigrajo še kakšen penez v kinodvoranah. Na ogorčenje tako kritikov kot sami gledalcev. Spraševali se bomo, zakaj je tako in kaj gre vedno znova narobe, ko začnemo mešati medija filma in videoigre.&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Ob 21h.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/64781.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/64781.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/64781.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Molzne krave brez mleka</itunes:subtitle>
       <itunes:summary>Molzne krave brez mleka</itunes:summary>
@@ -1644,6 +1686,9 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/64218.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/64218.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/64218.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Hrana in prehranjevalne navade v videoigrah</itunes:subtitle>
       <itunes:summary>Hrana in prehranjevalne navade v videoigrah</itunes:summary>
@@ -1668,6 +1713,9 @@
 &lt;p&gt;Te bodo tema današnje oddaje. Čemu sploh služijo igre znotraj iger? Kdo požene GTA, da bi igral golf? Kdo požene Red Dead Redemption, da bi igral poker? So morda hekerske in vlomilske mini-igre vredne našega časa?&lt;/p&gt;
 
 &lt;p&gt;O tem se izreka ekipa Pritiskavca Gold - Mato, Domen, Tadej in Rasto.&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/63667.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/63667.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/63667.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Igre znotraj iger</itunes:subtitle>
       <itunes:summary>Igre znotraj iger</itunes:summary>
@@ -1692,6 +1740,9 @@
 &lt;p&gt;V ekipi Pritiskavca (Domen, Mato, Rasto in pridruženi član Tadej) ugotavljamo, kaj je šlo narobe pri razvoju in izidu največje igre letos/lani. Kdo nosi odgovornost? Je mogoče še kaj rešiti?&lt;/p&gt;
 
 &lt;p&gt;Z vami v torek ob 21h.&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/63113.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/63113.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/63113.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Polom igre desetletja</itunes:subtitle>
       <itunes:summary>Polom igre desetletja</itunes:summary>
@@ -1738,6 +1789,9 @@ MalariaSpot:&amp;nbsp;&lt;a href=&quot;https://malariaspot.org/&quot; target=&qu
 Eterna:&amp;nbsp;&lt;a href=&quot;https://eternagame.org/&quot; target=&quot;_blank&quot;&gt;https://eternagame.org/&lt;/a&gt;&lt;br&gt;
 BelugaBits:&amp;nbsp;&lt;a href=&quot;https://www.zooniverse.org/projects/stephenresearch/beluga-bits&quot; target=&quot;_blank&quot;&gt;https://www.zooniverse.org/projects/stephenresearch/beluga-bits&lt;/a&gt;&lt;br&gt;
 EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quot;_blank&quot;&gt;https://eyewire.org/explore&lt;/a&gt;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/62617.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/62617.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/62617.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Zarja Muršič, Rasto Pahor, Luka Stegne in Mato Žgajner</itunes:author>
       <itunes:subtitle>S špili do cepiv</itunes:subtitle>
       <itunes:summary>S špili do cepiv</itunes:summary>
@@ -1758,6 +1812,9 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
       <dc:description>&lt;p&gt;Zunaj sta novi Playstation in Xbox! V kakem drugem času bi bila ta novica&amp;nbsp;igričarski dogodek desetletja, sedaj pa... Kaj prihod novih konzol pravzaprav pomeni in kakšna prihodnost nas čaka z njimi?&lt;/p&gt;
 
 &lt;p&gt;Z vami kot vselej špekuliramo&amp;nbsp;Domen, Mato in Rasto.&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/62052.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/62052.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/62052.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Že n-tič</itunes:subtitle>
       <itunes:summary>Že n-tič</itunes:summary>
@@ -1862,6 +1919,9 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
 &lt;p&gt;&lt;strong&gt;Zbirka sedmih indie horor japonskih iger, pri njih so že kar kultne v svoji niši.. Vse kar počneš je, da se premikaš na levo in dobivaš vedno večjo dozo stereotipno japonsko grozljivega.&amp;nbsp; &lt;/strong&gt;(Domen)&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/61511.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/61511.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/61511.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Cvetje v jeseni</itunes:subtitle>
       <itunes:summary>Cvetje v jeseni</itunes:summary>
@@ -1894,6 +1954,9 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Z vami bodo Mato, Domen in Rasto. Ob 21h.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/60598.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/60598.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/60598.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Kaj imaš v rokah?</itunes:subtitle>
       <itunes:summary>Kaj imaš v rokah?</itunes:summary>
@@ -1918,6 +1981,9 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Z vami bodo Mato, Domen in Rasto.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/59852.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/59852.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/59852.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Igranje v pesku, neomejeno</itunes:subtitle>
       <itunes:summary>Igranje v pesku, neomejeno</itunes:summary>
@@ -1938,6 +2004,9 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
       <dc:description>&lt;p&gt;Tokrat se posvečamo prav posebni igri, ki za zafrkljivo vsebino in prisrčno grafiko skriva izjemno mero subverzije. Nikoli si nismo mislili, da bomo še za časa našega življenja ugledali&amp;nbsp;(kaj šele z veseljem igrali) špil, ki ga pri najboljši volji ne moremo opisati lepše kot simulator skladiščenja. A Wilmot&apos;s Warehouse je točno to - Amazonov mlajši brat, v katerem bomo dolge ure prevzemali robo s tovornjakov, jo zlagali skupaj po ogromnem praznem prostoru, na koncu pa jo hiteli dostavljati nepotrpežljivim kupcem.&lt;/p&gt;
 
 &lt;p&gt;Je Wilmot&apos;s Warehouse genialna igra ali samo vrhunec zajebancije z dela željnim&amp;nbsp;ljudstvom? Razpravljali bodo Mato, Domen in Rasto.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/59350.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/59350.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/59350.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Simulacija... skladiščenja?</itunes:subtitle>
       <itunes:summary>Simulacija... skladiščenja?</itunes:summary>
@@ -1974,6 +2043,9 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Kaj se je mogoče naučiti iz teh primerkov? Najbrž nič. Ampak smo vseeno preigrali, v spomin in opomin.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/58813.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/58813.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/58813.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Igramo, zato da vam ni treba</itunes:subtitle>
       <itunes:summary>Igramo, zato da vam ni treba</itunes:summary>
@@ -2044,6 +2116,9 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
 &lt;p&gt;Ne pozabljamo niti na paleto &lt;a href=&quot;https://www.emuparadise.me/Emulators.php&quot; target=&quot;_blank&quot;&gt;emulatorjev&lt;/a&gt; in &lt;a href=&quot;https://www.myabandonware.com/&quot; target=&quot;_blank&quot;&gt;abandonware&lt;/a&gt; strani za nostalgične duše.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/58228.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/58228.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/58228.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Igranje je samo zdravje</itunes:subtitle>
       <itunes:summary>Igranje je samo zdravje</itunes:summary>
@@ -2068,6 +2143,9 @@ EyeWire:&amp;nbsp;&lt;a href=&quot;https://eyewire.org/explore&quot; target=&quo
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Geneza in pogled v drobovje ene največjih franšiz nam odkrivata marsikaj.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/57598.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/57598.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/57598.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Rojstvo franšize iz duha dirkačin</itunes:subtitle>
       <itunes:summary>Rojstvo franšize iz duha dirkačin</itunes:summary>
@@ -2142,6 +2220,9 @@ Popularne igre: Intrigue, Diplomacy,&amp;nbsp;Cosmic Encounter, Article 28.&lt;b
 Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&gt;
 &amp;nbsp;&lt;/p&gt;
 &lt;/div&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/57033.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/57033.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/57033.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Samo Oleami, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Pritiskavci so se lotili treh namiznih iger iz 70-ih in 80-ih let</itunes:subtitle>
       <itunes:summary>Pritiskavci so se lotili treh namiznih iger iz 70-ih in 80-ih let</itunes:summary>
@@ -2174,6 +2255,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;/div&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/56276.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/56276.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/56276.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Klara Otorepec, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Pritiskavec sreča Sektor Ž</itunes:subtitle>
       <itunes:summary>Pritiskavec sreča Sektor Ž</itunes:summary>
@@ -2198,6 +2282,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;Ekipa Pritiskavca se tokrat poglablja v enega najmlajših, pa vendar najreprezentativnejših žanrov videoiger. 3D streljačine so svet udarile šele globoko v 90-ih in spremenile svet za vselej. Risankasto nedolžnost Super Maria in Commander Keena so zamenjali demoni, kri in motorne žage. Namesto nežnih Nintendo melodij smo dobili heavy metal.&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Čaka nas sprehod čez glavne predstavnike 90-ih in razprava, kaj prinaša streljačinam prihajajoči VR upgrade. Se slišimo ob 21h.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/55626.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/55626.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/55626.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Od Wolfensteina (1992) do Half Life: Alyx (2020)</itunes:subtitle>
       <itunes:summary>Od Wolfensteina (1992) do Half Life: Alyx (2020)</itunes:summary>
@@ -2266,6 +2353,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qicZr8eMx4I&quot;&gt;Hurt me Plenty&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/v_WZrd7TrjE&quot;&gt;LadyKiller in a Bind&lt;/a&gt;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/55058.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/55058.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/55058.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>O erotiki in upodobitvah spolnosti v našem najljubšem mediju</itunes:subtitle>
       <itunes:summary>O erotiki in upodobitvah spolnosti v našem najljubšem mediju</itunes:summary>
@@ -2294,6 +2384,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Od OpenTTD do Dwarf Fortressa, od malih amaterskih projektov v RPG-makerju do gigantskih naslovov tipa Team Fortress 2.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/54272.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/54272.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/54272.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Brez prebite pare</itunes:subtitle>
       <itunes:summary>Brez prebite pare</itunes:summary>
@@ -2310,6 +2403,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <pubDate>Tue, 06 Aug 2019 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2019-08-06-pritiskavec-gold-pritiskavec-kvartopirec.mp3" length="144066361" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;V tokratnem Pritiskavcu se ubadamo z nenavadnim fenomenom virtualnih kvartopirskih iger. Čemu potrebujejo virtualno okolje, zakaj jih je včasih lažje igrati z miško in kaj so pridobile (ali izgubile) s svojo predelavo v videoigralski način.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/53688.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/53688.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/53688.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Čemu služijo virtualne igre s kartami?</itunes:subtitle>
       <itunes:summary>Čemu služijo virtualne igre s kartami?</itunes:summary>
@@ -2334,6 +2430,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Mato, Domen in Rasto se bodo vrnili na mesto zločina tudi v letu 2019 in pregledali, ali je v tej mlakuži mogoče najti kaj uporabnega.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/52943.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/52943.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/52943.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>O sladkih obljubah največjega sejma videoiger. Fuj.</itunes:subtitle>
       <itunes:summary>O sladkih obljubah največjega sejma videoiger. Fuj.</itunes:summary>
@@ -2358,6 +2457,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;Takozvani MMO-ji (Massively Multiplayer Online) so igralski mastodonti, v katerih svoja alternativna življenja vsakodnevno prebijajo stotine tisočev igralcev. Ti sobivajo v svetovih z lastno kulturo, ekonomijo, jezikom, bontonom. V nekaterih od teh iger je mogoče tudi umreti in dočakati lasten pogreb. A če citiramo South Park: &quot;Kako ubiti tistega, ki lajfa sploh nima?&quot;&lt;/p&gt;
 
 &lt;p&gt;Ultima, World of Warcraft, Guild Wars.. In še veliko več ob 21.00.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/52372.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/52372.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/52372.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>O WoW-u in drugih, ki še kar brcajo</itunes:subtitle>
       <itunes:summary>O WoW-u in drugih, ki še kar brcajo</itunes:summary>
@@ -2378,6 +2480,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <dc:description>&lt;p&gt;Očitek, da se v Pritiskavcu včasih preveč osredotočamo na Zahod, je na mestu.&lt;/p&gt;
 
 &lt;p&gt;Zato bomo pokukali tja ven - v svet vselej gladkih lic in čudaških lignjev - in se ozrli po tamkajšnji igralski sceni.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/51102.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/51102.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/51102.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Čudoviti svet iger tam zunaj</itunes:subtitle>
       <itunes:summary>Čudoviti svet iger tam zunaj</itunes:summary>
@@ -2402,6 +2507,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;Oddajo bomo posvetili prvim računalniškim igram, s katerimi smo v življenju prišli v stik. Ker smo milenijska zalega, to pomeni naključne DOS-ovske naslove, ki so se sredi devetdesetih valjali po 386-kah v računalniških učilnicah slovenskih osnovnih šol. So bile sploh dobre ali smo jih igrali, ker pač ni bilo drugega? So čez lužo buljili v iste reči? Je komu uspelo zmagati biatlon v winterju?&lt;/p&gt;
 
 &lt;p&gt;Pobrskajte po spominu in shranite &lt;a href=&quot;tel:+38612428800&quot;&gt;01 242 88 00&lt;/a&gt; v imenik.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/51101.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/51101.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/51101.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>cd igre  cd winter  winter</itunes:subtitle>
       <itunes:summary>cd igre  cd winter  winter</itunes:summary>
@@ -2418,6 +2526,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <pubDate>Tue, 05 Feb 2019 20:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2019-02-05-pritiskavec-gold-miselne-igre.mp3" length="142143501" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Tokrat jemljemo pod drobnogled miselne igre; žanr, ki ga vsaj po številu recenzij sodeč radi igramo, a mu doslej še nismo posvetili posebne oddaje. Kot je v navadi, bomo preleteli (relativno) sodobno zgodovino tovrstnih iger, nato pa na veliko debatirali o sodobnejših naslovih, jih predalčkali in iskali favorite. Ljubitelji Minolovca obvezno pokličite.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/49951.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/49951.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/49951.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>O logiki, ugankah, in razmišljanju - od Minolovca do Portala</itunes:subtitle>
       <itunes:summary>O logiki, ugankah, in razmišljanju - od Minolovca do Portala</itunes:summary>
@@ -2438,6 +2549,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <dc:description>&lt;p&gt;Od mehanskega Turka do AlphaZero; od robustnih mehatronskih šahovnic do slokih programskih kod, ki se same naučijo igrati šah.&lt;/p&gt;
 
 &lt;p&gt;V Pritiskavcu bomo podrobneje opisali zgodbo o tem, kako je stroj končno premagal človeka, četudi le na šahovnici. Zaenkrat. Umetna inteligenca se namreč uči vedno hitreje, s tem pa se vedno hitreje kopičijo tudi pasti in nevarnosti tehnologije.&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/49386.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/49386.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/49386.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Miti, štorije in zgodovina računalniškega učenja šaha</itunes:subtitle>
       <itunes:summary>Miti, štorije in zgodovina računalniškega učenja šaha</itunes:summary>
@@ -2462,6 +2576,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Ekipa Pritiskavca se tokrat poglablja v okoliščine nastanka ene najvplivnejših videoiger v moderni zgodovini in se sprašuje, kako so takšno igro lahko proizvedli v studiu, ki ne zna prešteti do 3.&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/48713.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/48713.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/48713.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>...praznuje 20 let!</itunes:subtitle>
       <itunes:summary>...praznuje 20 let!</itunes:summary>
@@ -2486,6 +2603,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/48155.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/48155.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/48155.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Pritožbe, laži in videoigre</itunes:subtitle>
       <itunes:summary>Pritožbe, laži in videoigre</itunes:summary>
@@ -2506,6 +2626,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <dc:description>&lt;p&gt;Tokrat se je ekipa Pritiskavca izjemoma podala v najbolj sramotno, najbolj komercialno mlakužo videoiger. In v njej plavala, čofotala in pljuskala, da ste se vi lahko zgražali.&lt;/p&gt;
 
 &lt;p&gt;E3 velja za največji igralski sejem, na katerem brez najmanjšega sramu ali samorefleksije tržijo največji studii in razvijalci. Človek lahko v grmadi prepotentnih napovednikov hitro najde lepo zalogo nategov in lažnih obljub. A včasih se najde tudi kakšen manjši založnik, ki obeta. Poiskali smo jih nekaj.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/46205.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/46205.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/46205.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>O največjem igričarskem festivalu in njegovih zablodah</itunes:subtitle>
       <itunes:summary>O največjem igričarskem festivalu in njegovih zablodah</itunes:summary>
@@ -2526,6 +2649,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <dc:description>&lt;p&gt;V tokratni ediciji so na sporedu igre, ki simulirajo nekaj, kar je marsikomu služba. Ogledali si bomo najrazličnejše simulatorje kmetovanja, kuhanja, vlakov, civilnih letal in podobno dolgočasnih reči.&lt;/p&gt;
 
 &lt;p&gt;Da si malo oddahnete od dela.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/44691.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/44691.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/44691.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Prvi maj obeležujemo v duhu iger-šihtov</itunes:subtitle>
       <itunes:summary>Prvi maj obeležujemo v duhu iger-šihtov</itunes:summary>
@@ -2562,6 +2688,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;O odurnih, manj odurnih in morda celo prijetnih aspektih bo razpravljala ekipa Pritiskavca.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/44181.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/44181.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/44181.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>O igrah, ki jih z veseljem sovražimo</itunes:subtitle>
       <itunes:summary>O igrah, ki jih z veseljem sovražimo</itunes:summary>
@@ -2586,6 +2715,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Rated PG-13.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/43609.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/43609.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/43609.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>WTF špili in WTF teorija</itunes:subtitle>
       <itunes:summary>WTF špili in WTF teorija</itunes:summary>
@@ -2618,6 +2750,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;Naše pretekle recenzije iz žanra: &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/openttd&quot;&gt;OpenTTD&lt;/a&gt;, &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/democracy-3&quot;&gt;Democracy 3&lt;/a&gt; , &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/prison-architect&quot;&gt;Prison Architect&lt;/a&gt;, &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/banished&quot;&gt;Banished&lt;/a&gt;, &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/adventure-capitalist&quot;&gt;Adventure Capitalist&lt;/a&gt;, &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/cookie-clicker&quot;&gt;Cookie Clicker&lt;/a&gt;, &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/mini-metro&quot;&gt;Mini Metro&lt;/a&gt;, &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/game-dev-tycoon&quot;&gt;Game Dev Tycoon&lt;/a&gt;, &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/punch-club&quot;&gt;Punch Club&lt;/a&gt;, &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/this-is-the-police&quot;&gt;This is the Police&lt;/a&gt;, &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/motorsport-manager&quot;&gt;Motorsport Manager&lt;/a&gt;, &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/fallout-shelter&quot;&gt;Fallout Shelter&lt;/a&gt;, &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/pro-cycling-manager&quot;&gt;Pro Cycling Manager&lt;/a&gt;, &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/factorio&quot;&gt;Factorio&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Ostali omenjeni pomembneži: &lt;a href=&quot;https://en.wikipedia.org/wiki/Intopia&quot;&gt;Intopia&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Lemonade_Stand&quot;&gt;Lemonade Stand&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Football_Manager&quot;&gt;&lt;strong&gt;FOOTBALL MANAGER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Dungeon_Keeper&quot;&gt;Dungeon Keeper&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Theme_Park_(video_game)&quot;&gt;Theme Park&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Theme_Hospital&quot;&gt;Theme Hospital&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Transport_Tycoon&quot;&gt;Transport Tycoon&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Railroad_Tycoon_(series)&quot;&gt;Railroad Tycoon&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/RollerCoaster_Tycoon&quot;&gt;RollerCoaster Tycoon&lt;/a&gt;.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/43098.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/43098.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/43098.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>O raznoraznih tajkunščinah in menedžerščinah</itunes:subtitle>
       <itunes:summary>O raznoraznih tajkunščinah in menedžerščinah</itunes:summary>
@@ -2690,6 +2825,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Za tiste z malo časa in volje: &lt;a href=&quot;http://correlatedcontents.com/misc/Father.html&quot;&gt;My Father&apos;s Long Long Legs&lt;/a&gt;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/42286.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/42286.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/42286.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Groza in strah v igrah</itunes:subtitle>
       <itunes:summary>Groza in strah v igrah</itunes:summary>
@@ -2710,6 +2848,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <dc:description>&lt;p&gt;Ob koncu leta se v negorljivih skafandrih podajamo direktno v žgoče plamene najbrž najbolj intenzivnega gejmerskega flamewara vseh časov - katera je najboljša platforma: konzole ali PC?&lt;/p&gt;
 
 &lt;p&gt;Poslušajte, pokličite in izlijte žolč!&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/41647.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/41647.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/41647.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Primerjava igralne izkušnje na namiznem računalniku in konzoli v letu 2017</itunes:subtitle>
       <itunes:summary>Primerjava igralne izkušnje na namiznem računalniku in konzoli v letu 2017</itunes:summary>
@@ -2762,6 +2903,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;&lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/darkest-dungeon&quot;&gt;Darkest Dungeon&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/40963.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/40963.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/40963.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>O nekoč nišnem žanru, ki doživlja razcvet</itunes:subtitle>
       <itunes:summary>O nekoč nišnem žanru, ki doživlja razcvet</itunes:summary>
@@ -2778,6 +2922,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <pubDate>Tue, 03 Oct 2017 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/Pritiskavec%20Gold/2017-10-03-pritiskavec-gold-ne-drm-aj.mp3" length="142324522" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Ekipa Pritiskavca se tokrat poglablja v dolgo zgodovino piratiziranja iger.&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/40222.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/40222.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/40222.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Magične zaščite in kako jih zlomiti</itunes:subtitle>
       <itunes:summary>Magične zaščite in kako jih zlomiti</itunes:summary>
@@ -2798,6 +2945,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <dc:description>&lt;p&gt;Za zadnjo oddajo letošnjega poletja ali predpremierno prihajajoče sezone, kakor vzamete, smo se odločili narediti nekakšen presek leta za nami. Izmed vseh iger, ki smo jih predstavili v tedenski jutranji rubriki, je vsak izbral svojega favorita in prisilil preostala kolega, da ga preigrata. Zvečer bomo za skupnim omizjem premleli svoja izkustva.&lt;/p&gt;
 
 &lt;p&gt;Na tapeti bodo &lt;a href=&quot;http://gaarabis.free.fr/index_ms.php3?catid=01Infos&amp;amp;topic=off&quot;&gt;Off&lt;/a&gt;, &lt;a href=&quot;http://www.nightinthewoods.com/&quot;&gt;Night in the Woods&lt;/a&gt; in &lt;a href=&quot;http://the-witness.net&quot;&gt;The Witness&lt;/a&gt;.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/39732.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/39732.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/39732.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Trije recenzenti si izmenjajo favorite pretekle sezone</itunes:subtitle>
       <itunes:summary>Trije recenzenti si izmenjajo favorite pretekle sezone</itunes:summary>
@@ -2826,6 +2976,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;Izkušnje iz prve roke bosta z nami delila posebna gosta - Matej &quot;Frixi&quot; Fridrih, vodja slovenske Hearthstone lige in organizator turnirjev ter Jure &quot;Forky&quot; Anzeljc, strokovnjak na področju e-športov in organizator turnirjev.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/38205.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/38205.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/38205.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>O karieri profesionalnega igralca iger s posebnimi gosti iz branže</itunes:subtitle>
       <itunes:summary>O karieri profesionalnega igralca iger s posebnimi gosti iz branže</itunes:summary>
@@ -2846,6 +2999,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <dc:description>&lt;p&gt;Vračamo se v čas, ko je internet še kapljal in ko so se večigralske zadrege reševale s fizičnim povezovanjem naših kišt.&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Presenetljivo kultura LANpartyjev še ni izginila in ostaja način povezovanja tako med mlajšimi kot tudi starejšimi navdušenci. V tokratni oddaji raziskujemo njegovo vlogo danes in podamo nekaj koristnih nasvetov, kako organizirati takšen dogodek.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/37764.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/37764.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/37764.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Kabli, ljubezen in topli spomini</itunes:subtitle>
       <itunes:summary>Kabli, ljubezen in topli spomini</itunes:summary>
@@ -2886,6 +3042,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/36753.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/36753.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/36753.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Igranje drugih</itunes:subtitle>
       <itunes:summary>Igranje drugih</itunes:summary>
@@ -2916,6 +3075,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 
 &lt;p&gt;Posebni gost: Riki&lt;br&gt;
 &amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/35539.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/35539.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/35539.json" type="application/json" language="sl"/>
       <itunes:author>Rok Kosec, Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Zgodovina nekega žanra</itunes:subtitle>
       <itunes:summary>Zgodovina nekega žanra</itunes:summary>
@@ -2978,6 +3140,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;a href=&quot;http://ska-studios.com/games/&quot;&gt;Salt and Sanctuary&lt;/a&gt;&lt;br&gt;
 &lt;a href=&quot;http://fruitbatfactory.com/100orange/&quot;&gt;100% Orange Juice&lt;/a&gt;&lt;br&gt;
 &lt;a href=&quot;http://neveralonegame.com/&quot;&gt;Never Alone&lt;/a&gt;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/34768.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/34768.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/34768.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>O tem, kako začeti igrati, katerih iger se lotiti in kaj sploh dela ljudi gejmerje.</itunes:subtitle>
       <itunes:summary>O tem, kako začeti igrati, katerih iger se lotiti in kaj sploh dela ljudi gejmerje.</itunes:summary>
@@ -2998,6 +3163,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
       <dc:description>&lt;p&gt;V tokratni zlati ediciji Pritiskavca se pogovarjamo o igrah, ki so nas spremenile za vselej.&amp;nbsp;Nepopravljivo so zaznamovale način, kako gledamo na videoigre, kako jih ocenjujemo. Iščemo trenutek v življenju froca, ko ni več samo srepo stremel v ekran in brez sence refleksije tolkel po gumbih, ampak je dejansko začel spremljati zgodbo. Avatarji na zaslonu so postali karakterji, ki so nas nagovarjali. Njihove zgodbe in usode so se nam zazdele tako otipljive, da smo jih želeli večkrat preigrati. Od tistega trenutka dlje so igre več kot samo prostočasen odklop; so del naše kulture, ki jo konzumiramo enako kot filmske, glasbene ali literarne izdelke.&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Kako so videoigre zorele in kako smo mi zoreli z njimi? Na sporedu bodo Final Fantasy, Doomi, Half-Life, Commandosi in še marsikaj. Seveda ste s svojimi izkušnjami vabljeni tudi poslušalke in poslušalci.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/28494.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/28494.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/28494.json" type="application/json" language="sl"/>
       <itunes:author>Michael C. Jumic, Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>O igrah, ob katerih smo zrasli in odrasli.</itunes:subtitle>
       <itunes:summary>O igrah, ob katerih smo zrasli in odrasli.</itunes:summary>
@@ -3086,6 +3254,9 @@ Popularne igre: Munchkin,&amp;nbsp;Wiz-War,&amp;nbsp;Saboteur, Smash Up!&lt;br&g
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;Računalniški sladkosnedi nam lahko sledite na FB strani &lt;a href=&quot;https://www.facebook.com/pritiskavec/&quot;&gt;Pritiskavec&lt;/a&gt;. Redna jutranja &lt;a href=&quot;http://radiostudent.si/dru%C5%BEba/pritiskavec&quot;&gt;rubrika&lt;/a&gt;&amp;nbsp;je na sporedu vsak torek ob 8:35.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/26613.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/26613.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/26613.json" type="application/json" language="sl"/>
       <itunes:author>Michael C. Jumic, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Pogovor o legendarni prenosni konzoli, kakšna je bila včasih in kako jo lahko igrate danes.</itunes:subtitle>
       <itunes:summary>Pogovor o legendarni prenosni konzoli, kakšna je bila včasih in kako jo lahko igrate danes.</itunes:summary>
