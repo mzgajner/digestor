@@ -1,0 +1,57 @@
+name: Deploy
+
+# Pushes the tip of main to the Dokku app, which rebuilds and restarts it.
+# Runs on every push to main, and is called by the refresh workflow (pushes
+# made with the workflow token don't trigger other workflows).
+on:
+  push:
+    branches: [main]
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dokku:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    # One deploy at a time, whoever asks for it.
+    concurrency:
+      group: dokku-deploy
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          # Dokku rejects pushes from a shallow clone.
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Push to Dokku
+        env:
+          DOKKU_SSH_PRIVATE_KEY: ${{ secrets.DOKKU_SSH_PRIVATE_KEY }}
+          DOKKU_KNOWN_HOSTS: ${{ vars.DOKKU_KNOWN_HOSTS }}
+          DOKKU_REMOTE: dokku@z0.si:pritiskavec
+        run: |
+          if [ -z "$DOKKU_SSH_PRIVATE_KEY" ] || [ -z "$DOKKU_KNOWN_HOSTS" ]; then
+            echo '::error::DOKKU_SSH_PRIVATE_KEY (secret) and DOKKU_KNOWN_HOSTS (variable) must be set.'
+            exit 1
+          fi
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DOKKU_SSH_PRIVATE_KEY" > ~/.ssh/dokku
+          chmod 600 ~/.ssh/dokku
+          printf '%s\n' "$DOKKU_KNOWN_HOSTS" > ~/.ssh/known_hosts_dokku
+          export GIT_SSH_COMMAND="ssh -i $HOME/.ssh/dokku -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$HOME/.ssh/known_hosts_dokku"
+
+          local_sha=$(git rev-parse HEAD)
+          remote_sha=$(git ls-remote "$DOKKU_REMOTE" refs/heads/main | cut -f1)
+          if [ "$local_sha" = "$remote_sha" ]; then
+            echo "Dokku is already at $local_sha."
+            exit 0
+          fi
+          # No --force: if the histories ever diverge this should fail loudly.
+          git push "$DOKKU_REMOTE" HEAD:refs/heads/main
+
+      - name: Check the live feed matches
+        run: curl -fsS --retry 3 --retry-delay 5 https://pritiskavec.z0.si/podcast/feed.xml | cmp - feed.rss

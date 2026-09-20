@@ -1,0 +1,196 @@
+name: Refresh feed
+
+# Daily: look for new episodes, publish the feed, deploy, then transcribe the
+# new episode on the runner's CPU and publish again.
+#
+# Three separate concerns, three jobs:
+#   publish     must never be blocked by a transcription problem
+#   deploy-*    the only jobs that can read the Dokku key
+#   transcribe  runs third-party Python code for hours, sees no secrets but HF_TOKEN
+#
+# Transcription only runs when the repository variable TRANSCRIBE_IN_CI is
+# "true" (or when asked for in a manual run).
+on:
+  schedule:
+    - cron: '17 4 * * *' # UTC
+  workflow_dispatch:
+    inputs:
+      transcribe:
+        description: Transcribe the newest pending episode
+        type: choice
+        options: [auto, 'on', 'off']
+        default: auto
+      dry_run:
+        description: Commit, push and deploy nothing
+        type: boolean
+        default: false
+      guid:
+        description: 'Timing test: transcribe this guid into .cache/ci-test and commit nothing'
+        type: string
+      model:
+        description: Whisper model override, e.g. large-v3-turbo
+        type: string
+      batch_size:
+        description: faster-whisper batch size
+        type: string
+        default: '8'
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+permissions: {}
+
+env:
+  # Whether this run may commit and push. Never for dry runs, timing tests or
+  # runs from another branch.
+  WRITE: ${{ github.ref == 'refs/heads/main' && inputs.dry_run != true && inputs.guid == '' }}
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - uses: denoland/setup-deno@22d081ff2d3a40755e97629de92e3bcbfa7cf2ed # v2.0.5
+        with:
+          deno-version: v2.9.2
+          cache: true
+
+      # Throws (and fails the job before anything is committed) when the source
+      # site is unreachable or answers with a challenge page.
+      - name: Regenerate the feed
+        run: deno task regenerate --no-transcripts
+
+      - name: Commit and push the feed
+        if: env.WRITE == 'true'
+        run: |
+          old=$(git show HEAD:feed.rss | grep -c '<item>' || true)
+          new=$(grep -c '<item>' feed.rss || true)
+          message='Update feed'
+          if [ "$new" -gt "$old" ]; then message='Release new episodes'; fi
+          bash .github/scripts/commit-and-push.sh "$message" feed.rss
+
+      # GitHub disables schedules in public repos after 60 days without
+      # activity, and episodes have been up to 56 days apart. Best effort.
+      - name: Keep the schedule enabled
+        if: github.event_name == 'schedule'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/refresh.yml/enable"
+
+  # Runs on every scheduled run, even without changes, so a deploy that failed
+  # after its commit had landed heals itself the next day.
+  deploy-feed:
+    needs: publish
+    if: github.ref == 'refs/heads/main' && inputs.dry_run != true
+    permissions:
+      contents: read
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit
+
+  transcribe:
+    needs: publish
+    if: inputs.transcribe == 'on' || (inputs.transcribe != 'off' && vars.TRANSCRIBE_IN_CI == 'true')
+    runs-on: ubuntu-24.04
+    # GitHub's hard limit per job is 360.
+    timeout-minutes: 350
+    permissions:
+      contents: write
+    outputs:
+      pushed: ${{ steps.commit.outputs.pushed }}
+    env:
+      TRANSCRIBE_ENGINE: faster-whisper
+      TRANSCRIBE_BATCH_SIZE: ${{ inputs.batch_size || vars.TRANSCRIBE_BATCH_SIZE || '8' }}
+      # Empty means the engine's default model.
+      TRANSCRIBE_MODEL: ${{ inputs.model || vars.TRANSCRIBE_MODEL }}
+      # Optional, avoids anonymous rate limits on the model download.
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      GUID: ${{ inputs.guid }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # The branch tip, which includes what the publish job just pushed;
+          # the default would be the commit that triggered the run.
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - uses: denoland/setup-deno@22d081ff2d3a40755e97629de92e3bcbfa7cf2ed # v2.0.5
+        with:
+          deno-version: v2.9.2
+          cache: true
+
+      # Only episodes from the last 60 days: CI never backfills, and an old
+      # episode that can't be transcribed can't cause a failure every day.
+      - name: Find the episode to transcribe
+        id: pending
+        run: |
+          if [ -n "$GUID" ]; then
+            echo 'count=1' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          deno task transcribe --dry-run --newest-first --limit 1 --max-age-days 60 | tee "$RUNNER_TEMP/pending.tsv"
+          echo "count=$(grep -cE '^[0-9]+' "$RUNNER_TEMP/pending.tsv" || true)" >> "$GITHUB_OUTPUT"
+
+      - name: Install ffmpeg
+        if: steps.pending.outputs.count != '0'
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg
+
+      - uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4 # v10.1.0
+        if: steps.pending.outputs.count != '0'
+        with:
+          # Used about once a month; a cache would be evicted long before.
+          enable-cache: false
+
+      # Fails fast on a broken Python environment, before hours of work.
+      - name: Install the transcription sidecar
+        if: steps.pending.outputs.count != '0'
+        run: uv sync --project transcription/sidecar --locked
+
+      - name: Transcribe
+        if: steps.pending.outputs.count != '0'
+        timeout-minutes: 320
+        run: |
+          if [ -n "$GUID" ]; then
+            deno task transcribe --force --guid "$GUID" --out-dir .cache/ci-test
+          else
+            deno task transcribe --newest-first --limit 1 --max-age-days 60
+          fi
+
+      # Hours of work should survive a failed push.
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: always() && steps.pending.outputs.count != '0'
+        with:
+          name: transcription
+          path: |
+            .cache/ci-test
+            .cache/transcribe.log
+            transcripts
+          include-hidden-files: true
+          if-no-files-found: ignore
+
+      - name: Commit transcripts and the tagged feed
+        id: commit
+        if: env.WRITE == 'true' && steps.pending.outputs.count != '0'
+        run: |
+          git pull --rebase --autostash origin main
+          # Adds the <podcast:transcript> tags. If the source site is down right
+          # now, tomorrow's publish job adds them instead.
+          deno task regenerate --no-transcripts || echo '::warning::Feed refresh failed; the next run adds the transcript tags.'
+          bash .github/scripts/commit-and-push.sh 'Add episode transcripts' transcripts feed.rss
+
+  deploy-transcripts:
+    needs: transcribe
+    if: needs.transcribe.outputs.pushed == 'true'
+    permissions:
+      contents: read
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

@@ -1,6 +1,11 @@
 import { Html5Entities } from 'https://deno.land/x/html_entities/mod.js'
 import { DOMParser } from 'https://deno.land/x/deno_dom/deno-dom-wasm.ts'
-import { convertBytesToSeconds, getLastName } from './utils.ts'
+import {
+  convertBytesToSeconds,
+  type FetchFn,
+  getLastName,
+  USER_AGENT,
+} from './utils.ts'
 import { SPOTIFY_BLACKLIST } from './fetch.ts'
 
 const BASE_URL = 'https://radiostudent.si'
@@ -55,7 +60,9 @@ export async function parseEntries(
   const byUrl = new Map<string, ParsedEntry>()
   for (const entry of resolved) if (entry) byUrl.set(entry.url, entry)
   // Keep any existing episodes that fell off the listing entirely.
-  for (const [url, entry] of existing) if (!byUrl.has(url)) byUrl.set(url, entry)
+  for (const [url, entry] of existing) {
+    if (!byUrl.has(url)) byUrl.set(url, entry)
+  }
 
   return [...byUrl.values()]
     .filter((entry) => !SPOTIFY_BLACKLIST.includes(entry.title))
@@ -113,15 +120,28 @@ async function transformEntry(url: string): Promise<ParsedEntry | null> {
 }
 
 async function fetchHtml(url: string) {
-  const response = await fetch(url)
-  const html = await response.text()
-  return html
+  const response = await fetch(url, { headers: { 'User-Agent': USER_AGENT } })
+  if (!response.ok) {
+    await response.body?.cancel()
+    throw new Error(`HTTP ${response.status}`)
+  }
+  return await response.text()
 }
 
-async function fetchContentLength(mp3Url: string) {
-  const response = await fetch(mp3Url, { method: 'HEAD' })
-  const contentLength = response.headers.get('content-length')!
-  return Number(contentLength)
+// Throws rather than returning 0: an entry is only ever fetched once, so a
+// bogus size would otherwise stay in the feed forever.
+export async function fetchContentLength(
+  mp3Url: string,
+  fetchFn: FetchFn = fetch,
+) {
+  const response = await fetchFn(mp3Url, {
+    method: 'HEAD',
+    headers: { 'User-Agent': USER_AGENT },
+  })
+  if (!response.ok) throw new Error(`HTTP ${response.status} for ${mp3Url}`)
+  const contentLength = Number(response.headers.get('content-length'))
+  if (!contentLength) throw new Error(`no content length for ${mp3Url}`)
+  return contentLength
 }
 
 export function parseValuesFromPostHtml(postHtml: string) {

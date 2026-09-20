@@ -1,6 +1,9 @@
-import { assertEquals } from 'https://deno.land/std/assert/mod.ts'
+import {
+  assertEquals,
+  assertRejects,
+} from 'https://deno.land/std/assert/mod.ts'
 import { testPostHtml } from './test-xml.ts'
-import { parseValuesFromPostHtml } from './parse.ts'
+import { fetchContentLength, parseValuesFromPostHtml } from './parse.ts'
 
 Deno.test(function parseValuesFromPostHtmlTest() {
   const { imageUrl, authors, description } = parseValuesFromPostHtml(
@@ -26,5 +29,34 @@ Deno.test(function parseValuesFromPostHtmlTest() {
       'edov" target="_blank">Viewfinderju</a>, zato smo se odločili, da zajaham' +
       'o širši trend in spregovorimo o igrah, ki se poigravajo s perspektivo te' +
       'r jo uporabljajo ne samo v grafiki, ampak tudi kot igralno mehaniko.</p>\n',
+  )
+})
+
+Deno.test(async function fetchContentLengthReturnsSizeTest() {
+  const fetchFn = () =>
+    Promise.resolve(
+      new Response(null, { headers: { 'content-length': '1234' } }),
+    )
+  assertEquals(
+    await fetchContentLength('https://example.com/a.mp3', fetchFn),
+    1234,
+  )
+})
+
+Deno.test(async function fetchContentLengthFailsOnErrorStatusTest() {
+  const fetchFn = () => Promise.resolve(new Response(null, { status: 404 }))
+  await assertRejects(
+    () => fetchContentLength('https://example.com/a.mp3', fetchFn),
+    Error,
+    'HTTP 404',
+  )
+})
+
+Deno.test(async function fetchContentLengthFailsOnMissingSizeTest() {
+  const fetchFn = () => Promise.resolve(new Response(null))
+  await assertRejects(
+    () => fetchContentLength('https://example.com/a.mp3', fetchFn),
+    Error,
+    'no content length',
   )
 })
