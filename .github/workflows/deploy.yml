@@ -7,13 +7,29 @@ on:
   push:
     branches: [main]
   workflow_call:
+    inputs:
+      skip_tests:
+        description: Skip the test job, for callers that only changed data
+        type: boolean
+        default: false
   workflow_dispatch:
 
 permissions:
   contents: read
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
+  test:
+    if: inputs.skip_tests != true
+    uses: ./.github/workflows/test.yml
+
   dokku:
+    needs: test
+    # Deploy when the tests passed, or when the caller skipped them.
+    if: always() && (needs.test.result == 'success' || needs.test.result == 'skipped')
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     # One deploy at a time, whoever asks for it.

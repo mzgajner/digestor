@@ -1,0 +1,45 @@
+name: Test
+
+# Formatting, type check and both test suites. Runs on pull requests and gates
+# every deploy. A plain pull_request trigger is safe in a public repository:
+# runs from forks get a read-only token and no secrets.
+on:
+  pull_request:
+  workflow_call:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: denoland/setup-deno@22d081ff2d3a40755e97629de92e3bcbfa7cf2ed # v2.0.5
+        with:
+          deno-version: v2.9.2
+          cache: true
+
+      # The decoders under test shell out to the real ffmpeg.
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg
+
+      - uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4 # v10.1.0
+        with:
+          enable-cache: false
+
+      - run: deno fmt --check
+      - run: deno check main.ts regenerate.ts transcribe.ts
+      - run: deno task test
+
+      - name: Sidecar tests
+        working-directory: transcription/sidecar
+        run: uv run --locked python -m unittest test_transcribe

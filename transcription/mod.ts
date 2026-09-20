@@ -46,6 +46,7 @@ export function createDefaultDeps(
 export {
   DEFAULT_ENGINE,
   DEFAULT_MODELS,
+  parseCount,
   resolveBatchSize,
   resolveEngine,
   resolveModel,
@@ -57,6 +58,7 @@ export {
   selectPending,
   transcribeEpisode,
   transcribeMissing,
+  TranscriberUnavailableError,
   withinDays,
 } from './pipeline.ts'
 export type { EpisodeResult, TranscribeDeps } from './pipeline.ts'

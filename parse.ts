@@ -37,11 +37,21 @@ type ParseOptions = {
   existing?: Map<string, ParsedEntry>
   // Re-fetch every episode instead of reusing the ones we already have.
   full?: boolean
+  // Turns an episode URL into an entry, or null after giving up on it.
+  transform?: (url: string) => Promise<ParsedEntry | null>
+  // Called for every listed episode that ends up missing from the result, so
+  // an unattended run can report a new episode it couldn't scrape.
+  onGiveUp?: (url: string) => void
 }
 
 export async function parseEntries(
   episodeUrls: string[],
-  { existing = new Map(), full = false }: ParseOptions = {},
+  {
+    existing = new Map(),
+    full = false,
+    transform = transformEntry,
+    onGiveUp,
+  }: ParseOptions = {},
 ) {
   const resolved = await mapWithConcurrency(
     episodeUrls,
@@ -53,7 +63,9 @@ export async function parseEntries(
 
       // Otherwise fetch it fresh, but fall back to the existing entry (if any)
       // so a flaky fetch never drops an episode we already had.
-      return (await transformEntry(url)) ?? existing.get(url) ?? null
+      const entry = (await transform(url)) ?? existing.get(url) ?? null
+      if (!entry) onGiveUp?.(url)
+      return entry
     },
   )
 

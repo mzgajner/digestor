@@ -34,9 +34,26 @@ export function whisperCppModelPath(model: string) {
 
 export const PUBLIC_BASE_URL = 'https://pritiskavec.z0.si'
 
+// Reads `--name value` or `--name=value` from raw arguments.
 function flag(args: string[], name: string) {
+  const inline = args.find((arg) => arg.startsWith(`${name}=`))
+  if (inline !== undefined) return inline.slice(name.length + 1)
   const index = args.indexOf(name)
   return index !== -1 ? args[index + 1] : undefined
+}
+
+// Parses a non-negative integer option like --limit, so a typo fails loudly
+// instead of quietly selecting nothing.
+export function parseCount(
+  name: string,
+  value: string | undefined,
+): number | undefined {
+  if (value === undefined || value === '') return undefined
+  const count = Number(value)
+  if (!Number.isInteger(count) || count < 0) {
+    throw new Error(`Invalid ${name} "${value}"; expected a whole number.`)
+  }
+  return count
 }
 
 // Empty values count as unset throughout: an unset GitHub Actions variable

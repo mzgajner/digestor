@@ -1,10 +1,14 @@
-import { assertEquals } from 'https://deno.land/std/assert/mod.ts'
+import {
+  assertEquals,
+  assertRejects,
+} from 'https://deno.land/std/assert/mod.ts'
 import type { ParsedEntry } from '../parse.ts'
 import {
   recueEpisode,
   selectPending,
   transcribeEpisode,
   transcribeMissing,
+  TranscriberUnavailableError,
   withinDays,
 } from './pipeline.ts'
 import type { TranscribeDeps } from './pipeline.ts'
@@ -258,3 +262,45 @@ Deno.test(function withinDaysKeepsRecentEntriesTest() {
   ]
   assertEquals(withinDays(entries, 60, now).map((e) => e.guid), ['recent'])
 })
+
+Deno.test(
+  async function transcribeMissingChecksTheEngineBeforeDownloadingTest() {
+    const deps = await harness()
+    let downloads = 0
+    const download: typeof deps.download = (...args) => {
+      downloads++
+      return deps.download(...args)
+    }
+    const transcriber = {
+      ...deps.transcriber,
+      preflight: () => Promise.reject(new Error('whisper-cli is missing')),
+    }
+    await assertRejects(
+      () =>
+        transcribeMissing([entry('1', '2016-01-01')], {
+          ...deps,
+          download,
+          transcriber,
+        }),
+      TranscriberUnavailableError,
+      'whisper-cli is missing',
+    )
+    assertEquals(downloads, 0)
+  },
+)
+
+Deno.test(
+  async function transcribeMissingSkipsPreflightWhenNothingIsPendingTest() {
+    const deps = await harness()
+    await transcribeEpisode(entry('1', '2016-01-01'), deps)
+    const transcriber = {
+      ...deps.transcriber,
+      preflight: () => Promise.reject(new Error('whisper-cli is missing')),
+    }
+    const results = await transcribeMissing([entry('1', '2016-01-01')], {
+      ...deps,
+      transcriber,
+    })
+    assertEquals(results, [])
+  },
+)

@@ -11,9 +11,13 @@ import {
   resolveEngine,
   resolveModel,
   transcribeMissing,
+  TranscriberUnavailableError,
 } from './transcription/mod.ts'
 
 const FEED_PATH = 'feed.rss'
+
+// Exit code for "feed written, but some listed episodes could not be scraped".
+const PARTIAL_EXIT_CODE = 3
 
 // Pass --full to re-fetch every episode from scratch. By default we only fetch
 // episodes that aren't already in feed.rss and reuse the rest as-is.
@@ -33,7 +37,12 @@ console.log(
     : `${existing.size} existing episodes, fetching ${newCount} new.`,
 )
 
-const entries = await parseEntries(episodeUrls, { existing, full })
+const gaveUpOn: string[] = []
+const entries = await parseEntries(episodeUrls, {
+  existing,
+  full,
+  onGiveUp: (url) => gaveUpOn.push(url),
+})
 
 if (transcribe) {
   const engine = resolveEngine(Deno.args)
@@ -42,7 +51,13 @@ if (transcribe) {
     model: resolveModel(Deno.args, engine),
     batchSize: resolveBatchSize(Deno.args),
   })
-  await transcribeMissing(entries, deps)
+  try {
+    await transcribeMissing(entries, deps)
+  } catch (error) {
+    // A missing engine shouldn't stop the feed from being updated.
+    if (!(error instanceof TranscriberUnavailableError)) throw error
+    console.warn(`Skipping transcription: ${error.message}`)
+  }
 }
 
 const transcriptGuids = await createFileStore().list()
@@ -56,4 +71,12 @@ if (isSameFeed(previous, feed)) {
 } else {
   await Deno.writeTextFile(FEED_PATH, feed)
   console.log(`Wrote ${entries.length} episodes to ${FEED_PATH}.`)
+}
+
+// The feed above is complete for everything that could be scraped. Episodes
+// that are listed but couldn't be fetched are reported through a distinct exit
+// code, so the workflow can publish what it has and still flag the run.
+if (gaveUpOn.length > 0) {
+  for (const url of gaveUpOn) console.warn(`Listed but not scraped: ${url}`)
+  Deno.exit(PARTIAL_EXIT_CODE)
 }

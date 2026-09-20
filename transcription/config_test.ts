@@ -1,5 +1,10 @@
 import { assertEquals, assertThrows } from 'https://deno.land/std/assert/mod.ts'
-import { resolveBatchSize, resolveEngine, resolveModel } from './config.ts'
+import {
+  parseCount,
+  resolveBatchSize,
+  resolveEngine,
+  resolveModel,
+} from './config.ts'
 
 Deno.test(function resolveEngineDefaultsToWhisperCppTest() {
   assertEquals(resolveEngine([]), 'whisper.cpp')
@@ -41,5 +46,27 @@ Deno.test(function resolveBatchSizeTest() {
     () => resolveBatchSize(['--batch-size', 'lots']),
     Error,
     'Invalid batch size',
+  )
+})
+
+Deno.test(function resolveAcceptsEqualsFormTest() {
+  assertEquals(resolveEngine(['--engine=faster-whisper']), 'faster-whisper')
+  assertEquals(resolveModel(['--model=tiny'], 'whisper.cpp'), 'tiny')
+  assertEquals(resolveBatchSize(['--batch-size=4']), 4)
+})
+
+Deno.test(function parseCountTest() {
+  assertEquals(parseCount('--limit', undefined), undefined)
+  assertEquals(parseCount('--limit', '5'), 5)
+  assertThrows(
+    () => parseCount('--limit', 'abc'),
+    Error,
+    'Invalid --limit "abc"',
+  )
+  assertThrows(() => parseCount('--limit', '-1'), Error, 'Invalid --limit')
+  assertThrows(
+    () => parseCount('--max-age-days', '1.5'),
+    Error,
+    'Invalid --max-age-days',
   )
 })

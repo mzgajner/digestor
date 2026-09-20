@@ -24,6 +24,9 @@ export type TranscribeOutput = {
 // plugged in behind this without touching the pipeline.
 export interface Transcriber {
   readonly model: string
+  // Optional cheap check that the engine can run at all (binary built, models
+  // present). Rejects with a message that says how to fix it.
+  preflight?(): Promise<void>
   transcribe(request: TranscribeRequest): Promise<TranscribeOutput>
 }
 

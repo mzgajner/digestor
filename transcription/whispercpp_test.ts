@@ -251,3 +251,22 @@ Deno.test(async function decodeAudioSurvivesPhaseInvertedStereoTest() {
     `peak ${peak}: the downmix cancelled the audio`,
   )
 })
+
+Deno.test(async function whisperCppPreflightPointsAtSetupWhenNotBuiltTest() {
+  const dir = await Deno.makeTempDir()
+  const transcriber = new WhisperCppTranscriber({
+    binPath: `${dir}/whisper-cli`,
+    modelPath: `${dir}/model.bin`,
+    vadModelPath: `${dir}/vad.bin`,
+  })
+  await assertRejects(
+    () => transcriber.preflight(),
+    Error,
+    'transcription/whispercpp/setup.sh',
+  )
+
+  for (const name of ['whisper-cli', 'model.bin', 'vad.bin']) {
+    await Deno.writeTextFile(`${dir}/${name}`, '')
+  }
+  await transcriber.preflight()
+})

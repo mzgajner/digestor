@@ -2,6 +2,7 @@ import { parseArgs } from 'https://deno.land/std/cli/parse_args.ts'
 import { readExistingEntries } from './existing.ts'
 import {
   createDefaultDeps,
+  parseCount,
   recueEpisode,
   resolveBatchSize,
   resolveEngine,
@@ -55,9 +56,8 @@ if (args.guid) {
   }
 }
 
-if (args['max-age-days']) {
-  entries = withinDays(entries, Number(args['max-age-days']))
-}
+const maxAgeDays = parseCount('--max-age-days', args['max-age-days'])
+if (maxAgeDays !== undefined) entries = withinDays(entries, maxAgeDays)
 
 const engine = resolveEngine(Deno.args)
 const deps = createDefaultDeps({
@@ -74,7 +74,7 @@ if (args.recue) {
 }
 
 const selection = {
-  limit: args.limit ? Number(args.limit) : undefined,
+  limit: parseCount('--limit', args.limit),
   force: args.force,
   oldestFirst: !args['newest-first'],
 }

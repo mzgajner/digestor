@@ -38,9 +38,6 @@ class DecodeAudioTest(unittest.TestCase):
                 decode_audio(path)
 
 
-if __name__ == "__main__":
-    unittest.main()
-
 
 
 class PhaseInvertedStereoTest(unittest.TestCase):
@@ -59,3 +56,7 @@ class PhaseInvertedStereoTest(unittest.TestCase):
             )
             audio = decode_audio(path)
             self.assertGreater(float(abs(audio).max()), 0.1)
+
+
+if __name__ == "__main__":
+    unittest.main()

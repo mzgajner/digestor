@@ -56,7 +56,9 @@ be a manual chore:
 
 The run fails loudly (and commits nothing) when the source site can't be
 scraped, for instance because it answers GitHub's runners with an anti-bot
-challenge.
+challenge. If the listing works but a newly listed episode can't be fetched,
+`regenerate` still writes the feed and exits with code 3; the workflow publishes
+what it has and marks the run as failed, so you hear about it.
 
 Since the workflow commits to `main`, **pull before running `regenerate` or
 `transcribe` locally** so you build on what it already did. `feed.rss` is
@@ -85,9 +87,16 @@ shred -u gh_dokku gh_dokku.pub
 ```
 
 A Dokku SSH key can run any dokku command on the server, not just deploy this
-app, so only the deploy job can read it and the workflows have no `pull_request`
-triggers. The [dokku-acl](https://github.com/dokku-community/dokku-acl) plugin
-can restrict the key to this app.
+app, so the workflows are built around it: only the deploy job can read the key,
+the job that runs the transcription code for hours has a read-only token and no
+secrets, and a separate small job commits nothing but the transcript JSON it
+produced. Pull requests only ever run the `Test` workflow, which gets no secrets
+(never add `pull_request_target`). The
+[dokku-acl](https://github.com/dokku-community/dokku-acl) plugin can restrict
+the key to this app.
+
+The `Test` workflow (format, type check, both test suites) runs on pull requests
+and must pass before a push to `main` is deployed.
 
 The workflow can also be started by hand from the Actions tab: `dry_run` commits
 and deploys nothing, and `guid` transcribes one given episode into a build

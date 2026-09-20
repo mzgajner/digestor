@@ -60,6 +60,18 @@ export class WhisperCppTranscriber implements Transcriber {
     this.ffmpegBin = ffmpegBin
   }
 
+  async preflight(): Promise<void> {
+    for (const path of [this.binPath, this.modelPath, this.vadModelPath]) {
+      try {
+        await Deno.stat(path)
+      } catch {
+        throw new Error(
+          `whisper.cpp is not set up ("${path}" is missing). Run transcription/whispercpp/setup.sh, or use --engine faster-whisper.`,
+        )
+      }
+    }
+  }
+
   async transcribe(request: TranscribeRequest): Promise<TranscribeOutput> {
     const wavPath = `${request.audioPath}.16k.wav`
     const outPrefix = `${request.audioPath}.whispercpp`

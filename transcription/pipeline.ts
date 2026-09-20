@@ -37,6 +37,15 @@ export type BatchOptions = EpisodeOptions & {
   maxConsecutiveFailures?: number
 }
 
+// The engine can't run at all (not built, models missing), as opposed to one
+// episode failing. Raised before any audio is downloaded.
+export class TranscriberUnavailableError extends Error {
+  constructor(message: string) {
+    super(message)
+    this.name = 'TranscriberUnavailableError'
+  }
+}
+
 // Console progress is reported at most once per this much audio.
 const PROGRESS_EVERY_SECONDS = 60
 
@@ -200,6 +209,15 @@ export async function transcribeMissing(
     oldestFirst,
   })
   let skipped = entries.length - selected.length
+
+  if (selected.length > 0) {
+    try {
+      await deps.transcriber.preflight?.()
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error)
+      throw new TranscriberUnavailableError(message)
+    }
+  }
 
   const results: EpisodeResult[] = []
   let consecutiveFailures = 0
