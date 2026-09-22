@@ -1,6 +1,11 @@
 import { Html5Entities } from 'https://deno.land/x/html_entities/mod.js'
 import { DOMParser } from 'https://deno.land/x/deno_dom/deno-dom-wasm.ts'
-import { convertBytesToSeconds, getLastName } from './utils.ts'
+import {
+  convertBytesToSeconds,
+  type FetchFn,
+  getLastName,
+  USER_AGENT,
+} from './utils.ts'
 import { SPOTIFY_BLACKLIST } from './fetch.ts'
 
 const BASE_URL = 'https://radiostudent.si'
@@ -32,11 +37,21 @@ type ParseOptions = {
   existing?: Map<string, ParsedEntry>
   // Re-fetch every episode instead of reusing the ones we already have.
   full?: boolean
+  // Turns an episode URL into an entry, or null after giving up on it.
+  transform?: (url: string) => Promise<ParsedEntry | null>
+  // Called for every listed episode that ends up missing from the result, so
+  // an unattended run can report a new episode it couldn't scrape.
+  onGiveUp?: (url: string) => void
 }
 
 export async function parseEntries(
   episodeUrls: string[],
-  { existing = new Map(), full = false }: ParseOptions = {},
+  {
+    existing = new Map(),
+    full = false,
+    transform = transformEntry,
+    onGiveUp,
+  }: ParseOptions = {},
 ) {
   const resolved = await mapWithConcurrency(
     episodeUrls,
@@ -48,14 +63,18 @@ export async function parseEntries(
 
       // Otherwise fetch it fresh, but fall back to the existing entry (if any)
       // so a flaky fetch never drops an episode we already had.
-      return (await transformEntry(url)) ?? existing.get(url) ?? null
+      const entry = (await transform(url)) ?? existing.get(url) ?? null
+      if (!entry) onGiveUp?.(url)
+      return entry
     },
   )
 
   const byUrl = new Map<string, ParsedEntry>()
   for (const entry of resolved) if (entry) byUrl.set(entry.url, entry)
   // Keep any existing episodes that fell off the listing entirely.
-  for (const [url, entry] of existing) if (!byUrl.has(url)) byUrl.set(url, entry)
+  for (const [url, entry] of existing) {
+    if (!byUrl.has(url)) byUrl.set(url, entry)
+  }
 
   return [...byUrl.values()]
     .filter((entry) => !SPOTIFY_BLACKLIST.includes(entry.title))
@@ -113,15 +132,28 @@ async function transformEntry(url: string): Promise<ParsedEntry | null> {
 }
 
 async function fetchHtml(url: string) {
-  const response = await fetch(url)
-  const html = await response.text()
-  return html
+  const response = await fetch(url, { headers: { 'User-Agent': USER_AGENT } })
+  if (!response.ok) {
+    await response.body?.cancel()
+    throw new Error(`HTTP ${response.status}`)
+  }
+  return await response.text()
 }
 
-async function fetchContentLength(mp3Url: string) {
-  const response = await fetch(mp3Url, { method: 'HEAD' })
-  const contentLength = response.headers.get('content-length')!
-  return Number(contentLength)
+// Throws rather than returning 0: an entry is only ever fetched once, so a
+// bogus size would otherwise stay in the feed forever.
+export async function fetchContentLength(
+  mp3Url: string,
+  fetchFn: FetchFn = fetch,
+) {
+  const response = await fetchFn(mp3Url, {
+    method: 'HEAD',
+    headers: { 'User-Agent': USER_AGENT },
+  })
+  if (!response.ok) throw new Error(`HTTP ${response.status} for ${mp3Url}`)
+  const contentLength = Number(response.headers.get('content-length'))
+  if (!contentLength) throw new Error(`no content length for ${mp3Url}`)
+  return contentLength
 }
 
 export function parseValuesFromPostHtml(postHtml: string) {

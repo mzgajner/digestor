@@ -1,4 +1,7 @@
 import { DOMParser } from 'https://deno.land/x/deno_dom/deno-dom-wasm.ts'
+import { type FetchFn, USER_AGENT } from './utils.ts'
+
+export { USER_AGENT }
 
 const BASE_URL = 'https://radiostudent.si'
 const SECTION_PATH = '/kultura/pritiskavec-gold'
@@ -20,13 +23,17 @@ export const SPOTIFY_BLACKLIST = [
 // episode, newest first. The RSS feed only ever returns the latest 40 items
 // (its `?page=` parameter is ignored), but the HTML listing paginates all the
 // way back to the very first episode, so we scrape that instead.
-export default async function fetchEpisodeUrls() {
+//
+// Throws when the site answers with an error or a page without any episode
+// links (which is what an anti-bot challenge looks like), so an unattended run
+// fails loudly instead of concluding there is nothing new.
+export default async function fetchEpisodeUrls(fetchFn: FetchFn = fetch) {
   const urls: string[] = []
   const seen = new Set<string>()
   let page = 0
 
   while (true) {
-    const pageUrls = await fetchEpisodeUrlsForPage(page)
+    const pageUrls = await fetchEpisodeUrlsForPage(page, fetchFn)
     const newUrls = pageUrls.filter((url) => !seen.has(url))
 
     // No new episodes means we've reached the end (or pagination broke), so
@@ -40,11 +47,22 @@ export default async function fetchEpisodeUrls() {
     page++
   }
 
+  if (urls.length === 0) {
+    throw new Error(
+      'Listing returned no episode URLs (blocked, or the markup changed).',
+    )
+  }
   return urls
 }
 
-async function fetchEpisodeUrlsForPage(page: number) {
-  const response = await fetch(`${SECTION_URL}?page=${page}`)
+async function fetchEpisodeUrlsForPage(page: number, fetchFn: FetchFn) {
+  const response = await fetchFn(`${SECTION_URL}?page=${page}`, {
+    headers: { 'User-Agent': USER_AGENT },
+  })
+  if (!response.ok) {
+    await response.body?.cancel()
+    throw new Error(`Listing page ${page} returned HTTP ${response.status}.`)
+  }
   const html = await response.text()
   const document = new DOMParser().parseFromString(html, 'text/html')!
 

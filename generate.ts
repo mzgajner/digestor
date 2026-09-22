@@ -1,8 +1,28 @@
 import { Podcast } from 'npm:podcast'
 import { type ParsedEntry } from './parse.ts'
+import { LANGUAGE, PUBLIC_BASE_URL } from './transcription/config.ts'
+import { FORMATS, transcriptUrl } from './transcription/formats.ts'
 import { generateHumanReadableAuthors } from './utils.ts'
 
-export function generateFeed(entries: ParsedEntry[]) {
+const LAST_BUILD_DATE = /<lastBuildDate>[^<]*<\/lastBuildDate>/
+
+// The podcast library stamps <lastBuildDate> with the current time on every
+// build, so two feeds count as the same when that is the only difference.
+export function isSameFeed(a: string, b: string) {
+  return a.replace(LAST_BUILD_DATE, '') === b.replace(LAST_BUILD_DATE, '')
+}
+
+export type GenerateOptions = {
+  // Guids of episodes that have a transcript; they get podcast:transcript tags.
+  transcriptGuids?: Set<string>
+  baseUrl?: string
+}
+
+export function generateFeed(
+  entries: ParsedEntry[],
+  { transcriptGuids = new Set(), baseUrl = PUBLIC_BASE_URL }: GenerateOptions =
+    {},
+) {
   const feed = new Podcast({
     title: 'Pritiskavec Gold',
     description:
@@ -68,9 +88,27 @@ export function generateFeed(entries: ParsedEntry[]) {
       itunesSummary: entry.subtitle,
       itunesSubtitle: entry.subtitle,
       itunesDuration: entry.duration,
-      customElements: [{ 'dc:description': entry.description }],
+      customElements: [
+        { 'dc:description': entry.description },
+        ...(transcriptGuids.has(entry.guid)
+          ? transcriptElements(entry.guid, baseUrl)
+          : []),
+      ],
     })
   })
 
   return feed.buildXml({ indent: '  ' })
+}
+
+// One <podcast:transcript/> per format, VTT first (see FORMATS).
+function transcriptElements(guid: string, baseUrl: string) {
+  return FORMATS.map(({ extension, mimeType }) => ({
+    'podcast:transcript': {
+      _attr: {
+        url: transcriptUrl(guid, extension, baseUrl),
+        type: mimeType,
+        language: LANGUAGE,
+      },
+    },
+  }))
 }
