@@ -91,3 +91,22 @@ Deno.test(async function parseEntriesReportsNewEpisodesItGaveUpOnTest() {
   assertEquals(entries.map((entry) => entry.url), ['https://example.com/known'])
   assertEquals(gaveUpOn, ['https://example.com/new'])
 })
+
+Deno.test(async function fetchContentLengthRetriesRateLimitsTest() {
+  let calls = 0
+  const fetchFn = () => {
+    calls++
+    return Promise.resolve(
+      calls === 1
+        ? new Response(null, { status: 418 })
+        : new Response(null, { headers: { 'content-length': '7' } }),
+    )
+  }
+  assertEquals(
+    await fetchContentLength('https://example.com/a.mp3', fetchFn, {
+      retryDelayMs: 0,
+    }),
+    7,
+  )
+  assertEquals(calls, 2)
+})

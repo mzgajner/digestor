@@ -2,7 +2,11 @@ import {
   assertEquals,
   assertRejects,
 } from 'https://deno.land/std/assert/mod.ts'
-import fetchEpisodeUrls, { USER_AGENT } from './fetch.ts'
+import fetchEpisodeUrls, {
+  BLACKLISTED_SLUGS,
+  SPOTIFY_BLACKLIST,
+  USER_AGENT,
+} from './fetch.ts'
 
 function listing(slugs: string[]) {
   const links = slugs
@@ -98,9 +102,23 @@ Deno.test(async function fetchEpisodeUrlsSkipsBlacklistedEpisodesTest() {
 })
 
 Deno.test(async function fetchEpisodeUrlsPacesListingPagesTest() {
-  const { fetchFn } = fakeFetch([listing(['a']), listing(['b'])])
-  const started = performance.now()
-  await fetchEpisodeUrls(fetchFn, { pageDelayMs: 50 })
-  // Three requests (two pages plus the empty one), two pauses between them.
-  assertEquals(performance.now() - started >= 100, true)
+  const { fetchFn, requests } = fakeFetch([listing(['a']), listing(['b'])])
+  const events: string[] = []
+  await fetchEpisodeUrls(fetchFn, {
+    pageDelayMs: 50,
+    sleep: (ms) => {
+      events.push(`sleep ${ms} after ${requests.length} requests`)
+      return Promise.resolve()
+    },
+  })
+  // Three requests (two pages plus the empty one), one pause before each
+  // page after the first.
+  assertEquals(events, [
+    'sleep 50 after 1 requests',
+    'sleep 50 after 2 requests',
+  ])
+})
+
+Deno.test(function blacklistSlugsMatchBlacklistTitlesTest() {
+  assertEquals(BLACKLISTED_SLUGS.size, SPOTIFY_BLACKLIST.length)
 })

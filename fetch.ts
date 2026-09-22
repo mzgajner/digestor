@@ -1,5 +1,11 @@
 import { DOMParser } from 'https://deno.land/x/deno_dom/deno-dom-wasm.ts'
-import { type FetchFn, USER_AGENT } from './utils.ts'
+import {
+  type BackoffOptions,
+  type FetchFn,
+  fetchWithBackoff,
+  sleep,
+  USER_AGENT,
+} from './utils.ts'
 
 export { USER_AGENT }
 
@@ -21,8 +27,8 @@ export const SPOTIFY_BLACKLIST = [
 
 // The same episodes by URL slug, so they are dropped before their pages are
 // ever fetched (they never make it into the feed, so every run would
-// otherwise re-fetch them as "new").
-const BLACKLISTED_SLUGS = new Set([
+// otherwise re-fetch them as "new"). Kept in step with the titles by a test.
+export const BLACKLISTED_SLUGS = new Set([
   'skupaj-je-lazje',
   'mrknil-je-telltale',
   'portal',
@@ -31,17 +37,12 @@ const BLACKLISTED_SLUGS = new Set([
   'slisati-igro',
 ])
 
-export type FetchOptions = {
+export type FetchOptions = BackoffOptions & {
   // Pause between listing pages. The source sits behind an anti-bot proxy
   // that answers bursts from datacenter addresses with 418, and this runs
   // once a day, so there is no reason to hurry.
   pageDelayMs?: number
-  // First pause after a 418/429; doubles on each further attempt.
-  retryDelayMs?: number
 }
-
-const RATE_LIMITED = new Set([418, 429])
-const ATTEMPTS = 4
 
 // Walks the paginated section listing and returns the absolute URL of every
 // episode, newest first. The RSS feed only ever returns the latest 40 items
@@ -53,15 +54,19 @@ const ATTEMPTS = 4
 // fails loudly instead of concluding there is nothing new.
 export default async function fetchEpisodeUrls(
   fetchFn: FetchFn = fetch,
-  { pageDelayMs = 1000, retryDelayMs = 30000 }: FetchOptions = {},
+  { pageDelayMs = 1000, sleep: pause = sleep, ...backoff }: FetchOptions = {},
 ) {
   const urls: string[] = []
   const seen = new Set<string>()
   let page = 0
 
   while (true) {
-    if (page > 0) await sleep(pageDelayMs)
-    const pageUrls = await fetchEpisodeUrlsForPage(page, fetchFn, retryDelayMs)
+    if (page > 0) await pause(pageDelayMs)
+    const pageUrls = await fetchEpisodeUrlsForPage(page, {
+      ...backoff,
+      fetchFn,
+      sleep: pause,
+    })
     const newUrls = pageUrls.filter((url) => !seen.has(url))
 
     // No new episodes means we've reached the end (or pagination broke), so
@@ -83,27 +88,20 @@ export default async function fetchEpisodeUrls(
   return urls
 }
 
-async function fetchEpisodeUrlsForPage(
-  page: number,
-  fetchFn: FetchFn,
-  retryDelayMs: number,
-) {
-  const url = `${SECTION_URL}?page=${page}`
+async function fetchEpisodeUrlsForPage(page: number, backoff: BackoffOptions) {
   let response: Response
-  for (let attempt = 1;; attempt++) {
-    response = await fetchFn(url, { headers: { 'User-Agent': USER_AGENT } })
-    if (response.ok) break
-    await response.body?.cancel()
-    if (!RATE_LIMITED.has(response.status) || attempt === ATTEMPTS) {
-      throw new Error(`Listing page ${page} returned HTTP ${response.status}.`)
-    }
-    const delay = retryDelayMs * 2 ** (attempt - 1)
-    console.warn(
-      `Listing page ${page} returned HTTP ${response.status}, retrying in ${
-        delay / 1000
-      } s.`,
+  try {
+    response = await fetchWithBackoff(
+      `${SECTION_URL}?page=${page}`,
+      {},
+      backoff,
     )
-    await sleep(delay)
+  } catch (error) {
+    const status = error instanceof Error
+      ? error.message.match(/HTTP \d+/)
+      : null
+    if (!status) throw error
+    throw new Error(`Listing page ${page} returned ${status[0]}.`)
   }
   const html = await response.text()
   const document = new DOMParser().parseFromString(html, 'text/html')!
@@ -121,8 +119,4 @@ function isEpisodePath(href: string) {
   const match = href.match(/^\/kultura\/pritiskavec-gold\/([a-z0-9-]+)$/)
   return Boolean(match) && match![1] !== 'podcast' &&
     !BLACKLISTED_SLUGS.has(match![1])
-}
-
-function sleep(ms: number) {
-  return ms > 0 ? new Promise((resolve) => setTimeout(resolve, ms)) : undefined
 }

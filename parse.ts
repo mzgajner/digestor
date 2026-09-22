@@ -1,10 +1,12 @@
 import { Html5Entities } from 'https://deno.land/x/html_entities/mod.js'
 import { DOMParser } from 'https://deno.land/x/deno_dom/deno-dom-wasm.ts'
 import {
+  type BackoffOptions,
   convertBytesToSeconds,
   type FetchFn,
+  fetchWithBackoff,
   getLastName,
-  USER_AGENT,
+  sleep,
 } from './utils.ts'
 import { SPOTIFY_BLACKLIST } from './fetch.ts'
 
@@ -14,6 +16,7 @@ const BASE_URL = 'https://radiostudent.si'
 // answers bursts from datacenter addresses with 418, and a normal run only
 // fetches the odd new episode, so there is nothing to gain from parallelism.
 const CONCURRENCY = 2
+const BATCH_DELAY_MS = 1000
 
 // The source occasionally returns an incomplete page (a 200 that's missing
 // the audio/date fields), so we retry a few times before giving up.
@@ -132,11 +135,7 @@ async function transformEntry(url: string): Promise<ParsedEntry | null> {
 }
 
 async function fetchHtml(url: string) {
-  const response = await fetch(url, { headers: { 'User-Agent': USER_AGENT } })
-  if (!response.ok) {
-    await response.body?.cancel()
-    throw new Error(`HTTP ${response.status}`)
-  }
+  const response = await fetchWithBackoff(url)
   return await response.text()
 }
 
@@ -145,12 +144,12 @@ async function fetchHtml(url: string) {
 export async function fetchContentLength(
   mp3Url: string,
   fetchFn: FetchFn = fetch,
+  backoff: BackoffOptions = {},
 ) {
-  const response = await fetchFn(mp3Url, {
-    method: 'HEAD',
-    headers: { 'User-Agent': USER_AGENT },
+  const response = await fetchWithBackoff(mp3Url, { method: 'HEAD' }, {
+    fetchFn,
+    ...backoff,
   })
-  if (!response.ok) throw new Error(`HTTP ${response.status} for ${mp3Url}`)
   const contentLength = Number(response.headers.get('content-length'))
   if (!contentLength) throw new Error(`no content length for ${mp3Url}`)
   return contentLength
@@ -264,6 +263,8 @@ async function mapWithConcurrency<T, R>(
 ): Promise<R[]> {
   const results: R[] = []
   for (let i = 0; i < items.length; i += limit) {
+    // Pace the batches for the same reason the listing walk is paced.
+    if (i > 0) await sleep(BATCH_DELAY_MS)
     const batch = items.slice(i, i + limit)
     results.push(...await Promise.all(batch.map(fn)))
   }
