@@ -1,0 +1,21 @@
+name: probe
+on: workflow_dispatch
+permissions: {}
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - run: |
+          UA='digestor (+https://github.com/mzgajner/digestor)'
+          for i in 1 2 3 4 5; do
+            curl -s -o /dev/null -D "$RUNNER_TEMP/h$i" -w "attempt $i: %{http_code} ip=%{remote_ip}\n" -A "$UA" 'https://radiostudent.si/kultura/pritiskavec-gold?page=0'
+            sleep 10
+          done
+          echo "--- headers of last response"; cat "$RUNNER_TEMP/h5"
+          echo "--- with a browser UA"
+          curl -s -o /dev/null -w "browser UA: %{http_code}\n" -A 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36' 'https://radiostudent.si/kultura/pritiskavec-gold?page=0'
+          echo "--- mp3 HEAD"
+          curl -s -o /dev/null -I -w "mp3 head: %{http_code}\n" -A "$UA" 'https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2026-09-08-pritiskavec-gold-uletu-sem-u-disko-2.mp3'
+          echo "--- 418 body (if any)"
+          curl -s -A "$UA" 'https://radiostudent.si/kultura/pritiskavec-gold?page=0' | head -c 600
