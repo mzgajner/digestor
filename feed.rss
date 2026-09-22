@@ -4,7 +4,7 @@
     <description><![CDATA[Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.]]></description>
     <link>https://radiostudent.si/kultura/pritiskavec-gold</link>
     <generator>mzgajner/digestor</generator>
-    <lastBuildDate>Sun, 20 Sep 2026 16:07:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 06:33:16 GMT</lastBuildDate>
     <author><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner]]></author>
     <pubDate>Tue, 08 Sep 2026 18:00:00 GMT</pubDate>
     <copyright><![CDATA[Radio Študent, 2024]]></copyright>
@@ -34,6 +34,9 @@
       <pubDate>Tue, 08 Sep 2026 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2026-09-08-pritiskavec-gold-uletu-sem-u-disko-2.mp3" length="146623260" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Na meniju bosta tokrat &lt;em&gt;Zero Parades: For Dead Spies&lt;/em&gt;, nov naslov iz ZA/UM, ter Esoteric Ebb, neodvisna igra, ki jo je Disco Elysium tako navdušil, da ga je posnemala.&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/111811.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/111811.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/111811.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>O dveh aktualnih posnemovalcih CRPG sistema Disco Elysiuma</itunes:subtitle>
       <itunes:summary>O dveh aktualnih posnemovalcih CRPG sistema Disco Elysiuma</itunes:summary>
@@ -50,6 +53,9 @@
       <pubDate>Tue, 11 Aug 2026 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2026-08-11-pritiskavec-gold-tudi-jezus-se-lahko-respawna.mp3" length="139488697" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Božje ime smo v oddaji Pritiskavec Gold večkrat priklicali v eter brez posebnega obzira ali ljubezni. Prihajajoči praznik Marijinega vnebovzetja je zato čas, da to napako popravimo.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Zato smo neironično preigrali največji krščanski naslov, ki je v zadnjih letih priletel na trg. &quot;I am Jesus Christ&quot; je poljski proizvod z neskromno ambicijo poustvariti življenje Jezusa, sina Jožefovega, kot je le-to zapisano v evangeliju. Mimogrede smo vrgli oko tudi na druge podobne poskuse, kot je &quot;Jesus Chris Simulator&quot; in druga laskava imena.&lt;/p&gt;&lt;p&gt;Ali je Biblija največji neizkoriščena intelektualna lastnina v videoigrah ta moment? Je kulturni preobrat nazaj proti Novi zavezi neizogiben?&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Bomo videli.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/111661.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/111661.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/111661.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Press &quot;F&quot; to change water into wine</itunes:subtitle>
       <itunes:summary>Press &quot;F&quot; to change water into wine</itunes:summary>
@@ -66,6 +72,9 @@
       <pubDate>Tue, 14 Jul 2026 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2026-07-14-pritiskavec-gold-3d-platformamo-kot-da-je-1999.mp3" length="143726802" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;3D platformščine so svojo slavo doživele konec devetdesetih in v začetku novega tisočletja, nakar so se umaknile na obrobje. Kot številne druge žanre, ki ustrezajo temu opisu, jih danes v valu nostalgije oživljajo predvsem neodvisni studii. Pritiskavce smo tokrat pritiskali v &lt;em&gt;Big Hops&lt;/em&gt; in &lt;em&gt;Demon Tides&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;V oddaji omenjene reči:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Super_Mario_64&quot;&gt;Super Mario 64&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/1221480/Big_Hops/&quot;&gt;Big Hops&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/2585890/Demon_Tides/&quot;&gt;Demon Tides&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Super_Meat_Boy_3D&quot;&gt;Super Meat Boy 3D&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/111126.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/111126.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/111126.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Seciramo nostalgični žanr na primeru dveh aktualnih izdaj</itunes:subtitle>
       <itunes:summary>Seciramo nostalgični žanr na primeru dveh aktualnih izdaj</itunes:summary>
@@ -82,6 +91,9 @@
       <pubDate>Tue, 09 Jun 2026 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2026-06-09-pritiskavec-gold-you-are-breaking-the-car.mp3" length="142895064" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Ob nedavnem izidu novega dela Forze Horizon smo debatirali na temo arkadnih dirkačin, ki so po razcvetu ob koncu 20. in začetku 21. stoletja dandanes skorajda že retro žanr. Odločili smo se, da aktualno stanje ocenimo na podlagi dveh indie rally naslovov, &lt;em&gt;Art of Rally&lt;/em&gt; iz 2020 in letošnjo mini uspešnico &lt;em&gt;Super Woden: Rally Edge&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Povezave do omenjenih vsebin:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=D9-voINFkCg&quot;&gt;Samir....You&apos;re breaking the car!!!&lt;/a&gt; – Legendaren posnetek, ki je motiviral naslov tega prispevka.&lt;/li&gt;&lt;li&gt;Art of Rally – &lt;a href=&quot;https://store.steampowered.com/app/550320/art_of_rally/&quot;&gt;Steam,&lt;/a&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Art_of_Rally&quot;&gt;Wikipedija&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Super Woden: Rally Edge – &lt;a href=&quot;https://store.steampowered.com/app/3218630/Super_Woden_Rally_Edge/&quot;&gt;Steam&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/110664.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/110664.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/110664.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Furamo rally v dveh nostalgičnih arkadnih dirkačinah</itunes:subtitle>
       <itunes:summary>Furamo rally v dveh nostalgičnih arkadnih dirkačinah</itunes:summary>
@@ -98,6 +110,9 @@
       <pubDate>Tue, 12 May 2026 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2026-05-12-pritiskavec-gold-jaz-lahko-ima-cizburger.mp3" length="143480207" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Tehnološki napredek je v tem desetletju končno dosegel točko, ko lahko dostojno animiramo kompleksno premikanje mačke.&lt;/p&gt;&lt;p&gt;Menda.&lt;/p&gt;&lt;p&gt;Bomo preverili v tokratni oddaji, igrali smo namreč Stray in Mewgenics - dva naslova, v katerih pomembno vlogo igrajo mačke.&lt;/p&gt;&lt;p&gt;Povezave do v oddaji omenjenih reči:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stray (&lt;a href=&quot;https://en.wikipedia.org/wiki/Stray_(video_game)&quot;&gt;Wikipedija&lt;/a&gt;, &lt;a href=&quot;https://store.steampowered.com/app/1332010/Stray/&quot;&gt;Steam&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;Mewgenics (&lt;a href=&quot;https://en.wikipedia.org/wiki/Mewgenics&quot;&gt;Wikipedija&lt;/a&gt;, &lt;a href=&quot;https://store.steampowered.com/app/686060/Mewgenics/&quot;&gt;Steam&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.rockpapershotgun.com/steam-controller-review-2026&quot;&gt;Steam Controller&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://mezha.ua/en/news/valve-steam-machine-import-310955/&quot;&gt;Carinski postopek za (mogoče) Steam Mašine?&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/110265.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/110265.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/110265.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Pljuvamo kepe dlak in igramo igre z mačkami</itunes:subtitle>
       <itunes:summary>Pljuvamo kepe dlak in igramo igre z mačkami</itunes:summary>
@@ -114,6 +129,9 @@
       <pubDate>Tue, 14 Apr 2026 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2026-04-14-pritiskavec-gold-vzponi-in-padci.mp3" length="145277431" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Ker je Janja Garnbret ravno v času od pretekle oddaje praznovala rojstni dan, smo si v ekipi Pritiskavca dlani namazali z magnezijevim karbonatom ter se podali v višave.&lt;/p&gt;&lt;p&gt;Igramo &lt;a href=&quot;https://en.wikipedia.org/wiki/Jusant&quot;&gt;Jusant&lt;/a&gt; in &lt;a href=&quot;https://en.wikipedia.org/wiki/Cairn_(video_game)&quot;&gt;Cairn&lt;/a&gt;.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/109872.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/109872.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/109872.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Brez varovanja smo se lotili plezalščin</itunes:subtitle>
       <itunes:summary>Brez varovanja smo se lotili plezalščin</itunes:summary>
@@ -130,6 +148,9 @@
       <pubDate>Tue, 10 Mar 2026 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2026-03-10-pritiskavec-gold-moja-dusa-je-mracna.mp3" length="141215868" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Lansko jesen smo se posvetili naslovom, ki načrtno frustrirajo igralce. Tokrat smo se sprehodili le nekaj korakov stran, na sosednji travnik z mazohisti. Vsakdo pozna koga od njih. To so tisti ljudje, ki poleti trenirajo za Franjo, pozimi pa igrajo Elden Ring.&lt;/p&gt;&lt;p&gt;Obuli smo njihove čevlje in zaigrali Another Crab&apos;s Treasure ter Blasphemous 2.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/109387.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/109387.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/109387.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Prostovoljno smo si polomili zobe na dveh Souls-likeih</itunes:subtitle>
       <itunes:summary>Prostovoljno smo si polomili zobe na dveh Souls-likeih</itunes:summary>
@@ -146,6 +167,9 @@
       <pubDate>Tue, 10 Feb 2026 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2026-02-10-pritiskavec-gold-zimske-urice-proste.mp3" length="144954513" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Vremenu primerno smo se ta mesec zabubili na kavč in se lotili brskanja po starem dvorcu in starem internetu. S tem namigujem na dve igri, ki smo ju obdelali: prva je &lt;em&gt;Blue Prince&lt;/em&gt;, druga pa &lt;em&gt;The Roottrees are Dead&lt;/em&gt;. Obe se da brez slabe vesti pospraviti v predal ugankarskih iger, a sta vendarle vsaka zase dovolj posebni, da sta si prislužili obilico hvale po kritiških kuloarjih. Čemu, izveste v oddaji.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://jjohnstongames.itch.io/the-roottrees-are-dead&quot;&gt;The Roottrees are Dead na itch.io&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/2754380/The_Roottrees_are_Dead/&quot;&gt;The Roottrees are Dead na Steamu&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/1569580/Blue_Prince/&quot;&gt;Blue Prince na Steamu&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/108981.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/108981.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/108981.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>2025 je bilo plodno leto za ugankarice, zatorej evo vam dve</itunes:subtitle>
       <itunes:summary>2025 je bilo plodno leto za ugankarice, zatorej evo vam dve</itunes:summary>
@@ -162,6 +186,9 @@
       <pubDate>Tue, 13 Jan 2026 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2026-01-13-pritiskavec-gold-se-malo-levo-okej-stop.mp3" length="140633860" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Leitmotif tokratne oddaje bo roadtrip, v 2025 sta namreč izšli dve zelo različni igri na to temo: potezni RPG Keep Driving in kooperativna preživetvena simulacija avtodoma RV There Yet.&lt;/p&gt;&lt;p&gt;Vsi štirje člani ekipe Pritiskavca smo se prvič v zgodovini oddaje zbrali v online seansah, kjer smo dve zimski nedelji zapored kadili virtualne čike, pili virtualne pire in počasi navigirali star avtodom skozi neprijazno severnoameriško divjino.&lt;/p&gt;&lt;p&gt;Povezave do v oddaji omenjenih reči:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/2756920/Keep_Driving/&quot; data-entity-type=&quot;external&quot;&gt;Keep Driving&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/3949040/RV_There_Yet/&quot; data-entity-type=&quot;external&quot;&gt;RV There Yet?&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/108575.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/108575.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/108575.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>RV There Yet in Keep Driving</itunes:subtitle>
       <itunes:summary>RV There Yet in Keep Driving</itunes:summary>
@@ -178,6 +205,9 @@
       <pubDate>Tue, 09 Dec 2025 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-12-09-pritiskavec-gold-a-me-cukas-za-pimpeka.mp3" length="144975411" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Kingdom Come: Deliverance 2, znan tudi kot Henry Simulator, je srednjeveški RPG epskih razsežnosti. Witcher 3, posodobljen za 2025. Verjetno najbolj obetaven kandidat za igro leta.&lt;/p&gt;&lt;p&gt;Za nekaj tednov smo opustili družabno življenje in ga preigrali do obisti, da vam lahko razložimo, v čem je štos.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;*Op. p.: Vulgarni naslov prispevka je poskus prevoda v igri pogosto uporabljene besedne zveze &lt;em&gt;Are you yanking my pizzle?&lt;/em&gt;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/108107.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/108107.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/108107.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Kingdom Come: Deliverance 2</itunes:subtitle>
       <itunes:summary>Kingdom Come: Deliverance 2</itunes:summary>
@@ -194,6 +224,9 @@
       <pubDate>Tue, 14 Oct 2025 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-10-14-pritiskavec-gold-v-30-dneh-okrog-enega-studia.mp3" length="143158333" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Inkle_(company)&quot;&gt;Inkle&lt;/a&gt; je majhen studio iz Cambridgea v Angliji, verjetno najbolj znan po eni od svojih zgodnejših iger 80 days.&lt;/p&gt;&lt;p&gt;Povezave do v oddaji omenjenih vsebin:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://archive.is/20251017202608/https://www.zeit.de/2025/43/baschar-al-assad-moskau-russland-syrien-familie-wladimir-putin&quot;&gt;Bašar al Asad v Moskvi gejma&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.bbc.com/news/articles/cn4w3jzx807o&quot;&gt;Jared Kushner z arabskim investicijskim skladom kupuje EA&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.inklestudios.com/80days/&quot;&gt;80 days&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.inklestudios.com/heavensvault/&quot;&gt;Heaven&apos;s Vault&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.inklestudios.com/a-highland-song/&quot;&gt;A Highland Song&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.inklestudios.com/overboard/&quot;&gt;Overboard!&lt;/a&gt; in &lt;a href=&quot;https://www.inklestudios.com/expelled/&quot;&gt;Expelled!&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/107418.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/107418.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/107418.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Preigravamo opus studia Inkle</itunes:subtitle>
       <itunes:summary>Preigravamo opus studia Inkle</itunes:summary>
@@ -210,6 +243,9 @@
       <pubDate>Tue, 09 Sep 2025 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-09-09-pritiskavec-gold-matranje-iz-principa.mp3" length="142572480" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Zelo zahtevne igre niso nič nenavadnega, nekateri ljudje pač cenijo kompleksnost Paradoxovih strategij, zagamane šefovske bitke v Dark Soulsih in nepopustljivo natančnost, ki jo zahteva Cuphead.&lt;/p&gt;&lt;p&gt;Ekipa Pritiskavca Gold se je tokrat posvetila podskupini omenjenih zatežencev. Debatirali smo o igrah, pri katerih frustracije niso stranski učinek, ampak načrtno vgrajena mehanika.&lt;/p&gt;&lt;p&gt;Omenjene igre:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.foddy.net/Athletics.html&quot;&gt;QWOP&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Getting_Over_It_with_Bennett_Foddy&quot;&gt;Getting Over It with Bennett Foddy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;div&gt;&lt;a href=&quot;https://store.steampowered.com/app/2904890/The_Game_of_Sisyphus/&quot;&gt;The Game of Sisyphus&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Octodad:_Dadliest_Catch&quot;&gt;Octodad: Dadliest Catch&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Human:_Fall_Flat&quot;&gt;Human: Fall Flat&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/106977.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/106977.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/106977.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>O igrah, ki načrtno frustrirajo</itunes:subtitle>
       <itunes:summary>O igrah, ki načrtno frustrirajo</itunes:summary>
@@ -226,6 +262,9 @@
       <pubDate>Tue, 12 Aug 2025 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-08-12-pritiskavec-gold-odprava-triintridesetletnikov.mp3" length="142625435" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Prebežniki iz Ubisofta so 2020 ustanovili Sandfall Interactive in pred nekaj meseci razburkali sceno s poteznim RPG-jem &lt;em&gt;Clair Obscur: Expedition 33&lt;/em&gt;. Mi smo ga temeljito preigrali, da bi vas lahko v živo čimbolje obvestili o tem, ali je kaj prida.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/106541.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/106541.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/106541.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Clair Obscur: Expedition 33</itunes:subtitle>
       <itunes:summary>Clair Obscur: Expedition 33</itunes:summary>
@@ -242,6 +281,9 @@
       <pubDate>Tue, 08 Jul 2025 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-07-08-pritiskavec-gold-qudjanske-jame.mp3" length="146676505" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Spet pogledujemo v smeri &lt;a href=&quot;https://www.roguebasin.com/index.php/Berlin_Interpretation&quot;&gt;roguelikeov&lt;/a&gt; - grobih, neodvisnih, delno tekstovnih. Predvsem na račun pred dobre pol leta končno uradno sfiniširane Caves of Qud.&amp;nbsp;&lt;/p&gt;&lt;p&gt;V oddaji omenjene igre:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.cavesofqud.com/&quot;&gt;Caves of Qud&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/2058570/Rift_Wizard_2/&quot;&gt;Rift Wizard 2&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://pathofachra.com/&quot;&gt;Path of Achra&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cataclysm:_Dark_Days_Ahead&quot;&gt;Cataclysm: Dark Days Ahead&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/107477.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/107477.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/107477.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Spet malo roguelikeov</itunes:subtitle>
       <itunes:summary>Spet malo roguelikeov</itunes:summary>
@@ -258,6 +300,9 @@
       <pubDate>Tue, 10 Jun 2025 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-06-10-pritiskavec-gold-dva-bunkeljna-gresta-na-bradavicarko.mp3" length="147730807" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;V malce okrnjeni zasedbi debatiramo na temo iger o brazgotinastem čarovniku, no, predvsem Hogwarts Legacy.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/105735.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/105735.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/105735.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič in Mato Žgajner</itunes:author>
       <itunes:subtitle>Poleten čvek o igrah iz vesolja Harryja Potterja</itunes:subtitle>
       <itunes:summary>Poleten čvek o igrah iz vesolja Harryja Potterja</itunes:summary>
@@ -274,6 +319,9 @@
       <pubDate>Tue, 13 May 2025 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-05-13-pritiskavec-gold-cudne-igre.mp3" length="146019264" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Tokrat smo igrali igre, ki se nam zdijo zares čudne. Ne samo nam, verjetno bi to mnenje delil skorajda kdorkoli, ki bi jih preizkusil.&lt;/p&gt;&lt;p&gt;Poslušajte nas ob osmih in izvedeli boste, kaj so nameni in vzroki za to čudaškost ter kako bizarna mora biti igra, da jo upamo pospraviti v ta predal.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/105333.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/105333.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/105333.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Mislim, krneki</itunes:subtitle>
       <itunes:summary>Mislim, krneki</itunes:summary>
@@ -290,6 +338,9 @@
       <pubDate>Tue, 08 Apr 2025 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-04-08-pritiskavec-gold-pubi-usidma-se.mp3" length="139750921" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;V vlogi nedolžnih zunanjih opazovalcev smo na glavo skočili v svet tovarniških simulacij in se zate, poslušalka, prostovoljno soočili z odvisnostjo. Na jedilniku bodo Factorio, Shapez, Satisfactory in Dyson Sphere Program.&lt;/p&gt;&lt;p&gt;Povezave do omenjenih vsebin:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://factorio.com/&quot;&gt;Factorio&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.satisfactorygame.com/&quot;&gt;Satisfactory&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/1366540/Dyson_Sphere_Program/&quot;&gt;Dyson Sphere Program&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://shapez2.com/&quot;&gt;Shapez 2&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://factorioprints.com/&quot;&gt;Factorio Prints - spletna baza blueprintov&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://shapez.io/&quot;&gt;Demo Shapez 1 v brskalniku&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/104865.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/104865.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/104865.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković, Lea Sande in Mato Žgajner</itunes:author>
       <itunes:subtitle>Pogled v obsesivni žanr tovarniških iger</itunes:subtitle>
       <itunes:summary>Pogled v obsesivni žanr tovarniških iger</itunes:summary>
@@ -306,6 +357,9 @@
       <pubDate>Tue, 11 Feb 2025 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-02-11-pritiskavec-gold-vzemi-sraufe-ce-gres-ven.mp3" length="144461321" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Spakirali smo salame in kruh v že tako prenaložen nahrbtnik in se podali v sumljive cone okrog Černobila. Ja, uganili ste, igramo &lt;em&gt;S.T.A.L.K.E.R. 2: Heart of Chornobyl&lt;/em&gt;.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/104096.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/104096.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/104096.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Pohajkujemo po radioaktivnih območjih S.T.A.L.K.E.R. 2</itunes:subtitle>
       <itunes:summary>Pohajkujemo po radioaktivnih območjih S.T.A.L.K.E.R. 2</itunes:summary>
@@ -322,6 +376,9 @@
       <pubDate>Tue, 07 Jan 2025 20:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2025-01-07-pritiskavec-gold-ne-pijte-ustne-vodice.mp3" length="144015150" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Vzeli smo si nekaj ur za sprehod čez Mouthwashing, pri čemer nas je prijetno ščemelo od trtice navzgor. Poslušajte in izvedeli boste, ali si nedavno izdani neodvisni hit zasluži &lt;em&gt;Overwhelmingly Positive&lt;/em&gt;, kako dober je novi Silent Hill 2 remake in mogoče še kaj o aktualnih grozljivkah.&lt;/p&gt;&lt;p&gt;Povezave do v oddaji omenjenih reči:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Silent Hill 2 (remake) na &lt;a href=&quot;https://store.steampowered.com/app/2124490/SILENT_HILL_2/&quot;&gt;Steamu&lt;/a&gt; in &lt;a href=&quot;https://en.wikipedia.org/wiki/Silent_Hill_2_(2024_video_game)&quot;&gt;Wikipediji&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Mouthwashing na &lt;a href=&quot;https://store.steampowered.com/app/2475490/Mouthwashing/&quot;&gt;Steamu&lt;/a&gt; in &lt;a href=&quot;https://en.wikipedia.org/wiki/Mouthwashing_(video_game)&quot;&gt;Wikipediji&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/&quot;&gt;SteamOS odslej tudi uradno na drugih napravah&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://boardgamegeek.com/blog/1/blogpost/167758/designer-diary-codenames-app-or-my-biggest-project&quot;&gt;Razmislek avtorja namizne igre Codenames o razvoju mobilne aplikacije&lt;/a&gt;&amp;nbsp;&lt;/li&gt;&lt;li&gt;Balatro na &lt;a href=&quot;https://store.steampowered.com/app/2379780/Balatro/&quot;&gt;Steamu&lt;/a&gt; in &lt;a href=&quot;https://en.wikipedia.org/wiki/Balatro_(video_game)&quot;&gt;Wikipediji&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/23041419/&quot;&gt;Kvantitativna ocena tveganja uživanja ustne vodice&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/103555.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/103555.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/103555.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>O nahajpanem indie horrorju in širšem dogajanju v žanru</itunes:subtitle>
       <itunes:summary>O nahajpanem indie horrorju in širšem dogajanju v žanru</itunes:summary>
@@ -338,6 +395,9 @@
       <pubDate>Tue, 10 Dec 2024 20:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2024-12-10-pritiskavec-gold-pikslasta-snezinka-ki-pada.mp3" length="144651493" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Brskamo po zgodovini iger, ki se dogajajo na snegu, in tarnamo, zakaj jih dandanes ni več toliko.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ski_or_Die&quot;&gt;Ski or Die&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.mediamond.fi/&quot;&gt;Deluxe Ski Jump&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/The_Games:_Winter_Challenge&quot;&gt;The Games: Winter Challenge&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Supreme_Snowboarding&quot;&gt;Supreme Snowboarding&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/SSX&quot;&gt;SSX&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Riders_Republic&quot;&gt;Riders Republic&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Tux_Racer&quot;&gt;Tux Racer&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/103127.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/103127.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/103127.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Je globalno segrevanje poleg snega odneslo tudi zimske igre?</itunes:subtitle>
       <itunes:summary>Je globalno segrevanje poleg snega odneslo tudi zimske igre?</itunes:summary>
@@ -354,6 +414,9 @@
       <pubDate>Tue, 12 Nov 2024 20:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2024-11-12-pritiskavec-gold-one-btn-bosses_0.mp3" length="141758170" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;V studiu se nam bo pridružil Brin Žvan, programer iz ekipe Midnight Munchies, ki je nedavno obelodanila svoj prvi projekt &lt;a href=&quot;https://store.steampowered.com/app/1910600/ONE_BTN_BOSSES/&quot;&gt;ONE BTN BOSSES&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Spraševali ga bomo (kakopak) o igri, pa tudi o poklicu, delovnih procesih, kreativnosti, financah in vsem ostalem. Skratka, zanima nas, kako je, ko se ti uresniči otroška želja, da bi delal igre, ko boš velik.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/102638.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/102638.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/102638.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Pogovor z razvijalcem nedavno izdanega naslova</itunes:subtitle>
       <itunes:summary>Pogovor z razvijalcem nedavno izdanega naslova</itunes:summary>
@@ -370,6 +433,9 @@
       <pubDate>Tue, 15 Oct 2024 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2024-10-15-pritiskavec-gold-nase-malo-misto.mp3" length="138238954" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;V nocojšnji epizodi bo debata tekla o dveh zelo aktualnih city builderjih – &lt;em&gt;Manor Lords&lt;/em&gt; ter &lt;em&gt;Workers &amp;amp; Resources.&lt;/em&gt; Dotaknili se bomo tudi širše tematike tega podžanra strateških iger ter navrgli nekaj zgodovinskih primerkov, ki so se nam najbolj vtisnili v spomin.&lt;/p&gt;&lt;p&gt;Povezave:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Manor Lords &lt;a href=&quot;https://en.wikipedia.org/wiki/Manor_Lords&quot;&gt;na Wikipediji&lt;/a&gt; in &lt;a href=&quot;https://store.steampowered.com/app/1363080/Manor_Lords/&quot;&gt;na Steamu&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Workers &amp;amp; Resources: Soviet Republic &lt;a href=&quot;https://en.wikipedia.org/wiki/Workers_%26_Resources:_Soviet_Republic&quot;&gt;na Wikipediji&lt;/a&gt; in &lt;a href=&quot;https://store.steampowered.com/app/784150/Workers__Resources_Soviet_Republic/&quot;&gt;na Steamu&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/102178.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/102178.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/102178.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Igramo se fevdalne in komunistične urbaniste</itunes:subtitle>
       <itunes:summary>Igramo se fevdalne in komunistične urbaniste</itunes:summary>
@@ -386,6 +452,9 @@
       <pubDate>Tue, 20 Aug 2024 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2024-08-20-pritiskavec-gold-smeh-je-1-2-spila.mp3" length="92946631" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Preigrali smo nekaj iger, ki so nastale kot odvrtki popularnih komičnih serij, da lahko kompetentno razpravljamo o vlogi humorja v igrah.&lt;/p&gt;&lt;p&gt;Linki:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/High_on_Life_(video_game)&quot;&gt;High on Life&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/South_Park:_The_Stick_of_Truth&quot;&gt;South Park: The Stick of Truth&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/South_Park:_Snow_Day!&quot;&gt;South Park: Snow Day!&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/101355.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/101355.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/101355.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Kako težko je iz dobre komedije narediti igro</itunes:subtitle>
       <itunes:summary>Kako težko je iz dobre komedije narediti igro</itunes:summary>
@@ -402,6 +471,9 @@
       <pubDate>Tue, 23 Jul 2024 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2024-07-23-pritiskavec-gold-had.mp3" length="134750040" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;O prvem Hadesu in prihajajoči dvojki.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/100982.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/100982.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/100982.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Nič z Ronijem Kordišem, sam tok</itunes:subtitle>
       <itunes:summary>Nič z Ronijem Kordišem, sam tok</itunes:summary>
@@ -418,6 +490,9 @@
       <pubDate>Tue, 25 Jun 2024 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2024-06-25-pritiskavec-gold-zaspilaj-eno-domaco.mp3" length="145162495" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Prežeti z domoljubjem bomo obeležili državni praznik, kot se to spodobi: z naključnim pregledom slovenskih iger, ki smo jih navdušeno igrali, o njih brali v Jokerju, ali pa zanje izvedeli šele včeraj, med pripravo na današnjo oddajo.&lt;/p&gt;&lt;p&gt;Itak pa ne bo noben poslušal, ker smo med fuzbalom 🤷&lt;/p&gt;&lt;p&gt;Omenjene reči:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.linerider.com/&quot;&gt;Line Rider&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://mordhau.com/&quot;&gt;Mordhau&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Arxel_Tribe&quot;&gt;Arxel Tribe&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ring_(video_game)&quot;&gt;Ring: The Legend of the Nibelungen&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zej0SrFMTy0&quot;&gt;Antičefur 3D&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Talking_Tom_%26_Friends&quot;&gt;Franšiza Talking Tom&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/1566550/A_Walk_With_My_Dog/&quot;&gt;A Walk With My Dog&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=uq4CITiYr7g&quot;&gt;SKB Papi speedrun&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://archive.org/details/skb-papi&quot;&gt;SKB Papi download&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://web.archive.org/web/20020208135844/http://www.mladina.si/projekti/igre/fojba2000/&quot;&gt;Fojba 2000&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/100571.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/100571.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/100571.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Hodimo po zemlji naši in igramo nje prelesti</itunes:subtitle>
       <itunes:summary>Hodimo po zemlji naši in igramo nje prelesti</itunes:summary>
@@ -434,6 +509,9 @@
       <pubDate>Tue, 28 May 2024 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2024-05-28-pritiskavec-gold-roze-mi-vse-povedo.mp3" length="140715362" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Po čudnem naključju smo se v zadnjem času nadpovprečno navdušili nad par igrami, ki jih druži osrednja tematika botaničnih izzivov. Sledili smo miselnemu toku in prišli do zaključka, da bi bilo vredno razmisliti, kakšno vlogo v igrah igrajo rastline.&lt;/p&gt;&lt;p&gt;Omenjene igre:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Botany_Manor&quot;&gt;Botany Manor&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Strange_Horticulture&quot;&gt;Strange Horticulture&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/100069.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/100069.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/100069.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>O igrah, v katerih se ukvarjamo predvsem z rastlinami</itunes:subtitle>
       <itunes:summary>O igrah, v katerih se ukvarjamo predvsem z rastlinami</itunes:summary>
@@ -492,6 +570,9 @@
 	&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=m4_Z2Qeyxbk&quot; target=&quot;_blank&quot;&gt;Follow the train, CJ!&lt;/a&gt; (famozna misija iz GTA: San Andreas)&lt;/li&gt;
 	&lt;li&gt;&lt;a href=&quot;https://potniski.sz.si/info-2/&quot; target=&quot;_blank&quot;&gt;Seznam zamud Slovenskih železnic&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/83305.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/83305.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/83305.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor in Mato Žgajner</itunes:author>
       <itunes:subtitle>Vlak kot tema, mehanika in pripovedno sredstvo v igrah.</itunes:subtitle>
       <itunes:summary>Vlak kot tema, mehanika in pripovedno sredstvo v igrah.</itunes:summary>
@@ -528,6 +609,9 @@
 	&lt;li&gt;&lt;a href=&quot;https://www.ign.com/articles/palworld-vs-pokmon-comparison-just-how-similar-are-the-designs&quot; target=&quot;_blank&quot;&gt;Podobnosti med Pokemoni in Pali&lt;/a&gt;&lt;/li&gt;
 	&lt;li&gt;&lt;a href=&quot;https://dataconomy.com/2024/01/22/palworld-ai-art-controversy/&quot; target=&quot;_blank&quot;&gt;Afera &quot;Umetna Inteligenca&quot;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/82846.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/82846.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/82846.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Kaj za vraga je Palworld in zakaj je tako popularen</itunes:subtitle>
       <itunes:summary>Kaj za vraga je Palworld in zakaj je tako popularen</itunes:summary>
@@ -566,6 +650,9 @@
 	&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6ozxnrs0BP4&quot; target=&quot;_blank&quot;&gt;Kratek dokumentarec o nastanku originala&lt;/a&gt;&lt;/li&gt;
 	&lt;li&gt;&lt;a href=&quot;https://www.rockpapershotgun.com/players-still-dont-feel-comfortable-with-game-subscription-services-says-ubisoft-boss&quot; target=&quot;_blank&quot;&gt;Ubisoftov bulšit o tem, kako naj se privadimo na njihove mesečne naročnine&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/82366.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/82366.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/82366.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Kultni Prince of Persia in vsi njegovi odvrtki – vključno z najnovejšim</itunes:subtitle>
       <itunes:summary>Kultni Prince of Persia in vsi njegovi odvrtki – vključno z najnovejšim</itunes:summary>
@@ -606,6 +693,9 @@
 	&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Unpacking_(video_game)&quot; target=&quot;_blank&quot;&gt;Unpacking&lt;/a&gt;&lt;/li&gt;
 	&lt;li&gt;&lt;a href=&quot;http://Spiritfarer&quot; target=&quot;_blank&quot;&gt;Spiritfarer&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/81854.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/81854.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/81854.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Iščemo igričarski ekvivalent tople odeje in skodelice kakava</itunes:subtitle>
       <itunes:summary>Iščemo igričarski ekvivalent tople odeje in skodelice kakava</itunes:summary>
@@ -656,6 +746,9 @@
 	&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/My_Friend_Pedro&quot; target=&quot;_blank&quot;&gt;My Friend Pedro&lt;/a&gt;&lt;/li&gt;
 	&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Katana_Zero&quot; target=&quot;_blank&quot;&gt;Katana Zero&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/81407.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/81407.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/81407.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Kako se je famozni filmski učinek udomačil tudi v videoigrah</itunes:subtitle>
       <itunes:summary>Kako se je famozni filmski učinek udomačil tudi v videoigrah</itunes:summary>
@@ -676,6 +769,9 @@
       <dc:description>&lt;p&gt;Z rahlo zamudo obeležujemo spooktober, ta mesec smo namreč prežvečili velik kup majhnih iger, ki jih je moč najti v antoloških zbirkah pod skupnim imenom Dread X Collection.&lt;/p&gt;
 
 &lt;p&gt;Pobliže smo si ogledali &lt;a href=&quot;https://www.dreadxp.com/dread-x/dreadxcollection5/&quot; target=&quot;_blank&quot;&gt;Dread X Collection 5&lt;/a&gt; in &lt;a href=&quot;https://www.dreadxp.com/dread-x/dread-x-collection-the-hunt-the-devs-and-the-details/&quot; target=&quot;_blank&quot;&gt;Dread X Collection: The Hunt&lt;/a&gt; ter za posladek še &lt;a href=&quot;https://horror-games.fandom.com/wiki/Squirrel_Stapler&quot; target=&quot;_blank&quot;&gt;Squirrel Stapler&lt;/a&gt; iz starejšega paketa.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/80941.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/80941.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/80941.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Preigravamo antologije miniaturnih neodvisnih grozljivk</itunes:subtitle>
       <itunes:summary>Preigravamo antologije miniaturnih neodvisnih grozljivk</itunes:summary>
@@ -702,6 +798,9 @@
 
 &lt;p&gt;&lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/king-of-dragon-pass&quot; target=&quot;_blank&quot;&gt;Recenzija King of Dragon Pass - Pritiskavec, 19. 6. 2019&lt;/a&gt;&lt;br&gt;
 &lt;a href=&quot;https://radiostudent.si/dru%C5%BEba/pritiskavec/six-ages-ride-like-the-wind&quot; target=&quot;_blank&quot;&gt;Recenzija Six Ages: Ride Like the Wind - Pritiskavec, 11. 3. 2020&lt;/a&gt;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/80470.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/80470.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/80470.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Potapljamo se v fantazijski svet Grega Stafforda – preigravamo King of Dragon Pass in nadaljevanja</itunes:subtitle>
       <itunes:summary>Potapljamo se v fantazijski svet Grega Stafforda – preigravamo King of Dragon Pass in nadaljevanja</itunes:summary>
@@ -718,6 +817,9 @@
       <pubDate>Tue, 19 Sep 2023 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-09-19-pritiskavec-gold-odvisno-kako-pogledas.mp3" length="142407052" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Kolegica iz kulturne redakcije je nedavno namenila kritičen pogled &lt;a href=&quot;https://radiostudent.si/kultura/pritiskavec/odkrivanje-novih-pogledov&quot; target=&quot;_blank&quot;&gt;Viewfinderju&lt;/a&gt;, zato smo se odločili, da zajahamo širši trend in spregovorimo o igrah, ki se poigravajo s perspektivo ter jo uporabljajo ne samo v grafiki, ampak tudi kot igralno mehaniko.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/79980.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/79980.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/79980.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>O računalniških igrah, ki uporabljajo perspektivo kot mehaniko.</itunes:subtitle>
       <itunes:summary>O računalniških igrah, ki uporabljajo perspektivo kot mehaniko.</itunes:summary>
@@ -738,6 +840,9 @@
       <dc:description>&lt;p&gt;Uničili smo še zadnje zametke normalnih bioritmov, ki so jih naša bradata, nadpovprečno inteligentna telesa premogla, in v imenu znanosti popili skodelico destiliranih endorfinov.&lt;/p&gt;
 
 &lt;p&gt;Ta mesec je bil namreč na jedilniku izredno zasvojljivi Vampire Survivors, za prilogo pa širok nabor sorodnih rougelike shmupov: Brotato, Project Lazarus, 20 Minutes Till Dawn, Soulstone Survivors, Boneraiser Minions, Nordic Ashes, Spirit Hunters: Infinite Horde in še kaj.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/79564.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/79564.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/79564.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Prebijamo se skozi pravi gozd iger, ki so jih inspirirali Vampire Survivors</itunes:subtitle>
       <itunes:summary>Prebijamo se skozi pravi gozd iger, ki so jih inspirirali Vampire Survivors</itunes:summary>
@@ -758,6 +863,9 @@
       <dc:description>&lt;p&gt;Ne bomo se tepli – to bodo namesto nas počeli animirani stvori, ki smo jih zasužnjili v ta namen. &lt;a href=&quot;https://store.steampowered.com/app/1321440/Cassette_Beasts/&quot; target=&quot;_blank&quot;&gt;Cassette Beasts&lt;/a&gt;&amp;nbsp;nas pelje v zlato dobo Pokemonov, le da bomo našo žvad lovili v dobre stare avdio-kasete. &lt;a href=&quot;https://store.steampowered.com/app/957960/Inkulinati/&quot; target=&quot;_blank&quot;&gt;Inkulinati&lt;/a&gt;&amp;nbsp;so prav tako potezna strategija z rogue elementi, ki za bojno polje uporablja slikanice iz srednjeveških rokopisov.&lt;/p&gt;
 
 &lt;p&gt;Nastopa poletno okrnjena ekipa, ki tokrat zastavlja nagradno&amp;nbsp;vprašanje: ali nas moti, da je večina t.i. &quot;loading screenov&quot; v igrah povsem &lt;a href=&quot;https://www.rockpapershotgun.com/yes-video-game-loading-bars-are-fake-indie-devs-admit&quot; target=&quot;_blank&quot;&gt;lažnih in umetnih&lt;/a&gt;?&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/79223.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/79223.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/79223.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Namesto žogic – pokemon kasete</itunes:subtitle>
       <itunes:summary>Namesto žogic – pokemon kasete</itunes:summary>
@@ -774,6 +882,9 @@
       <pubDate>Tue, 27 Jun 2023 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-06-27-pritiskavec-gold-ai-in-etika.mp3" length="142655737" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Pompozen naslov je samo clickbait - v tokratnem Pritiskavcu Gold ne pričakujte širšega problematiziranja umetne inteligence, temveč zgolj standardno pivsko debato o igrah. Ampak hej, preigrali smo osveženo različico kultnega System Shocka iz leta 1994, kjer se osrednji zaplet zgodi ravno zaradi pobezljanega AI-ja, tako da&amp;nbsp;&lt;em&gt;tehnično&lt;/em&gt;&amp;nbsp;nismo lagali.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/78805.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/78805.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/78805.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>O nedavno izdanem System Shock rimejku</itunes:subtitle>
       <itunes:summary>O nedavno izdanem System Shock rimejku</itunes:summary>
@@ -790,6 +901,9 @@
       <pubDate>Tue, 30 May 2023 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2023-05-30-pritiskavec-gold-prije-jutra-ribari-se-bude.mp3" length="141536744" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Tokratna oddaja se posveča temni plati ribištva, pri čemer pa ne mislimo na uporabo vlečnih mrež, temveč na fantazijske pošasti, ki se skrivajo v kalnih vodah nedavno izdanega Dredge.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/78311.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/78311.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/78311.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Dredge ponuja precej bolj anksiozno podobo ribištva kot Vinko Coce</itunes:subtitle>
       <itunes:summary>Dredge ponuja precej bolj anksiozno podobo ribištva kot Vinko Coce</itunes:summary>
@@ -810,6 +924,9 @@
       <dc:description>&lt;p&gt;Ob prazniku dela tokrat delamo tudi v igrah – kmetujemo, kosimo, peremo, dostavljamo in še kaj.&lt;/p&gt;
 
 &lt;p&gt;Na tapeti bodo raznovrstni simulatorji bolj ali manj vsakdanjih aktivnosti, predvsem takih, ki jih v resničnem življenju včasih ne počnemo najraje.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/77841.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/77841.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/77841.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Delam kot beseda na z.</itunes:subtitle>
       <itunes:summary>Delam kot beseda na z.</itunes:summary>
@@ -834,6 +951,9 @@
 &lt;p&gt;Kako je spremljati živi turnir najboljših lokalcev v Fifi ali Valorantu? Je igranje muzejskih konzol vsaj tako zabavno, kot se spominjajo naše babice in dedki? Kakšna potovalna slabost dočaka človeka v VR očalih? Koliko podpisov smo uspeli zbrati za osvoboditev Andrewa Tata?&lt;/p&gt;
 
 &lt;p&gt;Vse to in še več v oddaji.&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/77397.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/77397.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/77397.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Udeležili smo se prve igričarske konference pri nas</itunes:subtitle>
       <itunes:summary>Udeležili smo se prve igričarske konference pri nas</itunes:summary>
@@ -854,6 +974,9 @@
       <dc:description>&lt;p&gt;Tokrat bomo vsi štirje celo uro v taktu z nogo butali ob tla, pretekli mesec smo namreč preigravali &lt;a href=&quot;https://en.wikipedia.org/wiki/Metal:_Hellsinger&quot; target=&quot;_blank&quot;&gt;Metal: Hellsinger&lt;/a&gt; in &lt;a href=&quot;https://en.wikipedia.org/wiki/Crypt_of_the_NecroDancer&quot; target=&quot;_blank&quot;&gt;Crypt of the NecroDancer&lt;/a&gt;. Ritmični igri sta si podobni v tem, da sta z Guitar Herota in Dance Dance Revolution spretno odrezali glasbeni cepič ter z njim oplemenitili deblo nasilnejših akcijskih zvrsti.&lt;/p&gt;
 
 &lt;p&gt;Pa se je prijelo? Prisluhnite.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/76918.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/76918.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/76918.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>V Crypt of the NecroDancer in Metal: Hellsinger ubijamo po ritmu</itunes:subtitle>
       <itunes:summary>V Crypt of the NecroDancer in Metal: Hellsinger ubijamo po ritmu</itunes:summary>
@@ -874,6 +997,9 @@
       <dc:description>&lt;p&gt;Po več desetletjih obstoja in kultnega čaščenja najzvestejših privržencev smo tudi člani ekipe Pritiskavca prijeli v roke Dwarf Fortress. Novo, ljudem prijazno Steam različico z dejanskim uporabniškim vmesnikom, kakopak.&lt;/p&gt;
 
 &lt;p&gt;Vklopite se in bodite podučeni o menda najtežji video igri vseh časov.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/76416.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/76416.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/76416.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>... in ostali povsem običajni pripetljaji v Dwarf Fortress</itunes:subtitle>
       <itunes:summary>... in ostali povsem običajni pripetljaji v Dwarf Fortress</itunes:summary>
@@ -920,6 +1046,9 @@
 	&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/1353230/Bomb_Rush_Cyberfunk/&quot; target=&quot;_blank&quot;&gt;Bomb Rush Cyberfunk&lt;/a&gt; (Team Reptile)&lt;/li&gt;
 	&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/492540/She_Dreams_Elsewhere/&quot; target=&quot;_blank&quot;&gt;She Dreams Elsewhere&lt;/a&gt; (Studio Zevere)&lt;/li&gt;
 &lt;/ul&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/75907.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/75907.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/75907.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Zremo v kristalno kroglo in držimo prekrižane prste</itunes:subtitle>
       <itunes:summary>Zremo v kristalno kroglo in držimo prekrižane prste</itunes:summary>
@@ -940,6 +1069,9 @@
       <dc:description>&lt;p&gt;Za vse, ki radi s šalico kakava v roki med zimskimi meseci razpletate fiktivne zločine, imamo dva predloga, bolj interaktivna od Umorov na podeželju.&lt;/p&gt;
 
 &lt;p&gt;Preigrali smo zelo frišna &lt;a href=&quot;https://pentiment.obsidian.net/&quot; target=&quot;_blank&quot;&gt;Pentiment&lt;/a&gt; in &lt;a href=&quot;https://www.thegoldenidol.com/&quot; target=&quot;_blank&quot;&gt;The Case of the Golden Idol&lt;/a&gt;.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/75417.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/75417.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/75417.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Lovimo morilce v Pentiment in The Case of the Golden Idol</itunes:subtitle>
       <itunes:summary>Lovimo morilce v Pentiment in The Case of the Golden Idol</itunes:summary>
@@ -956,6 +1088,9 @@
       <pubDate>Tue, 15 Nov 2022 20:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2022-11-15-pritiskavec-gold-zapuscina-toncka-sokolovega.mp3" length="144805099" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Igramo dva THPS-like naslova: Rollerdrome in OlliOlli World ter debatiramo o &lt;em&gt;pravih&lt;/em&gt; skejterjih in mazohističnih užitkih repeticije.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/74858.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/74858.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/74858.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Kaj nam leto 2022 ponuja na polju skejterščin</itunes:subtitle>
       <itunes:summary>Kaj nam leto 2022 ponuja na polju skejterščin</itunes:summary>
@@ -972,6 +1107,9 @@
       <pubDate>Tue, 18 Oct 2022 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2022-10-18-pritiskavec-gold-wtf-je-jrpg.mp3" length="142294242" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Tokrat smo se zapodili za popularnimi, a obenem presenetljivo izmuzljivimi primerki japonskih arpiđijev. Katere kljukice morajo biti obkljukane, da je ustrezno kratico začeti s črko J; kateri so najboljši primerki žanra in zakaj sploh poseči po njih namesto po morju zahodnjaških izdaj.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/74315.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/74315.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/74315.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Definiramo žanr s pomočjo Digimon Story Cyber Sleuth in Octopath Traveler</itunes:subtitle>
       <itunes:summary>Definiramo žanr s pomočjo Digimon Story Cyber Sleuth in Octopath Traveler</itunes:summary>
@@ -1014,6 +1152,9 @@
 &lt;p&gt;Preverite tudi &lt;a href=&quot;https://www.zachtronics.com/podcast/&quot; target=&quot;_blank&quot;&gt;The Zachtronics Podcast&lt;/a&gt; in pa knjigo &lt;a href=&quot;https://www.zachtronics.com/zach-like/&quot; target=&quot;_blank&quot;&gt;ZACH-LIKE&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/73779.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/73779.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/73779.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Retrospektiva del kultnega indie studia, ki je nedavno napovedal, da se bo samoukinil</itunes:subtitle>
       <itunes:summary>Retrospektiva del kultnega indie studia, ki je nedavno napovedal, da se bo samoukinil</itunes:summary>
@@ -1042,6 +1183,9 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/73379.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/73379.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/73379.json" type="application/json" language="sl"/>
       <itunes:author>Rasto Pahor</itunes:author>
       <itunes:subtitle>Pow! Tresk! Zoom!</itunes:subtitle>
       <itunes:summary>Pow! Tresk! Zoom!</itunes:summary>
@@ -1062,6 +1206,9 @@
       <dc:description>&lt;p&gt;Z zamudo, kakršno si lahko privoščijo samo še Slovenske Železnice, smo se ta mesec zagrizli v enega najbolj odmevnih naslovov pretekle pandemije: noirovski krimič Disco Elysium.&lt;/p&gt;
 
 &lt;p&gt;Vklopite se ob devetih zvečer, da vam razložimo, katera droga gre najbolje s katero ideologijo in kako kombinacija obojega vpliva na zmožnosti razreševanja umorov.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/73012.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/73012.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/73012.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>HARDCORE TO THE MEGA</itunes:subtitle>
       <itunes:summary>HARDCORE TO THE MEGA</itunes:summary>
@@ -1086,6 +1233,9 @@
 &lt;p&gt;Debatirali bomo o žongliranju s fiziološkimi in finančnimi potrebami, težavnih izbirah med javnim in zasebnim ter količini zabave, ki jo tovrstne aktivnosti v igrah sploh lahko ponudijo.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/72593.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/72593.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/72593.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>O moralnih odločitvah in rušenju sistema skozi prizmo dveh aktualnih iger</itunes:subtitle>
       <itunes:summary>O moralnih odločitvah in rušenju sistema skozi prizmo dveh aktualnih iger</itunes:summary>
@@ -1110,6 +1260,9 @@
 &lt;p&gt;Igrali smo: Nightmare Reaper (2022) in Amid Evil (2018), retro šuterja za ljudi z visokim pulzom.&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/72070.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/72070.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/72070.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Tod sekla bridka bodo jekla</itunes:subtitle>
       <itunes:summary>Tod sekla bridka bodo jekla</itunes:summary>
@@ -1126,6 +1279,9 @@
       <pubDate>Tue, 03 May 2022 19:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2022-05-03-pritiskavec-gold-lisica-proti-vrani.mp3" length="145318172" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Igrali smo nedavno izdani Tunic in ne prav dosti starejši Death&apos;s Door ter se spraševali, katera od podobnih je bolj različna in katero se bolj splača igrati, če ne kar obeh.&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/71525.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/71525.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/71525.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>O dveh nenavadno podobnih akcijskih avanturah na foro starih Zeld</itunes:subtitle>
       <itunes:summary>O dveh nenavadno podobnih akcijskih avanturah na foro starih Zeld</itunes:summary>
