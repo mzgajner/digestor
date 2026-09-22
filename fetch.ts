@@ -19,6 +19,30 @@ export const SPOTIFY_BLACKLIST = [
   'Slišati igro',
 ]
 
+// The same episodes by URL slug, so they are dropped before their pages are
+// ever fetched (they never make it into the feed, so every run would
+// otherwise re-fetch them as "new").
+const BLACKLISTED_SLUGS = new Set([
+  'skupaj-je-lazje',
+  'mrknil-je-telltale',
+  'portal',
+  'jagodni-izbor-sezone-2017-18',
+  'iz-rusije-z-ljubeznijo',
+  'slisati-igro',
+])
+
+export type FetchOptions = {
+  // Pause between listing pages. The source sits behind an anti-bot proxy
+  // that answers bursts from datacenter addresses with 418, and this runs
+  // once a day, so there is no reason to hurry.
+  pageDelayMs?: number
+  // First pause after a 418/429; doubles on each further attempt.
+  retryDelayMs?: number
+}
+
+const RATE_LIMITED = new Set([418, 429])
+const ATTEMPTS = 4
+
 // Walks the paginated section listing and returns the absolute URL of every
 // episode, newest first. The RSS feed only ever returns the latest 40 items
 // (its `?page=` parameter is ignored), but the HTML listing paginates all the
@@ -27,13 +51,17 @@ export const SPOTIFY_BLACKLIST = [
 // Throws when the site answers with an error or a page without any episode
 // links (which is what an anti-bot challenge looks like), so an unattended run
 // fails loudly instead of concluding there is nothing new.
-export default async function fetchEpisodeUrls(fetchFn: FetchFn = fetch) {
+export default async function fetchEpisodeUrls(
+  fetchFn: FetchFn = fetch,
+  { pageDelayMs = 1000, retryDelayMs = 30000 }: FetchOptions = {},
+) {
   const urls: string[] = []
   const seen = new Set<string>()
   let page = 0
 
   while (true) {
-    const pageUrls = await fetchEpisodeUrlsForPage(page, fetchFn)
+    if (page > 0) await sleep(pageDelayMs)
+    const pageUrls = await fetchEpisodeUrlsForPage(page, fetchFn, retryDelayMs)
     const newUrls = pageUrls.filter((url) => !seen.has(url))
 
     // No new episodes means we've reached the end (or pagination broke), so
@@ -55,13 +83,27 @@ export default async function fetchEpisodeUrls(fetchFn: FetchFn = fetch) {
   return urls
 }
 
-async function fetchEpisodeUrlsForPage(page: number, fetchFn: FetchFn) {
-  const response = await fetchFn(`${SECTION_URL}?page=${page}`, {
-    headers: { 'User-Agent': USER_AGENT },
-  })
-  if (!response.ok) {
+async function fetchEpisodeUrlsForPage(
+  page: number,
+  fetchFn: FetchFn,
+  retryDelayMs: number,
+) {
+  const url = `${SECTION_URL}?page=${page}`
+  let response: Response
+  for (let attempt = 1;; attempt++) {
+    response = await fetchFn(url, { headers: { 'User-Agent': USER_AGENT } })
+    if (response.ok) break
     await response.body?.cancel()
-    throw new Error(`Listing page ${page} returned HTTP ${response.status}.`)
+    if (!RATE_LIMITED.has(response.status) || attempt === ATTEMPTS) {
+      throw new Error(`Listing page ${page} returned HTTP ${response.status}.`)
+    }
+    const delay = retryDelayMs * 2 ** (attempt - 1)
+    console.warn(
+      `Listing page ${page} returned HTTP ${response.status}, retrying in ${
+        delay / 1000
+      } s.`,
+    )
+    await sleep(delay)
   }
   const html = await response.text()
   const document = new DOMParser().parseFromString(html, 'text/html')!
@@ -74,8 +116,13 @@ async function fetchEpisodeUrlsForPage(page: number, fetchFn: FetchFn) {
 }
 
 // Matches an episode path (/kultura/pritiskavec-gold/<slug>) while excluding
-// the section root, the /podcast feed and any deeper paths.
+// the section root, the /podcast feed, blacklisted episodes and deeper paths.
 function isEpisodePath(href: string) {
   const match = href.match(/^\/kultura\/pritiskavec-gold\/([a-z0-9-]+)$/)
-  return Boolean(match) && match![1] !== 'podcast'
+  return Boolean(match) && match![1] !== 'podcast' &&
+    !BLACKLISTED_SLUGS.has(match![1])
+}
+
+function sleep(ms: number) {
+  return ms > 0 ? new Promise((resolve) => setTimeout(resolve, ms)) : undefined
 }

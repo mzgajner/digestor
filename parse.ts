@@ -10,10 +10,10 @@ import { SPOTIFY_BLACKLIST } from './fetch.ts'
 
 const BASE_URL = 'https://radiostudent.si'
 
-// How many episode pages to fetch at once. The archive is over a hundred
-// episodes deep, so we throttle to avoid hammering the source (and getting
-// rate limited).
-const CONCURRENCY = 8
+// How many episode pages to fetch at once. The source's anti-bot proxy
+// answers bursts from datacenter addresses with 418, and a normal run only
+// fetches the odd new episode, so there is nothing to gain from parallelism.
+const CONCURRENCY = 2
 
 // The source occasionally returns an incomplete page (a 200 that's missing
 // the audio/date fields), so we retry a few times before giving up.
