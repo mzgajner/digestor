@@ -37,7 +37,7 @@ async function handleRoute(request: Request): Promise<Response> {
   switch (url.pathname) {
     case '/podcast/feed.xml':
       return await serveStaticFeed(request)
-    case '/logo.jpg':
+    case '/logo.png':
       return await serveLogo(request)
     case '/':
     case '/index.htm':

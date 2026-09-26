@@ -29,7 +29,7 @@ export function generateFeed(
       'Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.',
     siteUrl: 'https://radiostudent.si/kultura/pritiskavec-gold',
     language: 'sl',
-    imageUrl: 'https://pritiskavec.z0.si/logo.jpg',
+    imageUrl: 'https://pritiskavec.z0.si/logo.png',
     copyright: 'Radio Študent, 2024',
     pubDate: entries[0].date,
     generator: 'mzgajner/digestor',

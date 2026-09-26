@@ -18,8 +18,8 @@ export async function serveLanding(request: Request) {
 }
 
 export async function serveLogo(request: Request) {
-  const LOGO = await Deno.readFile('./logo.jpg')
-  return generateResponse(LOGO, request, 'image/jpeg')
+  const LOGO = await Deno.readFile('./logo.png')
+  return generateResponse(LOGO, request, 'image/png')
 }
 
 export const serve404 = () => NOT_FOUND_RESPONSE
