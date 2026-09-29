@@ -134,8 +134,13 @@ jobs:
       GH_TOKEN: ${{ github.token }}
     steps:
       - run: |
-          previous=$(gh api "repos/${{ github.repository }}/actions/workflows/refresh.yml/runs?branch=main&status=completed&per_page=5" \
-            --jq "[.workflow_runs[] | select(.id != ${{ github.run_id }})][0].id")
+          # Daily runs only: a manual dry run or timing test in between must
+          # neither break nor fake a streak. An API hiccup only warns.
+          previous=$(gh api "repos/${{ github.repository }}/actions/workflows/refresh.yml/runs?branch=main&event=schedule&status=completed&per_page=5" \
+            --jq "[.workflow_runs[] | select(.id != ${{ github.run_id }})][0].id") || {
+            echo '::warning::Could not look up the previous run.'
+            previous=''
+          }
           if [ -n "$previous" ] && gh api "repos/${{ github.repository }}/actions/runs/$previous/jobs" \
             --jq '.jobs[] | select(.conclusion != "skipped") | .name' | grep -qx blocked; then
             echo '::error::The source site has refused GitHub runners two runs in a row.'
