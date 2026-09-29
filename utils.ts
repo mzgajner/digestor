@@ -17,6 +17,14 @@ export type BackoffOptions = {
 const RATE_LIMITED = new Set([418, 429])
 const ATTEMPTS = 4
 
+// The source kept answering with a rate-limit status after every retry.
+export class RateLimitedError extends Error {
+  constructor(public status: number, url: string) {
+    super(`HTTP ${status} for ${url}`)
+    this.name = 'RateLimitedError'
+  }
+}
+
 export function sleep(ms: number): Promise<void> {
   return ms > 0
     ? new Promise((resolve) => setTimeout(resolve, ms))
@@ -37,9 +45,10 @@ export async function fetchWithBackoff(
     const response = await fetchFn(url, { ...init, headers })
     if (response.ok) return response
     await response.body?.cancel()
-    if (!RATE_LIMITED.has(response.status) || attempt === ATTEMPTS) {
+    if (!RATE_LIMITED.has(response.status)) {
       throw new Error(`HTTP ${response.status} for ${url}`)
     }
+    if (attempt === ATTEMPTS) throw new RateLimitedError(response.status, url)
     const retryAfter = Number(response.headers.get('retry-after')) * 1000
     const delay = Math.max(retryDelayMs * 2 ** (attempt - 1), retryAfter || 0)
     console.warn(

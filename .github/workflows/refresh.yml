@@ -59,6 +59,7 @@ jobs:
       actions: write
     outputs:
       partial: ${{ steps.regenerate.outputs.partial }}
+      blocked: ${{ steps.regenerate.outputs.blocked }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -73,7 +74,9 @@ jobs:
       # Fails the job before anything is committed when the source site is
       # unreachable or answers with a challenge page. Exit code 3 means the
       # feed was written but a listed episode couldn't be scraped: publish what
-      # we have and let the report job flag the run.
+      # we have and let the report job flag the run. Exit code 4 means the
+      # anti-bot proxy refused this runner's address; the blocked job decides
+      # whether that is worth failing the run over.
       - name: Regenerate the feed
         id: regenerate
         run: |
@@ -81,6 +84,8 @@ jobs:
           deno task regenerate --no-transcripts || status=$?
           if [ "$status" -eq 3 ]; then
             echo 'partial=true' >> "$GITHUB_OUTPUT"
+          elif [ "$status" -eq 4 ]; then
+            echo 'blocked=true' >> "$GITHUB_OUTPUT"
           elif [ "$status" -ne 0 ]; then
             exit "$status"
           fi
@@ -114,6 +119,29 @@ jobs:
     with:
       skip_tests: true
     secrets: inherit
+
+  # A blocked scrape is usually one runner address on the proxy's list, and a
+  # skipped day costs nothing (tomorrow's run catches up). Only fail when the
+  # previous run was blocked too. This job's presence in a run is the marker.
+  blocked:
+    needs: publish
+    if: needs.publish.outputs.blocked == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      actions: read
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - run: |
+          previous=$(gh api "repos/${{ github.repository }}/actions/workflows/refresh.yml/runs?branch=main&status=completed&per_page=5" \
+            --jq "[.workflow_runs[] | select(.id != ${{ github.run_id }})][0].id")
+          if [ -n "$previous" ] && gh api "repos/${{ github.repository }}/actions/runs/$previous/jobs" \
+            --jq '.jobs[] | select(.conclusion != "skipped") | .name' | grep -qx blocked; then
+            echo '::error::The source site has refused GitHub runners two runs in a row.'
+            exit 1
+          fi
+          echo '::warning::The source site refused this runner; skipping until the next run.'
 
   report:
     needs: publish

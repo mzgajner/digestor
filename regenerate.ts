@@ -1,6 +1,6 @@
 /// <reference lib="deno.unstable" />
 
-import fetchEpisodeUrls from './fetch.ts'
+import fetchEpisodeUrls, { SourceBlockedError } from './fetch.ts'
 import { generateFeed, isSameFeed } from './generate.ts'
 import { parseEntries } from './parse.ts'
 import { readExistingEntries } from './existing.ts'
@@ -19,6 +19,10 @@ const FEED_PATH = 'feed.rss'
 // Exit code for "feed written, but some listed episodes could not be scraped".
 const PARTIAL_EXIT_CODE = 3
 
+// Exit code for "the source's anti-bot proxy refused us; nothing was written".
+// Usually one blocked address, so the workflow retries on the next day.
+const BLOCKED_EXIT_CODE = 4
+
 // Pass --full to re-fetch every episode from scratch. By default we only fetch
 // episodes that aren't already in feed.rss and reuse the rest as-is.
 const full = Deno.args.includes('--full')
@@ -27,7 +31,14 @@ const full = Deno.args.includes('--full')
 // transcript yet (a fresh episode takes a good while on CPU).
 const transcribe = !Deno.args.includes('--no-transcripts')
 
-const episodeUrls = await fetchEpisodeUrls()
+let episodeUrls: string[]
+try {
+  episodeUrls = await fetchEpisodeUrls()
+} catch (error) {
+  if (!(error instanceof SourceBlockedError)) throw error
+  console.warn(`Source blocked this machine: ${error.message}`)
+  Deno.exit(BLOCKED_EXIT_CODE)
+}
 const existing = await readExistingEntries(FEED_PATH)
 
 const newCount = episodeUrls.filter((url) => !existing.has(url)).length
