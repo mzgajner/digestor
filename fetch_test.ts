@@ -4,6 +4,7 @@ import {
 } from 'https://deno.land/std/assert/mod.ts'
 import fetchEpisodeUrls, {
   BLACKLISTED_SLUGS,
+  SourceBlockedError,
   SPOTIFY_BLACKLIST,
   USER_AGENT,
 } from './fetch.ts'
@@ -121,4 +122,24 @@ Deno.test(async function fetchEpisodeUrlsPacesListingPagesTest() {
 
 Deno.test(function blacklistSlugsMatchBlacklistTitlesTest() {
   assertEquals(BLACKLISTED_SLUGS.size, SPOTIFY_BLACKLIST.length)
+})
+
+Deno.test(async function fetchEpisodeUrlsReportsBlockingDistinctlyTest() {
+  const { fetchFn } = fakeFetch([listing(['a'])], 418)
+  const error = await assertRejects(
+    () => fetchEpisodeUrls(fetchFn, { retryDelayMs: 0, pageDelayMs: 0 }),
+    SourceBlockedError,
+    'Listing page 0 returned HTTP 418.',
+  )
+  assertEquals(error.status, 418)
+})
+
+Deno.test(async function fetchEpisodeUrlsDoesNotCallOtherErrorsBlockingTest() {
+  const { fetchFn } = fakeFetch([listing(['a'])], 500)
+  const error = await assertRejects(
+    () => fetchEpisodeUrls(fetchFn, { retryDelayMs: 0, pageDelayMs: 0 }),
+    Error,
+    'HTTP 500',
+  )
+  assertEquals((error as Error) instanceof SourceBlockedError, false)
 })

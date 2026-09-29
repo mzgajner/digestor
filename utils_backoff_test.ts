@@ -2,7 +2,7 @@ import {
   assertEquals,
   assertRejects,
 } from 'https://deno.land/std/assert/mod.ts'
-import { fetchWithBackoff } from './utils.ts'
+import { fetchWithBackoff, RateLimitedError } from './utils.ts'
 
 function responder(statuses: number[], headers: HeadersInit = {}) {
   const calls: string[] = []
@@ -84,4 +84,13 @@ Deno.test(async function fetchWithBackoffSendsTheUserAgentTest() {
   }
   await fetchWithBackoff('https://x/a', { method: 'HEAD' }, { fetchFn })
   assertEquals(String(userAgent).includes('digestor'), true)
+})
+
+Deno.test(async function fetchWithBackoffThrowsRateLimitedErrorTest() {
+  const { fetchFn } = responder([429])
+  const error = await assertRejects(
+    () => fetchWithBackoff('https://x/a', {}, { fetchFn, retryDelayMs: 0 }),
+    RateLimitedError,
+  )
+  assertEquals(error.status, 429)
 })

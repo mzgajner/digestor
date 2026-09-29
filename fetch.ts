@@ -3,6 +3,7 @@ import {
   type BackoffOptions,
   type FetchFn,
   fetchWithBackoff,
+  RateLimitedError,
   sleep,
   USER_AGENT,
 } from './utils.ts'
@@ -36,6 +37,16 @@ export const BLACKLISTED_SLUGS = new Set([
   'iz-rusije-z-ljubeznijo',
   'slisati-igro',
 ])
+
+// The source's anti-bot proxy refused this machine for the whole retry
+// window. Usually it is one blocked address, so it's worth trying again later
+// from another one rather than treating it like a broken scraper.
+export class SourceBlockedError extends Error {
+  constructor(public status: number, message: string) {
+    super(message)
+    this.name = 'SourceBlockedError'
+  }
+}
 
 export type FetchOptions = BackoffOptions & {
   // Pause between listing pages. The source sits behind an anti-bot proxy
@@ -97,6 +108,12 @@ async function fetchEpisodeUrlsForPage(page: number, backoff: BackoffOptions) {
       backoff,
     )
   } catch (error) {
+    if (error instanceof RateLimitedError) {
+      throw new SourceBlockedError(
+        error.status,
+        `Listing page ${page} returned HTTP ${error.status}.`,
+      )
+    }
     const status = error instanceof Error
       ? error.message.match(/HTTP \d+/)
       : null
