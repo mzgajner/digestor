@@ -4,7 +4,7 @@
     <description><![CDATA[Radijska oddaja o računalniških igrah in z njimi povezanimi družbenimi fenomeni.]]></description>
     <link>https://radiostudent.si/kultura/pritiskavec-gold</link>
     <generator>mzgajner/digestor</generator>
-    <lastBuildDate>Fri, 16 Oct 2026 09:04:59 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:59:21 GMT</lastBuildDate>
     <author><![CDATA[Domen Mohorič, Rasto Pahor, Tadej Pavkovič in Mato Žgajner]]></author>
     <pubDate>Tue, 13 Oct 2026 18:00:00 GMT</pubDate>
     <copyright><![CDATA[Radio Študent, 2024]]></copyright>
@@ -34,6 +34,9 @@
       <pubDate>Tue, 13 Oct 2026 18:00:00 GMT</pubDate>
       <enclosure url="https://radiostudent.si/sites/default/files/posnetki/pritiskavec-gold/2026-10-13-pritiskavec-gold-sam-se-eno-rundo.mp3" length="138602624" type="audio/mpeg"/>
       <dc:description>&lt;p&gt;Prisluhnite srečanju anonimnih odvisnikov, ki so delili svoje izkušnje z &lt;em&gt;Moonlighter 2: The Engless Vault &lt;/em&gt;in &lt;em&gt;Vampire Crawlers: The Turbo Wildcard from Vampire Survivors&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/112257.vtt" type="text/vtt" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/112257.srt" type="application/x-subrip" language="sl"/>
+      <podcast:transcript url="https://pritiskavec.z0.si/podcast/transcripts/112257.json" type="application/json" language="sl"/>
       <itunes:author>Domen Mohorič, Rasto Pahor, Tadej Pavković in Mato Žgajner</itunes:author>
       <itunes:subtitle>Zasvajujoče plenjenje in odprodaja kletnih zakladov</itunes:subtitle>
       <itunes:summary>Zasvajujoče plenjenje in odprodaja kletnih zakladov</itunes:summary>
